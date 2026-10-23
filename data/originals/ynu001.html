@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>软件工程-人才培养方案-2022版（2023年修订）-云南大学软件学院网站</title><META Name="keywords" Content="云南大学软件学院,软件工程,软件,工程,人才培养,人才,培养,方案,2022,20,22,2023,23,修订" />
+
+         <link href="./public/css/main.css" rel="stylesheet" type="text/css">
+        <script language="javascript" src="./public/js/jquery.1.11.3.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+        $(document).ready(function(){
+        if($(".class-col1").height()<500 &&$(".class-col2").height()<500){
+            $(".class-col1").height(500);
+            $(".class-col2").height(500);
+        }else if($(".class-col1").height()>$(".class-col2").height()){
+            $(".class-col2").height($(".class-col1").height());
+        }else{
+            $(".class-col1").height($(".class-col2").height());
+        }
+        
+
+        });
+        
+        //导航栏需要的js
+function dropMenu(obj){
+        $(obj).each(function(){
+        var theSpan = $(this);
+        var theMenu = theSpan.find(".submenu");
+        var tarHeight = theMenu.height();
+        theMenu.css({height:0,opacity:0});
+        theSpan.hover(
+            function(){
+                $(this).addClass("selected");
+                theMenu.stop().show().animate({height:tarHeight,opacity:1},400);
+            },
+            function(){
+                $(this).removeClass("selected");
+                theMenu.stop().animate({height:0,opacity:0},400,function(){
+                    $(this).css({display:"none"});
+                });
+            }
+        );
+        });
+        }
+
+        $(document).ready(function(){
+
+        dropMenu(".drop-menu-effect");
+
+        });
+
+        $(document).ready(function changeli(){
+        var lis = document.getElementById('nav').getElementsByTagName("li");
+        var lilength=0;
+        for(var i = 0; i < lis.length; i++) {   
+        var classes = lis[i].className.split(" ");
+        for(var a = 0; a < classes.length; a++) {
+            if(classes[a] === "drop-menu-effect") {
+                lilength=lilength+1;
+                break;
+                }
+            }    
+        }
+        var spanlength=1200/lilength;
+        spanlength=parseInt(spanlength);
+        var spans=document.getElementById('nav').getElementsByTagName("span");
+        for(var i = 0; i < spans.length; i++) {
+        var classes = spans[i].className.split(" ");
+        for(var a = 0; a < classes.length; a++) {
+            if(classes[a] === "span") {
+                spans[i].style.width = spanlength+"px";
+                break;
+                }
+            }    
+        }
+        var uls = document.getElementById("nav").getElementsByTagName("ul");
+        for(var i = 0; i < uls.length; i++) {
+        var classes = uls[i].className.split(" ");
+        for(var a = 0; a < classes.length; a++) {
+            if(classes[a] === "submenu") {
+                uls[i].style.width = spanlength+"px";
+                break;
+                }
+            }    
+        }
+        document.getElementById("nav_ul").style.width=spanlength*lilength+"px";
+
+        });
+        </script>
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.ynu.edu.cn/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+        
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230797a465453505742000100054357 -->
+<link rel="stylesheet" type="text/css" href="nry2.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1071,'/nry2.jsp',2482,1418611494)</script>
+</head>
+    <body >
+    <div class="header">
+
+    <div class="header-inner">
+
+        <div class="header-top"><img src="./public/images/icon-home.png" alt=""><a href="./www.sei.ynu.edu.cn">...【欢迎来到软件学院】</a></div>
+
+            <div class="header-banner">
+
+                
+
+           </div>
+
+     
+
+         
+           <div id="nav">
+
+                         <li class="drop-menu-effect">
+
+                                <a href="./index.jsp"><span class="span">首   页</span></a>
+
+                                
+
+                            </li>
+
+                            <li class="drop-menu-effect">
+
+                                <a href="./zwy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1056"><span class="span">新闻公告</span></a>
+
+                                <ul class="submenu">
+
+                                    
+
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1056">学院新闻</a></li>
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1057">通知公告</a></li>
+                                                                        
+
+                                </ul>
+
+                            </li>
+
+
+                           
+                            <li class="drop-menu-effect">
+
+                                <a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1015"><span class="span">学院概况</span></a>
+
+                                <ul class="submenu">
+                                    
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1015">学院简介</a></li>
+                                    
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018">学院领导</a></li>
+                                    
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1016">机构设置</a></li>
+                                                                     
+
+                                </ul>
+
+                            </li>
+                                                                         
+                           
+                           <li class="drop-menu-effect">
+
+                                <a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023"><span class="span">师资队伍</span></a>
+
+                                <ul class="submenu">
+
+                                    
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023">在职教师</a></li>
+                                    
+                                 
+                                    
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1058">人事招聘</a></li>
+                                       <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1113">师德师风</a></li>
+                                    
+                                </ul>
+
+                            </li> 
+                             <li class="drop-menu-effect">
+
+                                <a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1071"><span class="span">人才培养</span></a>
+
+                                <ul class="submenu">
+                                                                          
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1071">本科生教育</a></li>
+                                    
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1072">研究生教育</a></li>
+                                    
+                               <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1123">教学成果申报</a></li>
+
+                                </ul>
+
+                            </li>
+                            
+
+                             <li class="drop-menu-effect">
+
+                                <a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1084"><span class="span">科学研究</span></a>
+
+                                <ul class="submenu">
+
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1084">科研平台</a></li>
+
+                                    
+                                </ul>
+
+                            </li>
+                            
+                            <li class="drop-menu-effect">
+                                <a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1041"><span class="span">合作交流</span></a>
+                                <ul class="submenu">
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1041">交流活动</a></li>
+                                    
+                               
+                                                                         
+                                        <li><a href="./list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1044">学术会议</a></li>
+                                                                          
+                                    
+                                   
+                                </ul>
+
+                            </li>
+              
+                           
+                             <li class="drop-menu-effect">
+
+                                <a href="djgz.htm"><span class="span">党建工作</span></a>
+
+
+                            </li>
+                      
+                      <li class="drop-menu-effect">
+
+                                <a href="txgz.htm"><span class="span">团学工作</span></a>
+
+                            </li>
+                            
+                          <li class="drop-menu-effect">
+
+                                <a href="jxcg/sy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1134"><span class="span">教学成果申报</span></a>
+
+                            </li>
+                            
+
+                            
+      </div>
+
+   </div>
+
+</div>
+
+
+
+<!------------header end --------------->
+    
+<div class="wrapper">   
+    <div class="sep10"></div>
+    <div class="class-banner"> </div>
+        
+    <div class="sep10"></div>
+    
+    <div class="border1" style="border: none;">
+        <div class="class-col1">
+            <div class="class-nav">  
+<table  class="winstyle200565"  cellspacing=0 cellpadding=0><tr><td nowrap>当前位置：   
+<a href="index.htm"><span  class="fontstyle200565" >学院首页</span></a><span  class="splitflagstyle200565" >>></span><a href="rcpy/bksjy.htm"><span  class="fontstyle200565" >人才培养</span></a><span  class="splitflagstyle200565" >>></span><a href="rcpy/bksjy.htm"><span  class="fontstyle200565" >本科生教育</span></a><span  class="splitflagstyle200565" >>></span><span  class="fontstyle200565" >正文</span></td></tr></table></div>
+            <div style="padding:10px;border: none;">
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname"><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+<div>
+    <h1 align=center style="font-family:宋体;font-size: 24px; color:#024379; font-weight: bold; text-align: center; padding:10px;">软件工程-人才培养方案-2022版（2023年修订）</h1>
+    <div style="font-family:宋体;font-size: 12px; text-align: center; padding:4px;">时间：2023年09月30日 10:29    浏览次数：[<script>_showDynClicks("wbnews", 1418611494, 2482)</script>]</div>
+    <hr>
+    <div id='vsb_content' style="font-family:宋体;font-size: 14px; padding:4px; line-height: 30px; text-indent: 2em;"><div class='v_news_content'>
+<p style="text-indent: 0">
+ <script>var vsb_pdf_image_data = ["/__local/1/45/CB/7B306BA20C7D053D2B9B7843499_1CF09A02_1A49E.jpg","/__local/6/3A/18/11C198AACE8A3BB51B85DEB3A60_7091C71E_406F8.jpg","/__local/D/88/DC/6377FFA4C876107E6C2584DBB3E_8A28B793_44720.jpg","/__local/3/CB/5A/A5813F14FC1030E3B96D4D8507F_42806879_41A25.jpg","/__local/6/0A/AD/FEB1C1C6AEA5D8D7DA4D2BDD01E_60B94D47_40747.jpg","/__local/0/D4/4C/F14F2B97A60EC1274F91177C93F_D664C4BB_40157.jpg","/__local/5/52/6E/789B4CE0862171CA4C4A4233576_4CCA6131_1AB59.jpg","/__local/2/8F/4C/DDADC442031B708CCDBBBA27357_51CBCEA1_3935A.jpg","/__local/7/9D/A1/CD4DE754B3A63C13D93D3420C8D_68F5DC73_15D89.jpg","/__local/C/A8/B0/AD2EF0ED17A52154813DE3EF0B6_D1C807E1_3A729.jpg","/__local/E/1A/A4/8C438CE0B578A63A7D699B68C1A_35A4AF0C_3C055.jpg","/__local/D/C1/B9/2F122361DE0D9D6A4CBA6067DF5_E0A7540B_3260B.jpg","/__local/D/EE/04/45B14C42C8C1F62EDAD8BBEC98C_F6043589_34F74.jpg","/__local/3/F8/11/9573DA0FCD972748B241883D08F_5D9180C4_2F2E6.jpg","/__local/2/D6/29/9DE0BD530BDDA0DB44F34E8354F_2704DADD_3D3F6.jpg","/__local/C/6A/38/87C80F507885F16C28C2455234E_FA52621C_3A521.jpg","/__local/E/94/47/ED55B474D8561584D7BE2201A9F_FDA07D05_21415.jpg","/__local/F/F9/A2/9493C2F517E1717E652FA436351_84C254D4_A121.jpg"];showVsbpdfIframe("/__local/9/65/6A/DFAC804B92859A50EE02294B94F_90C218D7_A696F.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data);</script></p>
+<p><br></p>
+</div></div><div id="div_vote_id"></div>
+       
+    <p align=right>【<a href="javascript:window.opener=null;window.open('','_self');window.close();">关闭</a>】</p>
+</div>
+</form>
+</div>
+            
+        </div>
+        <div class="class-col2">
+        
+        
+        <div class="class-col2">
+            <div class="nav-title">栏目导航</div>
+<ul class="class-list"><ul>
+     <li><a href="rcpy/bksjy.htm"  title="本科生教育">&nbsp;&nbsp;本科生教育</a></li>
+     <li><a href="rcpy/yjsjy.htm"  title="研究生教育">&nbsp;&nbsp;研究生教育</a></li>
+     <li><a href="rcpy/jxcgsb.htm"  title="教学成果申报">&nbsp;&nbsp;教学成果申报</a></li>
+</ul></ul>
+
+<div class="nav-title">栏目推荐</div>
+<ul class="class-list"><ul>
+     <li><a href="xwgg/xyxw.htm"  title="新闻公告">&nbsp;&nbsp;新闻公告</a></li>
+     <li><a href="xygk/xyjj.htm"  title="学院概况">&nbsp;&nbsp;学院概况</a></li>
+     <li><a href="szdw/zzjs.htm"  title="师资队伍">&nbsp;&nbsp;师资队伍</a></li>
+     <li><a href="rcpy/bksjy.htm"  title="人才培养">&nbsp;&nbsp;人才培养</a></li>
+     <li><a href="kxyj/kypt.htm"  title="科学研究">&nbsp;&nbsp;科学研究</a></li>
+     <li><a href="djgz.htm"  title="党建工作">&nbsp;&nbsp;党建工作</a></li>
+     <li><a href="txgz.htm"  title="团学工作">&nbsp;&nbsp;团学工作</a></li>
+     <li><a href="zlxz.htm"  title="资料下载">&nbsp;&nbsp;资料下载</a></li>
+</ul></ul>
+
+</ul>
+           
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="sep10"></div>
+</div>  
+<!--------------footer start------------->
+<div class="footer clear">
+    <div class="footer-inner">
+    云南大学软件学院&人工智能学院 版权所有  <br>
+          地址：昆明市呈贡区大学城东外环南路云南大学呈贡校区软件学院楼  邮编：650504<br>  
+            Copyright@ 2002-2025 School of Software and AI
+
+    </div>
+</div>
+
+    </body>
+    
+</html> 
