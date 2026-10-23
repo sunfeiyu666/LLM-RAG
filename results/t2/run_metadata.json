@@ -1,0 +1,69 @@
+{
+  "dataset": "development_smoke_set",
+  "eval_file": "C:\\Users\\15795\\Documents\\Codex\\2026-10-23\\bang\\LLM-RAG\\data\\eval\\qa_set.jsonl",
+  "top_k": 5,
+  "generated_answers": false,
+  "model": null,
+  "configs": [
+    {
+      "method": "fixed",
+      "chunk_size": 256,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "fixed",
+      "chunk_size": 512,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "fixed",
+      "chunk_size": 1024,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "sliding",
+      "chunk_size": 256,
+      "chunk_overlap": 128
+    },
+    {
+      "method": "sliding",
+      "chunk_size": 512,
+      "chunk_overlap": 128
+    },
+    {
+      "method": "sliding",
+      "chunk_size": 1024,
+      "chunk_overlap": 128
+    },
+    {
+      "method": "semantic",
+      "chunk_size": 256,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "semantic",
+      "chunk_size": 512,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "semantic",
+      "chunk_size": 1024,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "small_to_big",
+      "chunk_size": 256,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "small_to_big",
+      "chunk_size": 512,
+      "chunk_overlap": 0
+    },
+    {
+      "method": "small_to_big",
+      "chunk_size": 1024,
+      "chunk_overlap": 0
+    }
+  ]
+}

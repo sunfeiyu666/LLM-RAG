@@ -1,0 +1,13 @@
+﻿method,chunk_size,chunk_overlap,config,method_label,chunks,questions,recall_at_5,answer_correctness,index_seconds,avg_retrieval_ms,correctness_basis
+fixed,256,0,fixed_256,固定长度,425,20,0.6,0.6,2.482,17.96,retrieval_evidence_proxy
+fixed,512,0,fixed_512,固定长度,243,20,0.75,0.75,2.179,15.02,retrieval_evidence_proxy
+fixed,1024,0,fixed_1024,固定长度,144,20,0.85,0.85,1.874,12.247,retrieval_evidence_proxy
+sliding,256,128,sliding_256,滑动窗口,670,20,0.6,0.6,2.38,13.129,retrieval_evidence_proxy
+sliding,512,128,sliding_512,滑动窗口,269,20,0.65,0.65,2.037,16.36,retrieval_evidence_proxy
+sliding,1024,128,sliding_1024,滑动窗口,147,20,0.9,0.9,2.106,15.328,retrieval_evidence_proxy
+semantic,256,0,semantic_256,语义分块,485,20,0.6,0.6,2.428,13.167,retrieval_evidence_proxy
+semantic,512,0,semantic_512,语义分块,291,20,0.7,0.7,2.339,14.077,retrieval_evidence_proxy
+semantic,1024,0,semantic_1024,语义分块,182,20,0.75,0.75,2.322,13.428,retrieval_evidence_proxy
+small_to_big,256,0,small_to_big_256,Small-to-Big,511,20,0.85,0.85,2.366,14.458,retrieval_evidence_proxy
+small_to_big,512,0,small_to_big_512,Small-to-Big,284,20,0.85,0.85,2.264,19.77,retrieval_evidence_proxy
+small_to_big,1024,0,small_to_big_1024,Small-to-Big,154,20,0.85,0.85,2.129,14.655,retrieval_evidence_proxy

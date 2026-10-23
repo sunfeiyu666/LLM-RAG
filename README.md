@@ -37,6 +37,16 @@ python src\chat_ollama.py
 
 输入 `exit`、`quit` 或 `/bye` 退出。
 
+## T2 分块策略实验
+
+T2 独立运行 4 种分块方法与 3 种 `chunk_size` 的 12 组对比，不会覆盖基础索引：
+
+```cmd
+python src\experiment_t2.py
+```
+
+正式评测集应保存为 `data/eval/qa_set.jsonl`。在该文件尚未提供时，脚本会使用现有 20 条开发定位题检查流程；这部分结果不能代替最终实验结果。Ollama 可用时执行 `python src\experiment_t2.py --generate`，同时生成答案并计算答案正确性。完整说明见 [T2分块策略实验说明.md](docs/T2分块策略实验说明.md)。
+
 
 ## 4 目录与实现
 
