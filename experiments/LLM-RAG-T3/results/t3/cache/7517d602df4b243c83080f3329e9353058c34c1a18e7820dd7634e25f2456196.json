@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：假设我是2024级学生，主修学业负担较重，希望扩展知识但不追求第二学位。请结合2026年秋季辅修和微专业通知，给出选择与学习安排建议，并说明哪些信息还需要确认。"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"基于2026年秋季辅修和微专业通知，为2024级主修学业负担较重的学生提供辅修与微专业选择建议，需考虑学业负担与知识扩展之间的平衡。\",\n    \"针对2024级学生在学业负担较重的前提下，如何根据2026年秋季辅修和微专业政策，制定兼顾知识扩展与主修课程负荷的学习安排方案。\",\n    \"依据2026年秋季辅修和微专业通知，分析哪些辅修或微专业项目在不追求第二学位的情况下，适合2024级主修学生，并明确需进一步确认的信息项。\"\n  ],\n  \"rewrite\": \"为2024级主修学业负担较重的学生，结合2026年秋季辅修和微专业通知，提供在不追求第二学位前提下的辅修与微专业选择建议及学习安排方案，并说明需进一步确认的信息。\",\n  \"sub_queries\": [\n    \"2024级主修学生在学业负担较重的情况下，如何根据2026年秋季辅修和微专业通知选择适合的辅修或微专业项目？\",\n    \"基于2026年秋季辅修和微及微专业政策，2024级学生在不追求第二学位的前提下，应如何安排辅修或微专业学习以平衡学业负担与知识扩展？\",\n    \"2026年秋季辅修和微专业通知中，哪些项目在不追求第二学位的情况下适合2024级主修学生？需要确认哪些具体信息以支持决策？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "7517d602df4b243c83080f3329e9353058c34c1a18e7820dd7634e25f2456196",
+    "cache_hit": false,
+    "elapsed_seconds": 5.6993,
+    "prompt_tokens": 304,
+    "output_tokens": 363,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

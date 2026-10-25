@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：假设一名2025级学生按2026年学分认定规定，将辅修或微专业课程中的14学分申请认定为主修选修，其中6学分拟认定到专业教育。仅从这类认定的数额上限看，能否原样全部认定？"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"根据2026年学分认定规定，2025级学生在辅修或微专业课程中申请将14学分认定为主修选修，其中6学分拟认定至专业教育，该认定在学分上限范围内是否允许全部原样认定？\",\n    \"依据2026年学分认定政策，对于2025级学生，若其将辅修或微专业课程中的14学分申请转为主修选修（其中6学分用于专业教育），此类认定是否在规定的学分上限内可实现全部原样认定？\",\n    \"在2026年学分认定制度下，2025级学生若申请将辅修或微专业课程中的14学分全部认定为主修选修（其中6学分用于专业教育），该申请是否符合学分认定的数额上限要求，能否实现全部原样认定？\"\n  ],\n  \"rewrite\": \"根据2026年学分认定规定，2025级学生将辅修或微专业课程中的14学分申请认定为主修选及专业教育，其中6学分用于专业教育，该认定是否在学分上限范围内可实现全部原样认定？\",\n  \"sub_queries\": [\n    \"在2026年学分认定规定下，2025级学生将辅修或微专业课程中的14学分申请认定为主修选修，是否符合主修选修学分的数额上限？\",\n    \"在2026年学分认定规定下，2025级学生将6学分申请认定至专业教育，是否符合专业教育学分的数额上限？\",\n    \"2025级学生申请将辅修或微专业课程中的14学分全部认定为主修选修（含6学分用于专业教育），该申请是否满足学分认定的总量与分类上限？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "edf21da2b6a1d0470f3c87bf1c182e03fd0325c4688ab2e92ab0e781e3be4ed8",
+    "cache_hit": false,
+    "elapsed_seconds": 6.7703,
+    "prompt_tokens": 314,
+    "output_tokens": 438,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

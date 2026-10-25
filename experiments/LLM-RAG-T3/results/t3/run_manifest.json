@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-25T07:38:49.237711+00:00",
+  "binding": {
+    "dataset_sha256": "85d85050fd887da084c88094c4efcd799cffcc1819412fbea1df6490dc00178b",
+    "chunks_sha256": "c24a70d422b17403f29f48074f03cb89cf3032072be2c940a3d5e8e02d1fdbfc",
+    "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "fetch_k": 20,
+    "final_k": 5,
+    "rrf_constant": 60,
+    "alphas": [
+      0,
+      0.3,
+      0.5,
+      0.7,
+      1
+    ]
+  },
+  "base_repository_commit": "53c4c7bc43da35af3034d839eabe02340c038738",
+  "notes": [
+    "Fresh T3 run; previous incomplete T1 results are not reused.",
+    "One question-only LLM planner emits all three query plans; shared planning cost is amortized, not a separate latency benchmark.",
+    "Existing character TF-IDF/LSA vector retrieval is fixed; it is not a neural dense embedding model.",
+    "BM25 uses Chinese unigrams+bigrams and intact ASCII identifiers, k1=1.5,b=.75.",
+    "Primary Recall@5 follows the course FAQ: any gold chunk hit. Gold coverage is also reported.",
+    "9 answer conditions include baseline, 3 query strategies and 5 weighted-RRF alphas. Raw-score fusion is a separate retrieval-only sensitivity analysis.",
+    "Identical complete generation requests reuse cached outputs; not repeated independent samples.",
+    "Correctness is a blinded same-model LLM-as-Judge score, not independent human review or T7 faithfulness.",
+    "Alpha is explored on the same 20 questions: descriptive validation, not an unbiased held-out test."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：按软件工程2022版（2023年修订）培养方案，国内学生第一课堂需要修满多少学分？"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": false,\n  \"multi_queries\": [\n    \"根据软件工程2022版（2023年修订）培养方案，国内学生在第一课堂中需修满多少学分？\",\n    \"软件工程专业2022版（2023年修订）培养方案中，国内本科生第一课堂的学分要求是多少？\",\n    \"依据2022版（2023年修订）软件工程培养方案，国内学生第一课堂的总学分是多少？\"\n  ],\n  \"rewrite\": \"根据软件工程2022版（2023年修订）培养方案，国内学生第一课堂需要修满多少学分？\",\n  \"sub_queries\": [\n    \"根据软件工程2022版（2023年修订）培养方案，国内学生第一课堂需要修满多少学分？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "47fb2e3ac3c5405a7f543415fe5ff98d9ae9d9272fe609086726e08d49ba0d75",
+    "cache_hit": false,
+    "elapsed_seconds": 3.3044,
+    "prompt_tokens": 281,
+    "output_tokens": 196,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

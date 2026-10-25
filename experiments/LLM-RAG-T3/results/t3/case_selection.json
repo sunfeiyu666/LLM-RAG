@@ -1,0 +1,11 @@
+{
+  "strict_recovery_selected": {
+    "id": "c02",
+    "method": "decompose"
+  },
+  "overlap_annotation_case": {
+    "id": "c03",
+    "method": "decompose"
+  },
+  "selection_note": "Post-hoc illustrative case selection; all five outcomes retained, primary 20-question statistics unchanged."
+}

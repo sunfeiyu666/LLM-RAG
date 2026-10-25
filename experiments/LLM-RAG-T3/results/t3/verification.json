@@ -1,0 +1,14 @@
+{
+  "questions": 20,
+  "answer_conditions": 9,
+  "logical_answers": 180,
+  "blinded_judgments": 20,
+  "diagnostic_questions": 5,
+  "diagnostic_answers": 20,
+  "figures": 4,
+  "dense_endpoint_equals_baseline": true,
+  "identical_endpoint_answers_have_equal_scores": true,
+  "dataset_binding_matches": true,
+  "unit_tests_passed": 12,
+  "note": "Structural checks passed; model-based scoring is not independent human validation."
+}

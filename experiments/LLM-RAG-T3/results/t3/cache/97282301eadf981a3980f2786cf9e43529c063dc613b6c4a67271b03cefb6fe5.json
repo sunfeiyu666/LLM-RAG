@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：假设我是软件工程学生，更想把AI和数据处理用于健康服务，而不是媒体内容创作。仅结合2026年秋季微专业通知中‘智慧医疗’与‘智能传播’的介绍，应优先了解哪个？给出理由和进一步核实事项。"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"基于2026年秋季微专业通知，比较‘智慧医疗’与‘智能传播’在课程内容、实践方向及应用领域上的差异，以判断其与健康服务需求的匹配程度。\",\n    \"依据2026年秋季微专业通知，分析‘智慧医疗’与‘智能传播’在目标人群、技术路径及实际案例中的具体描述，评估其在健康服务场景下的适用性与可行性。\",\n    \"结合2026年秋季微专业通知中‘智慧医疗’与‘智能传播’的介绍，识别两者在数据处理能力、AI技术应用及健康服务相关性方面的关键指标，并据此判断哪个更符合软件工程学生在健康服务领域的职业发展需求。\"\n  ],\n  \"rewrite\": \"基于2026年秋季微专业通知，比较‘智慧医疗’与‘智能传播’在课程内容、实践方向及应用领域上的差异，以判断其与健康服务需求的匹配程度。\",\n  \"sub_queries\": [\n    \"2026年秋季微专业通知中‘智慧医疗’部分关于课程内容、实践方向及应用领域的具体描述是什么？\",\n    \"2026年秋季微专业通知中‘智能传播’部分关于课程内容、实践方向及应用领域的具体描述是什么？\",\n    \"‘智慧医疗’与‘智能传播’在数据处理能力、AI技术应用及健康服务相关性方面的关键指标分别有哪些？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "97282301eadf981a3980f2786cf9e43529c063dc613b6c4a67271b03cefb6fe5",
+    "cache_hit": false,
+    "elapsed_seconds": 4.9124,
+    "prompt_tokens": 310,
+    "output_tokens": 325,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

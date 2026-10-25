@@ -1,0 +1,4 @@
+# Preserve frozen datasets and model outputs byte for byte across platforms.
+* -text
+# Markdown uses trailing spaces for hard line breaks, including quoted answers.
+*.md whitespace=-blank-at-eol

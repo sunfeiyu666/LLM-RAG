@@ -1,0 +1,22 @@
+{
+  "src/chat_ollama.py": "f81de7f2ce296f2c27a3b79df8cb9de1201e08bb903c1ad36c52fb41ea4cd584",
+  "src/check_retrieval.py": "cab33619cbced83013583405713ff8a85f89e74d11813e25885f46d90a23c7aa",
+  "src/evaluate.py": "525d4037dd0b229b1aac56f8d86050a8a802b2e5f505a39b4b831ae3cb532fd9",
+  "src/generate.py": "122122156809454a87ca7c7296d655fe71879be6e7592a7b2b8be5c3d1840dd7",
+  "src/index.py": "2be427c42bf848a9cbc077d476d4466a55fb61417d510e800ceaaad3cc7572cc",
+  "src/kb.py": "eafee66be2fc49c9ebd2c5c697efe05c412b14ee282e403c870f85755c9e8a77",
+  "src/rag_chain.py": "1941852621d81736b684b6e7916aee615f02d77821a3c964638be1b4434d9cc7",
+  "src/rag_core.py": "e9b91b53056565c703ba8ed4737ba35339189414075043f7dc2470f685a78794",
+  "src/retrieve.py": "ce2def9fd1d9fea6993f3fcb8c08d6de6c31efce44b52e353878926eeaf6745f",
+  "src/run_t3.py": "ebc2c6a3a5b3f3bf2bc7519bf1e2e1169dc33c7122b519f0ed1676392a80f6c4",
+  "src/search.py": "707b6e0aababcce2f01dcb1149fc9b632f11f8e3c6ad0f11dfe58997d0344088",
+  "src/t3_core.py": "a1e16ec24b2cc46ed94a1be6f0ee1159afe23a72ca8f52448c62095a4d16d37f",
+  "src/test_kb.py": "6f0c06a99ef8956ecf9a0a345e69b7666f4dfabcf7214ac540c692e89cf79a3c",
+  "src/test_langchain.py": "9c4297f82a5635ef0abdf3697684acaf05894a43a2aef6bcc7a1a7acc7550faf",
+  "src/test_streaming.py": "06c0e7c34cb726c7ac390a1fa5d96450ea41e70d782816375344f5594eda0566",
+  "src/test_t3.py": "e7bac69ac81467343264d866cf388b88ac9f885c92ae249962b2367259c6f408",
+  "tools/build_t3_cases.py": "cebbcc72009754e1dc2d139ef7e14d2d9912eb230b2d8b371eca12a9f010eb83",
+  "tools/package_t3.py": "c434218fb311a3cd2281d0b7ec6acb913cd6f5389c8b142ea68d20247ab95ae3",
+  "tools/run_t3_challenges.py": "9aa937a22e5bcfdc3e9cc1178217b0782be66a9d593e2b6f584ea8246fc598ae",
+  "tools/summarize_t3.py": "419acfffecfce4454b0f6fc9acfb62e3edabd5c2aef94e9d40a7f5c5b966f169"
+}

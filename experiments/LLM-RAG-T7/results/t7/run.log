@@ -1,0 +1,91 @@
+16:37:44 METRICS q001
+16:37:44 FACT_CHECK q001 sentences=1
+16:37:59 FACT_CHECK_DONE q001 facts=1 unsupported=1 flags=1
+16:37:59 METRICS q002
+16:37:59 FACT_CHECK q002 sentences=1
+16:38:06 FACT_CHECK_DONE q002 facts=1 unsupported=1 flags=1
+16:38:06 METRICS q003
+16:38:06 FACT_CHECK q003 sentences=2
+16:38:14 FACT_CHECK_DONE q003 facts=1 unsupported=1 flags=1
+16:38:14 METRICS q004
+16:38:14 FACT_CHECK q004 sentences=3
+16:38:28 FACT_CHECK_DONE q004 facts=2 unsupported=2 flags=2
+16:38:28 METRICS q005
+16:38:28 FACT_CHECK q005 sentences=1
+16:38:44 FACT_CHECK_DONE q005 facts=2 unsupported=2 flags=2
+16:38:44 METRICS q006
+16:38:44 FACT_CHECK q006 sentences=14
+16:40:13 FACT_CHECK_DONE q006 facts=13 unsupported=10 flags=9
+16:40:13 METRICS q007
+16:40:13 FACT_CHECK q007 sentences=6
+16:41:03 FACT_CHECK q001 sentences=1
+16:41:12 FACT_CHECK_DONE q001 facts=1 unsupported=0 flags=0
+16:41:12 FACT_CHECK q002 sentences=1
+16:41:31 FACT_CHECK_DONE q002 facts=1 unsupported=0 flags=0
+16:41:31 FACT_CHECK q003 sentences=2
+16:41:42 FACT_CHECK_DONE q003 facts=1 unsupported=0 flags=0
+16:41:42 FACT_CHECK q004 sentences=3
+16:42:06 FACT_CHECK_DONE q004 facts=2 unsupported=1 flags=1
+16:42:06 FACT_CHECK q005 sentences=1
+16:42:24 FACT_CHECK_DONE q005 facts=2 unsupported=0 flags=0
+16:42:24 FACT_CHECK q006 sentences=14
+16:44:08 FACT_CHECK_DONE q006 facts=14 unsupported=2 flags=0
+16:44:08 FACT_CHECK q007 sentences=6
+16:45:08 FACT_CHECK_DONE q007 facts=6 unsupported=3 flags=0
+16:45:08 METRICS q008
+16:45:08 FACT_CHECK q008 sentences=6
+16:45:44 FACT_CHECK_DONE q008 facts=3 unsupported=0 flags=0
+16:45:44 METRICS q009
+16:45:44 FACT_CHECK q009 sentences=8
+16:46:26 FACT_CHECK q001 sentences=1
+16:46:38 FACT_CHECK_DONE q001 facts=1 unsupported=0 flags=0
+16:46:38 FACT_CHECK q002 sentences=1
+16:46:42 FACT_CHECK_DONE q002 facts=1 unsupported=0 flags=0
+16:46:42 FACT_CHECK q003 sentences=2
+16:46:46 FACT_CHECK_DONE q003 facts=1 unsupported=0 flags=0
+16:46:46 FACT_CHECK q004 sentences=3
+16:46:54 FACT_CHECK_DONE q004 facts=2 unsupported=1 flags=1
+16:46:54 FACT_CHECK q005 sentences=1
+16:46:59 FACT_CHECK_DONE q005 facts=2 unsupported=0 flags=0
+16:46:59 FACT_CHECK q006 sentences=14
+16:47:23 FACT_CHECK_DONE q006 facts=14 unsupported=2 flags=0
+16:47:23 FACT_CHECK q007 sentences=6
+16:47:35 FACT_CHECK_DONE q007 facts=6 unsupported=2 flags=1
+16:47:35 FACT_CHECK q008 sentences=6
+16:47:46 FACT_CHECK_DONE q008 facts=5 unsupported=1 flags=1
+16:47:46 FACT_CHECK q009 sentences=8
+16:48:11 FACT_CHECK_DONE q009 facts=16 unsupported=11 flags=0
+16:48:11 METRICS q010
+16:48:11 FACT_CHECK q010 sentences=6
+16:48:26 FACT_CHECK_DONE q010 facts=9 unsupported=1 flags=1
+16:48:26 METRICS q011
+16:48:26 FACT_CHECK q011 sentences=17
+16:48:51 FACT_CHECK_DONE q011 facts=14 unsupported=5 flags=1
+16:48:52 METRICS q012
+16:48:52 FACT_CHECK q012 sentences=5
+16:49:03 FACT_CHECK_DONE q012 facts=6 unsupported=4 flags=0
+16:49:03 METRICS q013
+16:49:03 FACT_CHECK q013 sentences=13
+16:49:30 FACT_CHECK_DONE q013 facts=13 unsupported=9 flags=0
+16:49:30 METRICS q014
+16:49:30 FACT_CHECK q014 sentences=6
+16:49:41 FACT_CHECK_DONE q014 facts=6 unsupported=0 flags=0
+16:49:41 METRICS q015
+16:49:41 FACT_CHECK q015 sentences=9
+16:49:57 FACT_CHECK_DONE q015 facts=9 unsupported=1 flags=0
+16:49:57 METRICS q016
+16:49:57 FACT_CHECK q016 sentences=26
+16:50:49 FACT_CHECK_DONE q016 facts=26 unsupported=13 flags=1
+16:50:49 METRICS q017
+16:50:49 FACT_CHECK q017 sentences=13
+16:51:19 FACT_CHECK_DONE q017 facts=16 unsupported=6 flags=0
+16:51:19 METRICS q018
+16:51:19 FACT_CHECK q018 sentences=40
+16:52:19 FACT_CHECK_DONE q018 facts=30 unsupported=13 flags=3
+16:52:19 METRICS q019
+16:52:19 FACT_CHECK q019 sentences=26
+16:53:02 FACT_CHECK_DONE q019 facts=18 unsupported=8 flags=0
+16:53:02 METRICS q020
+16:53:02 FACT_CHECK q020 sentences=24
+16:53:49 FACT_CHECK_DONE q020 facts=27 unsupported=18 flags=8
+16:53:49 COMPLETE metrics=20 faithfulness=20

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "questions": 20,
+  "chunks": 202,
+  "verified_real_contexts": 20,
+  "reviewed_facts": 169,
+  "unsupported": 26,
+  "worst_cases": 5,
+  "figures": 4,
+  "checks": [
+    "input SHA256 binding",
+    "full BM25 ranking and metrics",
+    "actual Context exact equality",
+    "every answer unit classified",
+    "all evidence drawn from actual top5",
+    "fact denominator and micro average",
+    "five literal failure cases"
+  ],
+  "limitation": "Integrity checks do not independently validate semantic entailment or subjective rubric judgments."
+}

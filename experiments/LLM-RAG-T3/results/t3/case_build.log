@@ -1,0 +1,29 @@
+CASE_ANSWER c01 baseline
+CASE_ANSWER c01 rewrite
+CASE_ANSWER c01 multi
+CASE_ANSWER c01 decompose
+CASE_DONE c01 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}
+CASE_ANSWER c02 baseline
+CASE_ANSWER c02 rewrite
+CASE_ANSWER c02 multi
+CASE_ANSWER c02 decompose
+CASE_DONE c02 {'baseline': {'recall_at_5': 0, 'gold_coverage_at_5': 0.0, 'reciprocal_rank_at_5': 0}, 'rewrite': {'recall_at_5': 0, 'gold_coverage_at_5': 0.0, 'reciprocal_rank_at_5': 0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 0.3333333333333333, 'reciprocal_rank_at_5': 0.2}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 0.3333333333333333, 'reciprocal_rank_at_5': 0.2}}
+CASE_ANSWER c03 baseline
+CASE_ANSWER c03 rewrite
+CASE_ANSWER c03 multi
+CASE_DONE c01 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}
+CASE_DONE c02 {'baseline': {'recall_at_5': 0, 'gold_coverage_at_5': 0.0, 'reciprocal_rank_at_5': 0}, 'rewrite': {'recall_at_5': 0, 'gold_coverage_at_5': 0.0, 'reciprocal_rank_at_5': 0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 0.3333333333333333, 'reciprocal_rank_at_5': 0.2}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 0.3333333333333333, 'reciprocal_rank_at_5': 0.2}}
+CASE_ANSWER c03 multi
+CASE_ANSWER c03 decompose
+CASE_DONE c03 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 0.5, 'reciprocal_rank_at_5': 0.2}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.5}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}
+CASE_ANSWER c04 baseline
+CASE_ANSWER c04 rewrite
+CASE_ANSWER c04 multi
+CASE_ANSWER c04 decompose
+CASE_DONE c04 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.25}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}
+CASE_ANSWER c05 baseline
+CASE_ANSWER c05 rewrite
+CASE_ANSWER c05 multi
+CASE_ANSWER c05 decompose
+CASE_DONE c05 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.5}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.5}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.5}}
+CASE_REPORT_READY {'strict_recovery_selected': {'id': 'c02', 'method': 'decompose'}, 'complete_evidence_case': {'id': 'c03', 'method': 'decompose'}, 'selection_note': 'Post-hoc illustrative case selection; all five outcomes retained, primary 20-question statistics unchanged.'}

@@ -1,0 +1,561 @@
+15:38:49 PLAN q001 L1
+15:38:52 PLAN_DONE q001
+15:38:52 PLAN q002 L1
+15:38:56 PLAN_DONE q002
+15:38:56 PLAN q003 L1
+15:39:00 PLAN_DONE q003
+15:39:00 PLAN q004 L1
+15:39:03 PLAN_DONE q004
+15:39:03 PLAN q005 L1
+15:39:06 PLAN_DONE q005
+15:39:06 PLAN q006 L2
+15:39:12 PLAN_DONE q006
+15:39:12 PLAN q007 L2
+15:39:15 PLAN_DONE q007
+15:39:15 PLAN q008 L2
+15:39:18 PLAN_DONE q008
+15:39:18 PLAN q009 L2
+15:39:22 PLAN_DONE q009
+15:39:22 PLAN q010 L2
+15:39:27 PLAN_DONE q010
+15:39:27 PLAN q011 L3
+15:39:32 PLAN_DONE q011
+15:39:32 PLAN q012 L3
+15:39:36 PLAN_DONE q012
+15:39:36 PLAN q013 L3
+15:39:42 PLAN_DONE q013
+15:39:42 PLAN q014 L3
+15:39:45 PLAN_DONE q014
+15:39:45 PLAN q015 L3
+15:39:52 PLAN_DONE q015
+15:39:52 PLAN q016 L4
+15:39:58 PLAN_DONE q016
+15:39:58 PLAN q017 L4
+15:40:03 PLAN_DONE q017
+15:40:03 PLAN q018 L4
+15:40:19 PLAN q018 L4
+15:40:24 PLAN_DONE q018
+15:40:24 PLAN q019 L4
+15:40:28 PLAN_DONE q019
+15:40:28 PLAN q020 L4
+15:40:34 PLAN_DONE q020
+15:40:34 RETRIEVED q001
+15:40:34 RETRIEVED q002
+15:40:35 RETRIEVED q003
+15:40:35 RETRIEVED q004
+15:40:35 RETRIEVED q005
+15:40:35 RETRIEVED q006
+15:40:35 RETRIEVED q007
+15:40:35 RETRIEVED q008
+15:40:35 RETRIEVED q009
+15:40:35 RETRIEVED q010
+15:40:35 RETRIEVED q011
+15:40:35 RETRIEVED q012
+15:40:36 RETRIEVED q013
+15:40:36 RETRIEVED q014
+15:40:36 RETRIEVED q015
+15:40:36 RETRIEVED q016
+15:40:36 RETRIEVED q017
+15:40:36 RETRIEVED q018
+15:40:36 RETRIEVED q019
+15:40:37 RETRIEVED q020
+15:40:37 ANSWER q001 rrf_0.5
+15:40:38 ANSWER_DONE q001 rrf_0.5 cached=False truncated=False
+15:40:38 ANSWER q001 rrf_1
+15:40:42 ANSWER_DONE q001 rrf_1 cached=False truncated=False
+15:40:42 ANSWER q001 rrf_0.7
+15:40:43 ANSWER_DONE q001 rrf_0.7 cached=False truncated=False
+15:40:43 ANSWER q001 multi
+15:40:45 ANSWER_DONE q001 multi cached=False truncated=False
+15:40:45 ANSWER q001 decompose
+15:40:47 ANSWER_DONE q001 decompose cached=False truncated=False
+15:40:47 ANSWER q001 rewrite
+15:40:47 ANSWER_DONE q001 rewrite cached=True truncated=False
+15:40:47 ANSWER q001 rrf_0.3
+15:40:48 ANSWER_DONE q001 rrf_0.3 cached=False truncated=False
+15:40:48 ANSWER q001 rrf_0
+15:40:50 ANSWER_DONE q001 rrf_0 cached=False truncated=False
+15:40:50 ANSWER q001 baseline
+15:40:50 ANSWER_DONE q001 baseline cached=True truncated=False
+15:40:50 ANSWER q002 rrf_0
+15:40:52 ANSWER_DONE q002 rrf_0 cached=False truncated=False
+15:40:52 ANSWER q002 rrf_0.3
+15:40:52 ANSWER_DONE q002 rrf_0.3 cached=True truncated=False
+15:40:52 ANSWER q002 baseline
+15:40:53 ANSWER_DONE q002 baseline cached=False truncated=False
+15:40:53 ANSWER q002 multi
+15:40:53 ANSWER_DONE q002 multi cached=True truncated=False
+15:40:53 ANSWER q002 rrf_1
+15:40:53 ANSWER_DONE q002 rrf_1 cached=True truncated=False
+15:40:53 ANSWER q002 decompose
+15:40:57 ANSWER_DONE q002 decompose cached=False truncated=False
+15:40:57 ANSWER q002 rrf_0.7
+15:40:58 ANSWER_DONE q002 rrf_0.7 cached=False truncated=False
+15:40:58 ANSWER q002 rewrite
+15:40:59 ANSWER_DONE q002 rewrite cached=False truncated=False
+15:40:59 ANSWER q002 rrf_0.5
+15:40:59 ANSWER_DONE q002 rrf_0.5 cached=True truncated=False
+15:40:59 ANSWER q003 rrf_0.7
+15:41:01 ANSWER_DONE q003 rrf_0.7 cached=False truncated=False
+15:41:01 ANSWER q003 rrf_1
+15:41:03 ANSWER_DONE q003 rrf_1 cached=False truncated=False
+15:41:03 ANSWER q003 rewrite
+15:41:03 ANSWER_DONE q003 rewrite cached=True truncated=False
+15:41:03 ANSWER q003 rrf_0.3
+15:41:04 ANSWER_DONE q003 rrf_0.3 cached=False truncated=False
+15:41:04 ANSWER q003 baseline
+15:41:04 ANSWER_DONE q003 baseline cached=True truncated=False
+15:41:04 ANSWER q003 multi
+15:41:07 ANSWER_DONE q003 multi cached=False truncated=False
+15:41:07 ANSWER q003 decompose
+15:41:09 ANSWER_DONE q003 decompose cached=False truncated=False
+15:41:09 ANSWER q003 rrf_0.5
+15:41:10 ANSWER_DONE q003 rrf_0.5 cached=False truncated=False
+15:41:10 ANSWER q003 rrf_0
+15:41:12 ANSWER_DONE q003 rrf_0 cached=False truncated=False
+15:41:12 ANSWER q004 decompose
+15:41:18 ANSWER_DONE q004 decompose cached=False truncated=False
+15:41:18 ANSWER q004 rrf_0.7
+15:41:23 ANSWER_DONE q004 rrf_0.7 cached=False truncated=False
+15:41:23 ANSWER q004 multi
+15:41:24 ANSWER_DONE q004 multi cached=False truncated=False
+15:41:24 ANSWER q004 rrf_1
+15:41:24 ANSWER_DONE q004 rrf_1 cached=True truncated=False
+15:41:24 ANSWER q004 rrf_0.3
+15:41:27 ANSWER_DONE q004 rrf_0.3 cached=False truncated=False
+15:41:27 ANSWER q004 rrf_0
+15:41:27 ANSWER_DONE q004 rrf_0 cached=True truncated=False
+15:41:27 ANSWER q004 baseline
+15:41:27 ANSWER_DONE q004 baseline cached=True truncated=False
+15:41:27 ANSWER q004 rrf_0.5
+15:41:30 ANSWER_DONE q004 rrf_0.5 cached=False truncated=False
+15:41:30 ANSWER q004 rewrite
+15:41:30 ANSWER_DONE q004 rewrite cached=True truncated=False
+15:41:30 ANSWER q005 baseline
+15:41:34 ANSWER_DONE q005 baseline cached=False truncated=False
+15:41:34 ANSWER q005 rrf_1
+15:41:35 ANSWER_DONE q005 rrf_1 cached=True truncated=False
+15:41:35 ANSWER q005 rrf_0.7
+15:41:36 ANSWER_DONE q005 rrf_0.7 cached=False truncated=False
+15:41:36 ANSWER q005 multi
+15:41:38 ANSWER_DONE q005 multi cached=False truncated=False
+15:41:38 ANSWER q005 rrf_0.5
+15:41:41 ANSWER_DONE q005 rrf_0.5 cached=False truncated=False
+15:41:41 ANSWER q005 rrf_0
+15:41:44 ANSWER_DONE q005 rrf_0 cached=False truncated=False
+15:41:44 ANSWER q005 decompose
+15:41:49 ANSWER_DONE q005 decompose cached=False truncated=False
+15:41:49 ANSWER q005 rewrite
+15:41:49 ANSWER_DONE q005 rewrite cached=True truncated=False
+15:41:49 ANSWER q005 rrf_0.3
+15:41:51 ANSWER_DONE q005 rrf_0.3 cached=False truncated=False
+15:41:51 ANSWER q006 rrf_0.5
+15:41:59 ANSWER_DONE q006 rrf_0.5 cached=False truncated=False
+15:41:59 ANSWER q006 baseline
+15:42:04 ANSWER_DONE q006 baseline cached=False truncated=False
+15:42:04 ANSWER q006 decompose
+15:42:12 ANSWER_DONE q006 decompose cached=False truncated=False
+15:42:12 ANSWER q006 multi
+15:42:17 ANSWER_DONE q006 multi cached=False truncated=False
+15:42:17 ANSWER q006 rrf_0.7
+15:42:17 ANSWER_DONE q006 rrf_0.7 cached=True truncated=False
+15:42:17 ANSWER q006 rrf_0
+15:42:17 ANSWER_DONE q006 rrf_0 cached=True truncated=False
+15:42:17 ANSWER q006 rewrite
+15:42:17 ANSWER_DONE q006 rewrite cached=True truncated=False
+15:42:17 ANSWER q006 rrf_0.3
+15:42:17 ANSWER_DONE q006 rrf_0.3 cached=True truncated=False
+15:42:17 ANSWER q006 rrf_1
+15:42:17 ANSWER_DONE q006 rrf_1 cached=True truncated=False
+15:42:17 ANSWER q007 rrf_1
+15:42:21 ANSWER_DONE q007 rrf_1 cached=False truncated=False
+15:42:21 ANSWER q007 rrf_0.5
+15:42:25 ANSWER_DONE q007 rrf_0.5 cached=False truncated=False
+15:42:25 ANSWER q007 rrf_0
+15:42:29 ANSWER_DONE q007 rrf_0 cached=False truncated=False
+15:42:29 ANSWER q007 rrf_0.7
+15:42:32 ANSWER_DONE q007 rrf_0.7 cached=False truncated=False
+15:42:32 ANSWER q007 multi
+15:42:37 ANSWER_DONE q007 multi cached=False truncated=False
+15:42:37 ANSWER q007 baseline
+15:42:37 ANSWER_DONE q007 baseline cached=True truncated=False
+15:42:37 ANSWER q007 decompose
+15:42:44 ANSWER_DONE q007 decompose cached=False truncated=False
+15:42:44 ANSWER q007 rrf_0.3
+15:42:48 ANSWER_DONE q007 rrf_0.3 cached=False truncated=False
+15:42:48 ANSWER q007 rewrite
+15:42:52 ANSWER_DONE q007 rewrite cached=False truncated=False
+15:42:52 ANSWER q008 rrf_0.5
+15:42:55 ANSWER_DONE q008 rrf_0.5 cached=False truncated=False
+15:42:55 ANSWER q008 baseline
+15:42:57 ANSWER_DONE q008 baseline cached=False truncated=False
+15:42:57 ANSWER q008 rrf_1
+15:42:57 ANSWER_DONE q008 rrf_1 cached=True truncated=False
+15:42:57 ANSWER q008 decompose
+15:43:06 ANSWER_DONE q008 decompose cached=False truncated=False
+15:43:06 ANSWER q008 rewrite
+15:43:06 ANSWER_DONE q008 rewrite cached=True truncated=False
+15:43:06 ANSWER q008 rrf_0.3
+15:43:12 ANSWER_DONE q008 rrf_0.3 cached=False truncated=False
+15:43:12 ANSWER q008 multi
+15:43:17 ANSWER_DONE q008 multi cached=False truncated=False
+15:43:17 ANSWER q008 rrf_0
+15:43:20 ANSWER_DONE q008 rrf_0 cached=False truncated=False
+15:43:20 ANSWER q008 rrf_0.7
+15:43:22 ANSWER_DONE q008 rrf_0.7 cached=False truncated=False
+15:43:22 ANSWER q009 baseline
+15:43:31 ANSWER_DONE q009 baseline cached=False truncated=False
+15:43:31 ANSWER q009 rrf_1
+15:43:31 ANSWER_DONE q009 rrf_1 cached=True truncated=False
+15:43:31 ANSWER q009 rrf_0.3
+15:43:38 ANSWER_DONE q009 rrf_0.3 cached=False truncated=False
+15:43:38 ANSWER q009 rrf_0.7
+15:43:51 ANSWER_DONE q009 rrf_0.7 cached=False truncated=False
+15:43:51 ANSWER q009 rrf_0
+15:44:03 ANSWER_DONE q009 rrf_0 cached=False truncated=False
+15:44:03 ANSWER q009 rrf_0.5
+15:44:15 ANSWER_DONE q009 rrf_0.5 cached=False truncated=False
+15:44:15 ANSWER q009 rewrite
+15:44:15 ANSWER_DONE q009 rewrite cached=True truncated=False
+15:44:15 ANSWER q009 multi
+15:44:15 ANSWER_DONE q009 multi cached=True truncated=False
+15:44:15 ANSWER q009 decompose
+15:44:26 ANSWER_DONE q009 decompose cached=False truncated=False
+15:44:26 ANSWER q010 rrf_0.5
+15:44:31 ANSWER_DONE q010 rrf_0.5 cached=False truncated=False
+15:44:31 ANSWER q010 rrf_0.7
+15:44:37 ANSWER_DONE q010 rrf_0.7 cached=False truncated=False
+15:44:37 ANSWER q010 rewrite
+15:44:40 ANSWER_DONE q010 rewrite cached=False truncated=False
+15:44:40 ANSWER q010 multi
+15:44:45 ANSWER_DONE q010 multi cached=False truncated=False
+15:44:45 ANSWER q010 decompose
+15:44:51 ANSWER_DONE q010 decompose cached=False truncated=False
+15:44:51 ANSWER q010 rrf_1
+15:44:51 ANSWER_DONE q010 rrf_1 cached=True truncated=False
+15:44:51 ANSWER q010 rrf_0.3
+15:44:57 ANSWER_DONE q010 rrf_0.3 cached=False truncated=False
+15:44:57 ANSWER q010 baseline
+15:44:58 ANSWER_DONE q010 baseline cached=True truncated=False
+15:44:58 ANSWER q010 rrf_0
+15:45:02 ANSWER_DONE q010 rrf_0 cached=False truncated=False
+15:45:02 ANSWER q011 baseline
+15:45:10 ANSWER_DONE q011 baseline cached=False truncated=False
+15:45:10 ANSWER q011 rewrite
+15:45:17 ANSWER_DONE q011 rewrite cached=False truncated=False
+15:45:17 ANSWER q011 rrf_0.5
+15:45:23 ANSWER_DONE q011 rrf_0.5 cached=False truncated=False
+15:45:23 ANSWER q011 multi
+15:45:26 ANSWER_DONE q011 multi cached=False truncated=False
+15:45:26 ANSWER q011 rrf_1
+15:45:26 ANSWER_DONE q011 rrf_1 cached=True truncated=False
+15:45:26 ANSWER q011 rrf_0.3
+15:45:31 ANSWER_DONE q011 rrf_0.3 cached=False truncated=False
+15:45:31 ANSWER q011 rrf_0
+15:45:37 ANSWER_DONE q011 rrf_0 cached=False truncated=False
+15:45:37 ANSWER q011 rrf_0.7
+15:45:44 ANSWER_DONE q011 rrf_0.7 cached=False truncated=False
+15:45:44 ANSWER q011 decompose
+15:45:50 ANSWER_DONE q011 decompose cached=False truncated=False
+15:45:50 ANSWER q012 rrf_0.3
+15:45:55 ANSWER_DONE q012 rrf_0.3 cached=False truncated=False
+15:45:55 ANSWER q012 baseline
+15:46:00 ANSWER_DONE q012 baseline cached=False truncated=False
+15:46:00 ANSWER q012 rewrite
+15:46:05 ANSWER_DONE q012 rewrite cached=False truncated=False
+15:46:05 ANSWER q012 rrf_0.5
+15:46:10 ANSWER_DONE q012 rrf_0.5 cached=False truncated=False
+15:46:10 ANSWER q012 decompose
+15:46:18 ANSWER_DONE q012 decompose cached=False truncated=False
+15:46:18 ANSWER q012 rrf_1
+15:46:18 ANSWER_DONE q012 rrf_1 cached=True truncated=False
+15:46:18 ANSWER q012 rrf_0
+15:46:24 ANSWER_DONE q012 rrf_0 cached=False truncated=False
+15:46:24 ANSWER q012 rrf_0.7
+15:46:28 ANSWER_DONE q012 rrf_0.7 cached=False truncated=False
+15:46:28 ANSWER q012 multi
+15:46:33 ANSWER_DONE q012 multi cached=False truncated=False
+15:46:33 ANSWER q013 rrf_0.5
+15:46:40 ANSWER_DONE q013 rrf_0.5 cached=False truncated=False
+15:46:40 ANSWER q013 rrf_0.7
+15:46:49 ANSWER_DONE q013 rrf_0.7 cached=False truncated=False
+15:46:49 ANSWER q013 rrf_0
+15:46:57 ANSWER_DONE q013 rrf_0 cached=False truncated=False
+15:46:57 ANSWER q013 baseline
+15:47:05 ANSWER_DONE q013 baseline cached=False truncated=False
+15:47:05 ANSWER q013 multi
+15:47:12 ANSWER_DONE q013 multi cached=False truncated=False
+15:47:12 ANSWER q013 rrf_0.3
+15:47:18 ANSWER_DONE q013 rrf_0.3 cached=False truncated=False
+15:47:18 ANSWER q013 rrf_1
+15:47:18 ANSWER_DONE q013 rrf_1 cached=True truncated=False
+15:47:18 ANSWER q013 decompose
+15:47:25 ANSWER_DONE q013 decompose cached=False truncated=False
+15:47:25 ANSWER q013 rewrite
+15:47:25 ANSWER_DONE q013 rewrite cached=True truncated=False
+15:47:25 ANSWER q014 rrf_0.7
+15:47:28 ANSWER_DONE q014 rrf_0.7 cached=False truncated=False
+15:47:28 ANSWER q014 rewrite
+15:47:31 ANSWER_DONE q014 rewrite cached=False truncated=False
+15:47:31 ANSWER q014 rrf_0.5
+15:47:33 ANSWER_DONE q014 rrf_0.5 cached=False truncated=False
+15:47:33 ANSWER q014 multi
+15:47:35 ANSWER_DONE q014 multi cached=False truncated=False
+15:47:35 ANSWER q014 rrf_0
+15:47:38 ANSWER_DONE q014 rrf_0 cached=False truncated=False
+15:47:38 ANSWER q014 rrf_0.3
+15:47:48 ANSWER_DONE q014 rrf_0.3 cached=False truncated=False
+15:47:48 ANSWER q014 decompose
+15:48:05 ANSWER_DONE q014 decompose cached=False truncated=False
+15:48:05 ANSWER q014 baseline
+15:48:06 ANSWER_DONE q014 baseline cached=True truncated=False
+15:48:06 ANSWER q014 rrf_1
+15:48:06 ANSWER_DONE q014 rrf_1 cached=True truncated=False
+15:48:06 ANSWER q015 rrf_0.7
+15:48:26 ANSWER_DONE q015 rrf_0.7 cached=False truncated=False
+15:48:26 ANSWER q015 decompose
+15:49:53 ANSWER_DONE q015 decompose cached=False truncated=False
+15:49:53 ANSWER q015 multi
+15:50:45 ANSWER_DONE q015 multi cached=False truncated=False
+15:50:45 ANSWER q015 rewrite
+15:51:09 ANSWER_DONE q015 rewrite cached=True truncated=False
+15:51:09 ANSWER q015 rrf_1
+15:51:12 ANSWER_DONE q015 rrf_1 cached=True truncated=False
+15:51:12 ANSWER q015 rrf_0.5
+15:52:04 ANSWER_DONE q015 rrf_0.5 cached=False truncated=False
+15:52:06 ANSWER q015 rrf_0
+15:53:05 ANSWER_DONE q015 rrf_0 cached=False truncated=False
+15:53:05 ANSWER q015 rrf_0.3
+15:53:13 ANSWER_DONE q015 rrf_0.3 cached=True truncated=False
+15:53:13 ANSWER q015 baseline
+15:53:14 ANSWER_DONE q015 baseline cached=True truncated=False
+15:53:14 ANSWER q016 multi
+15:54:12 ANSWER_DONE q016 multi cached=False truncated=True
+15:54:12 ANSWER q016 rrf_0
+Traceback (most recent call last):
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 991, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\21812\Documents\Codex\2026-10-23\10\outputs\LLM-RAG-T3\src\run_t3.py", line 190, in <module>
+    main()
+  File "C:\Users\21812\Documents\Codex\2026-10-23\10\outputs\LLM-RAG-T3\src\run_t3.py", line 93, in main
+    with urlopen(ENDPOINT + '/api/tags', timeout=10) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+16:04:49 ANSWER q016 rrf_0
+16:05:30 ANSWER_DONE q016 rrf_0 cached=False truncated=True
+16:05:30 ANSWER q016 rrf_0.7
+16:05:47 ANSWER_DONE q016 rrf_0.7 cached=False truncated=True
+16:05:47 ANSWER q016 baseline
+16:06:00 ANSWER_DONE q016 baseline cached=False truncated=True
+16:06:00 ANSWER q016 rewrite
+16:06:13 ANSWER_DONE q016 rewrite cached=False truncated=True
+16:06:13 ANSWER q016 rrf_0.5
+16:06:26 ANSWER_DONE q016 rrf_0.5 cached=False truncated=True
+16:06:26 ANSWER q016 rrf_0.3
+16:06:44 ANSWER_DONE q016 rrf_0.3 cached=False truncated=True
+16:06:44 ANSWER q016 rrf_1
+16:06:45 ANSWER_DONE q016 rrf_1 cached=True truncated=True
+16:06:45 ANSWER q016 decompose
+Traceback (most recent call last):
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 991, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\21812\Documents\Codex\2026-10-23\10\outputs\LLM-RAG-T3\src\run_t3.py", line 206, in <module>
+    main()
+  File "C:\Users\21812\Documents\Codex\2026-10-23\10\outputs\LLM-RAG-T3\src\run_t3.py", line 109, in main
+    with urlopen(ENDPOINT + '/api/tags', timeout=10) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21812\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+16:09:33 ANSWER q016 decompose
+16:10:10 ANSWER_DONE q016 decompose cached=False truncated=False
+16:10:10 ANSWER q017 multi
+16:10:18 ANSWER_DONE q017 multi cached=False truncated=False
+16:10:18 ANSWER q017 rrf_0
+16:10:26 ANSWER_DONE q017 rrf_0 cached=False truncated=False
+16:10:26 ANSWER q017 rrf_0.5
+16:10:32 ANSWER_DONE q017 rrf_0.5 cached=False truncated=False
+16:10:32 ANSWER q017 rrf_0.7
+16:10:39 ANSWER_DONE q017 rrf_0.7 cached=False truncated=False
+16:10:39 ANSWER q017 baseline
+16:10:46 ANSWER_DONE q017 baseline cached=False truncated=False
+16:10:46 ANSWER q017 rrf_1
+16:10:46 ANSWER_DONE q017 rrf_1 cached=True truncated=False
+16:10:46 ANSWER q017 rrf_0.3
+16:10:53 ANSWER_DONE q017 rrf_0.3 cached=False truncated=False
+16:10:53 ANSWER q017 rewrite
+16:11:01 ANSWER_DONE q017 rewrite cached=False truncated=False
+16:11:01 ANSWER q017 decompose
+16:11:14 ANSWER_DONE q017 decompose cached=False truncated=False
+16:11:14 ANSWER q018 baseline
+16:11:27 ANSWER_DONE q018 baseline cached=False truncated=True
+16:11:27 ANSWER q018 rrf_0.5
+16:11:40 ANSWER_DONE q018 rrf_0.5 cached=False truncated=True
+16:11:40 ANSWER q018 decompose
+16:11:48 ANSWER_DONE q018 decompose cached=False truncated=False
+16:11:48 ANSWER q018 rrf_0.3
+16:12:01 ANSWER_DONE q018 rrf_0.3 cached=False truncated=True
+16:12:01 ANSWER q018 multi
+16:12:14 ANSWER_DONE q018 multi cached=False truncated=True
+16:12:14 ANSWER q018 rewrite
+16:12:27 ANSWER_DONE q018 rewrite cached=False truncated=True
+16:12:27 ANSWER q018 rrf_0.7
+16:12:40 ANSWER_DONE q018 rrf_0.7 cached=False truncated=True
+16:12:40 ANSWER q018 rrf_1
+16:12:40 ANSWER_DONE q018 rrf_1 cached=True truncated=True
+16:12:40 ANSWER q018 rrf_0
+16:12:53 ANSWER_DONE q018 rrf_0 cached=False truncated=True
+16:12:53 ANSWER q019 decompose
+16:13:02 ANSWER_DONE q019 decompose cached=False truncated=False
+16:13:02 ANSWER q019 baseline
+16:13:14 ANSWER_DONE q019 baseline cached=False truncated=True
+16:13:14 ANSWER q019 rrf_0.3
+16:13:27 ANSWER_DONE q019 rrf_0.3 cached=False truncated=True
+16:13:27 ANSWER q019 rrf_0.5
+16:13:40 ANSWER_DONE q019 rrf_0.5 cached=False truncated=True
+16:13:40 ANSWER q019 rrf_1
+16:13:40 ANSWER_DONE q019 rrf_1 cached=True truncated=True
+16:13:40 ANSWER q019 rewrite
+16:13:53 ANSWER_DONE q019 rewrite cached=False truncated=True
+16:13:53 ANSWER q019 rrf_0
+16:14:06 ANSWER_DONE q019 rrf_0 cached=False truncated=True
+16:14:06 ANSWER q019 multi
+16:14:06 ANSWER_DONE q019 multi cached=True truncated=True
+16:14:06 ANSWER q019 rrf_0.7
+16:14:19 ANSWER_DONE q019 rrf_0.7 cached=False truncated=True
+16:14:19 ANSWER q020 baseline
+16:14:32 ANSWER_DONE q020 baseline cached=False truncated=True
+16:14:32 ANSWER q020 rrf_0.3
+16:14:45 ANSWER_DONE q020 rrf_0.3 cached=False truncated=True
+16:14:45 ANSWER q020 rrf_0
+16:14:58 ANSWER_DONE q020 rrf_0 cached=False truncated=True
+16:14:58 ANSWER q020 rrf_1
+16:14:58 ANSWER_DONE q020 rrf_1 cached=True truncated=True
+16:14:58 ANSWER q020 decompose
+16:15:03 ANSWER_DONE q020 decompose cached=False truncated=False
+16:15:03 ANSWER q020 rrf_0.7
+16:15:16 ANSWER_DONE q020 rrf_0.7 cached=False truncated=True
+16:15:16 ANSWER q020 rrf_0.5
+16:15:16 ANSWER_DONE q020 rrf_0.5 cached=True truncated=True
+16:15:16 ANSWER q020 rewrite
+16:15:29 ANSWER_DONE q020 rewrite cached=False truncated=True
+16:15:29 ANSWER q020 multi
+16:15:41 ANSWER_DONE q020 multi cached=False truncated=True
+16:15:41 COMPLETE stage=generate plans=20 retrieval=20 answers=180 judgments=0
+16:15:49 JUDGE q001
+16:15:52 JUDGE_DONE q001
+16:15:52 JUDGE q002
+16:15:53 JUDGE_DONE q002
+16:15:53 JUDGE q003
+16:15:55 JUDGE_DONE q003
+16:15:55 JUDGE q004
+16:15:58 JUDGE_DONE q004
+16:15:58 JUDGE q005
+16:16:01 JUDGE_DONE q005
+16:16:01 JUDGE q006
+16:16:03 JUDGE_DONE q006
+16:16:03 JUDGE q007
+16:16:07 JUDGE_DONE q007
+16:16:07 JUDGE q008
+16:16:11 JUDGE_DONE q008
+16:16:11 JUDGE q009
+16:16:15 JUDGE_DONE q009
+16:16:15 JUDGE q010
+16:16:20 JUDGE_DONE q010
+16:16:20 JUDGE q011
+16:16:26 JUDGE_DONE q011
+16:16:26 JUDGE q012
+16:16:31 JUDGE_DONE q012
+16:16:31 JUDGE q013
+16:16:37 JUDGE_DONE q013
+16:16:37 JUDGE q014
+16:16:39 JUDGE_DONE q014
+16:16:39 JUDGE q015
+16:16:42 JUDGE_DONE q015
+16:16:42 JUDGE q016
+16:16:50 JUDGE_DONE q016
+16:16:50 JUDGE q017
+16:16:57 JUDGE_DONE q017
+16:16:57 JUDGE q018
+16:17:04 JUDGE_DONE q018
+16:17:04 JUDGE q019
+16:17:11 JUDGE_DONE q019
+16:17:11 JUDGE q020
+16:17:19 JUDGE_DONE q020
+16:17:19 COMPLETE stage=judge plans=20 retrieval=20 answers=180 judgments=20

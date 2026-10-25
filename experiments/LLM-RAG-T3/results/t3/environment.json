@@ -1,0 +1,39 @@
+{
+  "python": "3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "langchain-core": "1.7.0",
+    "langchain-community": "0.4.2",
+    "faiss-cpu": "1.15.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "ollama": {
+    "version": "0.40.10"
+  },
+  "model_runtime_status": {
+    "models": [
+      {
+        "name": "qwen3:4b-instruct",
+        "model": "qwen3:4b-instruct",
+        "size": 3877571133,
+        "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-25T16:48:44.2838556+08:00",
+        "size_vram": 3877571133,
+        "context_length": 8192,
+        "runner": "llamacpp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：云大2027学校那套保研，四年制软工应届生绩点三点二、四级四百三，一门专业必修当年没过后来补过的，别的都行，只看专业必修这项能算过吗？"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"在云大2027年保研政策中，四年制软件工程专业应届生，绩点为3.2，大学英语四级成绩为430，有一门专业必修课当年未通过但已补考通过，该生在专业必修课考核是否满足保研资格要求？\",\n    \"云大2027年保研标准下，四年制软件工程专业应届生，绩点3.2，英语四级430，存在一门专业必修课当年未通过后补过的情况，该情况在专业必修课成绩认定中是否被视作合格？\",\n    \"针对云大2027年保研政策，四年制软件工程专业应届生，绩点3.2，英语四级43及格，一门专业必修课当年未通过但已补考通过，该门课程是否计入专业必修课合格认定？\"\n  ],\n  \"rewrite\": \"在云大2027年保研政策中，四年制软件工程专业应届生，绩点为3.2，大学英语四级成绩为430，有一门专业必修课当年未通过但已补考通过，该生在专业必修课考核是否满足保研资格要求？\",\n  \"sub_queries\": [\n    \"四年制软件工程专业应届生在云大2027年保研政策中，专业必修课当年未通过但已补考通过的情况是否被认定为合格？\",\n    \"云大2027年保研政策中，专业必修课成绩是否包含补考后通过的记录？\",\n    \"绩点3.2、英语四级430的四年制软件工程专业应届生，其专业必修课考核是否满足保研基本条件？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "ad49fd86e415f76d68d77599901eb4fb6233ac6003dab9b3ce8fe11a8408814e",
+    "cache_hit": false,
+    "elapsed_seconds": 9.5159,
+    "prompt_tokens": 306,
+    "output_tokens": 411,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

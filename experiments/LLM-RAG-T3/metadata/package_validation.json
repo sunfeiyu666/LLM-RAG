@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "variant": "baseline_only",
+  "validation_python": "3.12.0",
+  "validation_runtime": "原项目已有Python 3.12环境；未创建或修改Conda环境",
+  "unit_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "index_rebuild": {
+    "documents": 23,
+    "chunks": 202,
+    "dimensions": 64
+  },
+  "corpus_unchanged": true,
+  "checks": [
+    "基础问答帮助、启动与退出",
+    "向量检索入口",
+    "LCEL上下文与流式输出",
+    "语料完整性",
+    "源代码语法"
+  ],
+  "T1_T5_experiments": "本次未运行、不附结果"
+}

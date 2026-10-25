@@ -1,0 +1,652 @@
+[
+  {
+    "id": "q001",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 4,
+        "available": 4,
+        "criterion": "第一课堂数值",
+        "observation": "回答161.5正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "指定版本及学生范围",
+        "observation": "明确2022版2023修订国内学生；题目没要求额外毕业提醒"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "dfc596fe158dfb7a67888a2de5bb0425bcdfe980337c9cd3e3621edb22467be9",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q002",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 4,
+        "available": 4,
+        "criterion": "先修课名称",
+        "observation": "回答数据结构正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "课程范围",
+        "observation": "明确公开慕课大纲"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "f64aed2d3ff218e752d024cab9371f13bec04a53f78405b4414359e199cd1785",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q003",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 4,
+        "available": 4,
+        "criterion": "缓考门数",
+        "observation": "两门正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "一般限制措辞",
+        "observation": "保留一般不得超过，没有跨年保证"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "9c9c06a174f3899ef376d47bf016e3364ad4ef1267e180e35269ac589e035c07",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q004",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 3,
+        "available": 3,
+        "criterion": "GPA门槛",
+        "observation": "不低于3.0正确"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "统计学年与版本",
+        "observation": "前三学年五年制前四及2027年正确"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "379d1210157473e8c2bc09c15f585e0a81a433714651ef8214834c3c500e9ee1",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q005",
+    "score": 4,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 3,
+        "available": 3,
+        "criterion": "是否授学位",
+        "observation": "明确不授予"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "证书去向",
+        "observation": "修满申请修读证书正确"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "附带文件定位准确",
+        "observation": "把学籍管理规定9号文号套给微专业申请通知"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "517dd8d1a1bdb705c5c23322aaaa69a61bac2c410f12b783ca126c5170d6756b",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q006",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "转专业原其他课程上限",
+        "observation": "10及专业教育5正确"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "辅修微专业上限",
+        "observation": "15及专业教育5正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "差值",
+        "observation": "15减10等于5正确；题目未要求总上限扩展"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "61192ba2e9aea162fff6f9bd632d349bc0915673dbf9b7c9add34df5390e4c23",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q007",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "辅修时段",
+        "observation": "5月21至26正确"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "微专业时段",
+        "observation": "6月11至15正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "能否共用",
+        "observation": "说明两段不同不能共用"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "40b6ecb8bd77c0f8ffa18de55645c7668b4eac30f2f2657ff5dc8bc2fbc098bb",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q008",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "辅修上限",
+        "observation": "34正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "微专业上限",
+        "observation": "34.25正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "原则限定",
+        "observation": "保留微专业原则上"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "差值",
+        "observation": "0.25正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "包含范围",
+        "observation": "两者均含主修；题目没问例外程序，未复述不扣分"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "696edb0a7b492e8a91e58035d4d77212f532d21d65ea0489c951ec3ad2fc6a75",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q009",
+    "score": 4,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "能否等同",
+        "observation": "不能视同结论正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "辅修学位说明",
+        "observation": "主修学位证中注明不另颁证的主说明正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "微专业证书说明",
+        "observation": "不授学位可获修读证正确"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "附带细节可靠",
+        "observation": "后文错说毕业证注明，并添加未支持的法律效力和委员会程序"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "a91655f42bbc4356d87ddbdf030c8d6d43fcb48cbb798dd7b433ef5338fce619",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q010",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "第一课堂",
+        "observation": "161.5正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "第二课堂",
+        "observation": "6正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "总和",
+        "observation": "167.5正确"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "不能保证毕业及原因",
+        "observation": "说明模块结构体质认证等要求"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "cc524951e242dc27646bb40bc2780e5495c0c98c2f9211b59e65b65b6f62cbbb",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q011",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "适用规则",
+        "observation": "2027年3.0正确"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "比较过程",
+        "observation": "2.9小于3.0正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "限定结论",
+        "observation": "仅就GPA判不达标"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "7d16b876aaae114fbf6587b3f07c51192f02ff05f2e251c0242b55ecc43b0f2f",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q012",
+    "score": 4,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "专业必修条件",
+        "observation": "合格且不得补考重修正确"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "假设应用",
+        "observation": "补考通过仍违反该项且其他达标不能抵消"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "规则定位",
+        "observation": "写2027年第（四）条，实际为第（六）条"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "6ad2b26da1534160980bb17eecf347dcaa9822606a69ab5e97913f084b001343",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q013",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "理工科标准",
+        "observation": "2.8正确"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "转专业匹配规则",
+        "observation": "按前一学期类别"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "选择适用标准",
+        "observation": "按原理工科"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "数值判断",
+        "observation": "2.9达到2.8"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "最终选拔边界",
+        "observation": "明确不能保证被选中；GPA通过只限题设条件"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "ec254f6366aeb448c11717c41657286a4d05ac3e4401ce8496a0d77f065adc9c",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q014",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "规则条件",
+        "observation": "新开设且不足15人"
+      },
+      {
+        "awarded": 2,
+        "available": 2,
+        "criterion": "当学期后果",
+        "observation": "14人不开课"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "本次选拔",
+        "observation": "无效"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "后续",
+        "observation": "下学期重新申请"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "3e740a0b0846b68898ad248c9fd6bd6519ee3339d0977502ab0b111f0a3ebd87",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q015",
+    "score": 5,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "总量上限",
+        "observation": "15"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "专业教育上限",
+        "observation": "5"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "总量比较",
+        "observation": "14未超15"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "专业部分比较",
+        "observation": "6超5"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "结论边界",
+        "observation": "不可原样全部认定，仅论数额"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "78f27c2f6b14fcc1548c6ca0607f5ef5ef6067b43be5d53553ad99502367d940",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q016",
+    "score": 2.0,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "选择及目标匹配",
+        "observation": "选择不授学位的微专业合理"
+      },
+      {
+        "awarded": 0.5,
+        "available": 1,
+        "criterion": "政策事实可靠",
+        "observation": "部分认定和学期上限正确，但声称无额外压力避免冲突错误"
+      },
+      {
+        "awarded": 0.5,
+        "available": 1,
+        "criterion": "学习安排可执行",
+        "observation": "给出方向和部分安排，但未完成学分管理且缺负担核对"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "两类通知时段区分",
+        "observation": "将辅修5月时段用作微专业"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "待确认信息及边界",
+        "observation": "截断前未明确完整待确认事项"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "3dbc2a37387bc766efa7f8a6061fb2df20392744d60d451ef3b7ac7a559fc8bf",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q017",
+    "score": 4,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "推荐对象",
+        "observation": "智慧医疗"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "AI健康依据",
+        "observation": "引用AI算法数据处理医疗场景"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "比较另一选项",
+        "observation": "说明智能传播侧重AI媒体"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "核实事项",
+        "observation": "提出开课限制具体课程核实"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "推断边界",
+        "observation": "无直接关联的排他断言超出介绍"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "8397364f1cfa2bda63be5bdb7ee808d2040ae1d4ece67d13fe9b60106dc60543",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q018",
+    "score": 4,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "先修及当前条件",
+        "observation": "数据结构"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "知识覆盖",
+        "observation": "覆盖关系SQL完整性索引规范化"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "实施路线",
+        "observation": "学习到项目步骤"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "验证手段",
+        "observation": "SQL建表多表查询约束索引验证"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "大纲事实和建议可靠区分",
+        "observation": "事务错归第六章，第一章关系模型归属未支持；虽标个人建议仍有章节错误"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "1a85c5cfb324e177a26bdb2f697d1a8df4c5d4f7fbcb4867ca38673745a058f6",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q019",
+    "score": 2.0,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 0.5,
+        "available": 1,
+        "criterion": "建立清单和等效映射",
+        "observation": "建议比课程代码内容，但缺完整原课程目标模块缺口清单"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "类别与专业子上限",
+        "observation": "未写转专业其他课程10，且2025引用2024微专业通知"
+      },
+      {
+        "awarded": 0.5,
+        "available": 1,
+        "criterion": "总量及范围",
+        "observation": "写20/5但无论何种方式丢失原则上限定"
+      },
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "去重规划",
+        "observation": "指出课程重合由辅修学院指定替代"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "待定结论边界",
+        "observation": "输出截断，未明确无清单不能定最终额度或毕业"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "6a979cf4069421139751e1a714e0319b210a91a09f28bad8199dba624ba69b98",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  },
+  {
+    "id": "q020",
+    "score": 2.0,
+    "max_score": 5,
+    "criteria": [
+      {
+        "awarded": 1,
+        "available": 1,
+        "criterion": "GPA只是门槛",
+        "observation": "强调另有综合测评条件"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "学业硬约束",
+        "observation": "未覆盖英语课程合格及不得补考重修等关键风险"
+      },
+      {
+        "awarded": 0.5,
+        "available": 1,
+        "criterion": "科研竞赛的边界",
+        "observation": "提纳入测评但漏不得单列名额，且有无依据细节"
+      },
+      {
+        "awarded": 0,
+        "available": 1,
+        "criterion": "排序学院细则和稳妥安排",
+        "observation": "未形成完整安排，把2026第六条套给2027"
+      },
+      {
+        "awarded": 0.5,
+        "available": 1,
+        "criterion": "结果不保证",
+        "observation": "多处提醒不保证科研转化，但截断前未完整说明排名名额等缺失"
+      }
+    ],
+    "reviewer": "Codex assistant; explicit question/reference/source review; not independent human",
+    "answer_sha256": "ed5874f2579a6e963bd3f8f1fa5ae6955e88b91c795e2d320bbbb109d1628cf5",
+    "note": "Question-specific checklist and factual-detail deductions; published after inspecting outputs, not preregistered. Raw model grading retained separately."
+  }
+]

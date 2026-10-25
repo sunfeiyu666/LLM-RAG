@@ -1,0 +1,5075 @@
+[
+  {
+    "question_id": "q001",
+    "level": "L1",
+    "id": "q001_review_001",
+    "unit_id": "s001",
+    "unit_text": "按软件工程2022版（2023年修订）培养方案，国内学生第一课堂需要修满161.5学分[2][3]。",
+    "claim": "国内学生第一课堂需161.5学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s007"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s007",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "（二）修业年限、毕业要求及授予学位类型国内学生：在学校规定的学习年限内，按教学计划要求修满第一课程161.5 学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "版本和数值一致",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q002",
+    "level": "L1",
+    "id": "q002_review_001",
+    "unit_id": "s001",
+    "unit_text": "根据云南大学《数据库概论》公开慕课课程大纲，该课程要求的先修课是数据结构[1]。",
+    "claim": "数据库概论先修课是数据结构",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "本课程要求的先修课为数据结构，主要讲授内容是：数据库基本原理与主流数据库产品的实用技术。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "大纲明示",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q003",
+    "level": "L1",
+    "id": "q003_review_001",
+    "unit_id": "s001",
+    "unit_text": "学生每学期申请缓考的课程一般不得超过两门。",
+    "claim": "每学期缓考一般不超过两门",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu012_p003_00125",
+        "quote": "学生每学期申请缓考的课程，一般不得超过两门。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "2020版原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q004",
+    "level": "L1",
+    "id": "q004_review_001",
+    "unit_id": "s001",
+    "unit_text": "根据《云南大学2027年推荐推免工作实施办法》第（五）条规定，学生前三学年（5年制专业为前四学年）平均学习绩点（GPA）不低于3.0[1]。",
+    "claim": "前三学年（五年制前四）GPA不低于3.0",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020",
+      "b1_s021",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s021",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "前三学年（5 年制专业为前四学年）",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "连续原句完整支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q004",
+    "level": "L1",
+    "id": "q004_review_002",
+    "unit_id": "s002",
+    "unit_text": "因此，前三学年（五年制为前四学年）平均学习绩点最低是3.0。",
+    "claim": "最低GPA为3.0",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s021",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s021",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "前三学年（5 年制专业为前四学年）",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "由不低于直接推得",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q005",
+    "level": "L1",
+    "id": "q005_review_001",
+    "unit_id": "s001",
+    "unit_text": "根据《2026年秋季学期微专业申请通知》（云大教〔2026〕9号）相关内容，微专业不授予学位，学生修满规定学分后可向微专业牵头学院申请微专业修读证书[3]。",
+    "claim": "微专业申请通知的文号是云大教〔2026〕9号",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s001",
+      "b1_s003",
+      "b3_s001"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s001",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "文档：本科学生学籍管理规定_2026",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s003",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "版本与范围：云大教〔2026〕9号；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s001",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "文档：2026年秋季学期微专业申请通知",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "9号属于学籍管理规定，文号错绑到通知",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q005",
+    "level": "L1",
+    "id": "q005_review_002",
+    "unit_id": "s001",
+    "unit_text": "根据《2026年秋季学期微专业申请通知》（云大教〔2026〕9号）相关内容，微专业不授予学位，学生修满规定学分后可向微专业牵头学院申请微专业修读证书[3]。",
+    "claim": "微专业不授予学位",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s014",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "六、证书发放微专业不授予学位，学生修完后可以获得修读证书。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "通知原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q005",
+    "level": "L1",
+    "id": "q005_review_003",
+    "unit_id": "s001",
+    "unit_text": "根据《2026年秋季学期微专业申请通知》（云大教〔2026〕9号）相关内容，微专业不授予学位，学生修满规定学分后可向微专业牵头学院申请微专业修读证书[3]。",
+    "claim": "修满规定学分可向牵头学院申请修读证书",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s015",
+      "b3_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s015",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "学生按对应微专业人才培养方案要求修满规定学分，由学生主动向微专业牵头学院申请修读证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s016",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "经审核同意后，报教务处（本科生院）审批，通过后为学生颁发微专业修读证书。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "程序支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_001",
+    "unit_id": "s001",
+    "unit_text": "根据2026年《本科学生课程学分认定管理规定》（云大教〔2026〕7号；",
+    "claim": "学分认定规定文号为云大教〔2026〕7号",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s001",
+      "b1_s003"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s001",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "文档：本科学生课程学分认定管理规定_2026",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s003",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "版本与范围：云大教〔2026〕7号；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "元数据明确",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_002",
+    "unit_id": "s002",
+    "unit_text": "试行）的相关规定：",
+    "claim": "该规定为试行版本",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s004"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s004",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "试行",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "版本元数据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_003",
+    "unit_id": "s003",
+    "unit_text": "1. 转专业时，原专业修读的其他课程学分可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分。",
+    "claim": "转专业原其他课程选修认定累计不超过10学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s017",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "原专业修读的其他课程学分，可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_004",
+    "unit_id": "s003",
+    "unit_text": "1. 转专业时，原专业修读的其他课程学分可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分。",
+    "claim": "其中专业教育不超过5学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s017",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "原专业修读的其他课程学分，可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_005",
+    "unit_id": "s005",
+    "unit_text": "→ 该条款明确指出，转专业课程认定到现专业选修模块的累计上限为**10学分**。",
+    "claim": "转专业原其他课程选修认定上限10学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s017",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "原专业修读的其他课程学分，可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "承接前文范围",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_006",
+    "unit_id": "s006",
+    "unit_text": "2. 辅修或微专业课程获得的学分，可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+    "claim": "辅修或微专业选修认定累计不超过15学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_007",
+    "unit_id": "s006",
+    "unit_text": "2. 辅修或微专业课程获得的学分，可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+    "claim": "其中专业教育不超过5学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_008",
+    "unit_id": "s008",
+    "unit_text": "→ 该条款明确指出，辅修或微专业课程认定到主修专业选修模块的累计上限为**15学分**。",
+    "claim": "辅修微专业该类选修认定上限15学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "承接前文范围",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_009",
+    "unit_id": "s010",
+    "unit_text": "- 转专业课程认定到现专业选修模块的累计上限为10学分；",
+    "claim": "转专业该类选修认定上限10学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s017",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "原专业修读的其他课程学分，可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_010",
+    "unit_id": "s011",
+    "unit_text": "- 辅修或微专业课程认定到主修专业选修模块的累计上限为15学分；",
+    "claim": "辅修微专业该类选修认定上限15学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_011",
+    "unit_id": "s012",
+    "unit_text": "- 后者比前者多：15 - 10 = **5学分**。",
+    "claim": "15减10多5学分",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s017",
+      "b4_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s017",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "原专业修读的其他课程学分，可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "明确可复核算术",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_012",
+    "unit_id": "s013",
+    "unit_text": "[1] 本科学生课程学分认定管理规定_2026（第四条）",
+    "claim": "引用1第四条对应转专业规则",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s016",
+      "b1_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s016",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "第二章 学分认定规则第四条 学生主修专业发生变化时，原专业修读的必修课程学分可认定为现专业相同或相近的必修课程学分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s017",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "原专业修读的其他课程学分，可认定到现专业的选修课程模块（含专业教育、通识教育、拓展教育中的选修课程），但累计认定不超过10学分，其中专业教育认定不超过5学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "真实条号",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q006",
+    "level": "L2",
+    "id": "q006_review_013",
+    "unit_id": "s014",
+    "unit_text": "[4] 本科学生课程学分认定管理规定_2026（第八条）",
+    "claim": "引用4第八条对应辅修微专业规则",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "真实条号",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q007",
+    "level": "L2",
+    "id": "q007_review_001",
+    "unit_id": "s002",
+    "unit_text": "辅修申请的提交时间为5月21日至26日，学生需登录“云南大学网上办事服务大厅”“方案中心”模块，选择“辅修办理”提交申请[1]。",
+    "claim": "辅修申请5月21至26日",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（二）申请辅修的学生于5月21日至26日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“方案中心”模块，选择“辅修办理”，提交辅修申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q007",
+    "level": "L2",
+    "id": "q007_review_002",
+    "unit_id": "s002",
+    "unit_text": "辅修申请的提交时间为5月21日至26日，学生需登录“云南大学网上办事服务大厅”“方案中心”模块，选择“辅修办理”提交申请[1]。",
+    "claim": "辅修通过方案中心的辅修办理申请",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（二）申请辅修的学生于5月21日至26日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“方案中心”模块，选择“辅修办理”，提交辅修申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "入口支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q007",
+    "level": "L2",
+    "id": "q007_review_003",
+    "unit_id": "s003",
+    "unit_text": "微专业申请的提交时间为6月11日至15日，学生需登录“云南大学网上办事服务大厅”“个人服务”模块，选择“辅修申请”提交微专业修读申请[5]。",
+    "claim": "微专业申请6月11至15日",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s027"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s027",
+        "chunk_id": "ynu030_p000_00196",
+        "quote": "（二）申请修读微专业的学生于6月11日至15日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“个人服务”模块，选择“辅修申请”，提交微专业修读申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q007",
+    "level": "L2",
+    "id": "q007_review_004",
+    "unit_id": "s003",
+    "unit_text": "微专业申请的提交时间为6月11日至15日，学生需登录“云南大学网上办事服务大厅”“个人服务”模块，选择“辅修申请”提交微专业修读申请[5]。",
+    "claim": "微专业通过个人服务的辅修申请提交",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s027"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s027",
+        "chunk_id": "ynu030_p000_00196",
+        "quote": "（二）申请修读微专业的学生于6月11日至15日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“个人服务”模块，选择“辅修申请”，提交微专业修读申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "入口支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q007",
+    "level": "L2",
+    "id": "q007_review_005",
+    "unit_id": "s004",
+    "unit_text": "两者申请时间段不同，辅修申请在5月，微专业申请在6月，因此不能共用同一个申请时间段。",
+    "claim": "两者月份与时段不同，不能共用同一时间段",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020",
+      "b5_s027"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（二）申请辅修的学生于5月21日至26日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“方案中心”模块，选择“辅修办理”，提交辅修申请。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b5_s027",
+        "chunk_id": "ynu030_p000_00196",
+        "quote": "（二）申请修读微专业的学生于6月11日至15日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“个人服务”模块，选择“辅修申请”，提交微专业修读申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "时段比较无需额外外部资料",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q008",
+    "level": "L2",
+    "id": "q008_review_001",
+    "unit_id": "s002",
+    "unit_text": "辅修学生每学期修读课程最多不得超过34学分（含主修课程）[4]。",
+    "claim": "辅修每学期上限34学分含主修",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s015",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "（三）参加辅修的学生每学期修读课程最多不得超过34学分（含主修课程）。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q008",
+    "level": "L2",
+    "id": "q008_review_002",
+    "unit_id": "s003",
+    "unit_text": "微专业学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）[1]。",
+    "claim": "微专业原则每学期上限34.25学分含主修",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（三）参加微专业修读的学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q008",
+    "level": "L2",
+    "id": "q008_review_003",
+    "unit_id": "s004",
+    "unit_text": "两者学分上限相差0.25学分，且均包含主修课程。",
+    "claim": "相差0.25学分",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s015",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s015",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "（三）参加辅修的学生每学期修读课程最多不得超过34学分（含主修课程）。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（三）参加微专业修读的学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "算术推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q008",
+    "level": "L2",
+    "id": "q008_review_004",
+    "unit_id": "s004",
+    "unit_text": "两者学分上限相差0.25学分，且均包含主修课程。",
+    "claim": "两者均包含主修",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s015",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s015",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "（三）参加辅修的学生每学期修读课程最多不得超过34学分（含主修课程）。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（三）参加微专业修读的学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_001",
+    "unit_id": "s001",
+    "unit_text": "辅修学士学位与微专业修读证书不能视为同一种学位成果，二者在性质、授予条件、证书效力和学位归属等方面存在本质差别。",
+    "claim": "辅修学士学位和微专业修读证书性质不同",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s015",
+      "b1_s016",
+      "b1_s018",
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s015",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "符合辅修学士学位授予条件的，可申请辅修学士学位。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s016",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "辅修学士学位在主修学士学位证书中予以注明，不单独颁发学位证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s018",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "第三十四条 在校期间修读微专业的学生，在修读年限内修满微专业规定学分，可向微专业牵头学院申请微专业修读证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "修读微专业不授予学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "两项制度可推得",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_002",
+    "unit_id": "s002",
+    "unit_text": "首先，辅修学士学位属于学位层次，是学生在主修专业之外，通过修读辅修专业并达到规定学分和学术要求后，经学校批准授予的正式学位，其学位在主修学士学位证书中予以注明，不单独颁发学位证书[1]。",
+    "claim": "满足辅修学位授予条件可以申请辅修学士学位",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s014",
+      "b1_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "第三十三条 在校期间辅修其他专业的学生，在修读年限内修满辅修专业规定学分，在已获得主修专业毕业证书的前提下，可向辅修专业所在学院申请辅修专业证书；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s015",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "符合辅修学士学位授予条件的，可申请辅修学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "只支持概括，不扩展未知具体标准",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_003",
+    "unit_id": "s002",
+    "unit_text": "首先，辅修学士学位属于学位层次，是学生在主修专业之外，通过修读辅修专业并达到规定学分和学术要求后，经学校批准授予的正式学位，其学位在主修学士学位证书中予以注明，不单独颁发学位证书[1]。",
+    "claim": "在主修学士学位证书注明而不单独颁发学位证书",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s016",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "辅修学士学位在主修学士学位证书中予以注明，不单独颁发学位证书。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_004",
+    "unit_id": "s003",
+    "unit_text": "辅修学士学位的授予需满足主修专业毕业要求，并符合辅修专业人才培养方案中关于学分和学术能力的要求，且在主修专业毕业证书中明确标注，具有正式学位资格，属于学位体系的一部分。",
+    "claim": "需要满足主修毕业及辅修相关要求",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s014",
+      "b1_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "第三十三条 在校期间辅修其他专业的学生，在修读年限内修满辅修专业规定学分，在已获得主修专业毕业证书的前提下，可向辅修专业所在学院申请辅修专业证书；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s015",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "符合辅修学士学位授予条件的，可申请辅修学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "概括推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_005",
+    "unit_id": "s003",
+    "unit_text": "辅修学士学位的授予需满足主修专业毕业要求，并符合辅修专业人才培养方案中关于学分和学术能力的要求，且在主修专业毕业证书中明确标注，具有正式学位资格，属于学位体系的一部分。",
+    "claim": "辅修学士学位在主修毕业证书中标注",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s016",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "辅修学士学位在主修学士学位证书中予以注明，不单独颁发学位证书。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文是学位证书，不是毕业证书",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_006",
+    "unit_id": "s004",
+    "unit_text": "相比之下，微专业修读证书仅是课程修读成果的证明，不授予学位。",
+    "claim": "微专业证书是修读成果且不授予学位",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s018",
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s018",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "第三十四条 在校期间修读微专业的学生，在修读年限内修满微专业规定学分，可向微专业牵头学院申请微专业修读证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "修读微专业不授予学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_007",
+    "unit_id": "s005",
+    "unit_text": "微专业是围绕特定领域设置的模块化课程群，旨在提升学生的跨学科知识和实践能力，其修读不涉及学位授予，学生修满规定学分后可申请获得微专业修读证书，但该证书仅为学习成果证明，不具备学位属性[3]。",
+    "claim": "微专业围绕特定领域模块化并提升跨学科知识实践能力",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s008"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s008",
+        "chunk_id": "ynu030_p000_00193",
+        "quote": "根据《云南省教育厅关于发布“双千”计划急需紧缺“微专业”建设方向有关事项的通知》要求，结合我校优势，聚焦学术前沿与产业需求，立项建设微专业项目，围绕特定领域建设模块化课程群，提升学生跨学科知识、复合型技能和创新思维能力，满足学生个性化发展需求。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "引言支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_008",
+    "unit_id": "s005",
+    "unit_text": "微专业是围绕特定领域设置的模块化课程群，旨在提升学生的跨学科知识和实践能力，其修读不涉及学位授予，学生修满规定学分后可申请获得微专业修读证书，但该证书仅为学习成果证明，不具备学位属性[3]。",
+    "claim": "微专业不授学位，修满学分可申请证书",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s014",
+      "b3_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s014",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "六、证书发放微专业不授予学位，学生修完后可以获得修读证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s015",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "学生按对应微专业人才培养方案要求修满规定学分，由学生主动向微专业牵头学院申请修读证书。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_009",
+    "unit_id": "s006",
+    "unit_text": "此外，辅修学士学位的授予需经过学位评定委员会审核，属于正式学位授予流程，而微专业修读证书由牵头学院审核并报教务处审批后颁发，属于非学位类证书，不纳入学位体系。",
+    "claim": "辅修学士学位须经过学位评定委员会审核",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s012",
+      "b1_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s012",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "毕业证书落款时间以发证时间为准，学士学位证书落款时间以学校学位评定委员会实际授予学位时间为准。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s015",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "符合辅修学士学位授予条件的，可申请辅修学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "当前Context未给辅修学位的此项程序；主修学位落款说明不足以支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_010",
+    "unit_id": "s006",
+    "unit_text": "此外，辅修学士学位的授予需经过学位评定委员会审核，属于正式学位授予流程，而微专业修读证书由牵头学院审核并报教务处审批后颁发，属于非学位类证书，不纳入学位体系。",
+    "claim": "微专业由牵头学院审核报教务处审批",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s015",
+      "b3_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s015",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "学生按对应微专业人才培养方案要求修满规定学分，由学生主动向微专业牵头学院申请修读证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s016",
+        "chunk_id": "ynu030_p000_00198",
+        "quote": "经审核同意后，报教务处（本科生院）审批，通过后为学生颁发微专业修读证书。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_011",
+    "unit_id": "s007",
+    "unit_text": "因此，辅修学士学位是正式的学位成果，具有法律效力和学位等级，而微专业修读证书仅为课程修读证明，不具备学位属性，两者在性质和学术地位上完全不同。",
+    "claim": "辅修学士学位具有法律效力和学位等级",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s015",
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s015",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "符合辅修学士学位授予条件的，可申请辅修学士学位。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "修读微专业不授予学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "具体法律效力与等级未在Context规定",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q009",
+    "level": "L2",
+    "id": "q009_review_012",
+    "unit_id": "s007",
+    "unit_text": "因此，辅修学士学位是正式的学位成果，具有法律效力和学位等级，而微专业修读证书仅为课程修读证明，不具备学位属性，两者在性质和学术地位上完全不同。",
+    "claim": "微专业证书不具备学位属性，两者不等同",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s015",
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s015",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "符合辅修学士学位授予条件的，可申请辅修学士学位。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "修读微专业不授予学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "可推得",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_001",
+    "unit_id": "s001",
+    "unit_text": "根据《软件工程本科人才培养方案_2022版_2023修订》（来源[1]和[2]）中的“毕业与授予学位要求”部分，国内学生第一课堂最低学分为161.5学分，第二课堂最低学分为6学分。",
+    "claim": "国内学生第一课堂161.5学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s007"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s007",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "（二）修业年限、毕业要求及授予学位类型国内学生：在学校规定的学习年限内，按教学计划要求修满第一课程161.5 学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_002",
+    "unit_id": "s001",
+    "unit_text": "根据《软件工程本科人才培养方案_2022版_2023修订》（来源[1]和[2]）中的“毕业与授予学位要求”部分，国内学生第一课堂最低学分为161.5学分，第二课堂最低学分为6学分。",
+    "claim": "国内学生第二课堂6学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_003",
+    "unit_id": "s002",
+    "unit_text": "两项相加为：161.5 + 6 = 167.5学分。",
+    "claim": "两项合计167.5学分",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s007",
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s007",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "（二）修业年限、毕业要求及授予学位类型国内学生：在学校规定的学习年限内，按教学计划要求修满第一课程161.5 学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "正确算术",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_004",
+    "unit_id": "s003",
+    "unit_text": "然而，毕业要求并不仅限于第一课堂与第二课堂学分之和。",
+    "claim": "毕业要求不只学分总量",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s008",
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s008",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "其中，通识教育模块需修满52 学分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "还有模块和体质等条件",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_005",
+    "unit_id": "s004",
+    "unit_text": "根据方案内容，学生需“按教学计划要求修满第一课程161.5学分”，并“达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》”，方可毕业。",
+    "claim": "按教学计划修满规定学分且达体质和认证毕业要求方可毕业",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s007",
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s007",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "（二）修业年限、毕业要求及授予学位类型国内学生：在学校规定的学习年限内，按教学计划要求修满第一课程161.5 学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_006",
+    "unit_id": "s005",
+    "unit_text": "因此，仅将第一课堂与第二课堂学分相加，并不能据此保证毕业，还需满足课程模块结构要求、专业课程与综合实践的学分分配、以及工程教育专业认证的毕业要求等综合条件。",
+    "claim": "单看总量不能保证毕业，还须符合模块与认证要求",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s008",
+      "b1_s009",
+      "b1_s010",
+      "b1_s011",
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s008",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "其中，通识教育模块需修满52 学分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "大类（学科）教育模块修满30.5 学分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "专业教育模块需修满73 学分，分为专业课程",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s011",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "50 学分和综合实践23 学分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "完整推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q010",
+    "level": "L2",
+    "id": "q010_review_007",
+    "unit_id": "s006",
+    "unit_text": "综上，国内学生第一课堂最低学分为161.5学分，第二课堂最低学分为6学分，两项相加为167.5学分，但不能仅凭此总和保证毕业，必须满足方案中各项具体要求[1][2]。",
+    "claim": "161.5加6为167.5仍不能保证毕业",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s007",
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s007",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "（二）修业年限、毕业要求及授予学位类型国内学生：在学校规定的学习年限内，按教学计划要求修满第一课程161.5 学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu001_p008_00013",
+        "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "总结有据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_001",
+    "unit_id": "s003",
+    "unit_text": "> （五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+    "claim": "综合测评均分不低于80",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_002",
+    "unit_id": "s004",
+    "unit_text": "前三学年（5 年制专业为前四学年）平均学习绩点（GPA）不低于3.0；",
+    "claim": "前三学年（五年制前四）GPA不低于3.0",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s021",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s021",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "前三学年（5 年制专业为前四学年）",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_003",
+    "unit_id": "s005",
+    "unit_text": "全国大学英语四级考试成绩须达到425 分及以上……",
+    "claim": "普通学生英语四级须425分以上",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s023"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s023",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "全国大学英语四级考试成绩须达到425 分及以上（体育、艺术类专业四级成绩须达到",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设为普通软件工程学生，非体艺例外",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_004",
+    "unit_id": "s006",
+    "unit_text": "该条款是针对“应届本科毕业生”且“本校通过普通高考招生录取”的全日制本科生的推荐条件，适用于2027届学生。",
+    "claim": "政策适用于2027届普通高考录取的应届全日制本科生",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s003",
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s003",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "版本与范围：2027届；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（一）应届本科毕业生，系本校通过普通高考招生录取或面向港澳台学生招生录取的全日制本科生，不含第二学士学位学生。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设范围与原文相符，不把概括读成排除港澳台",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_005",
+    "unit_id": "s007",
+    "unit_text": "问题中提到的“前三学年GPA为2.9”，低于文件中规定的“不低于3.0”这一标准。",
+    "claim": "题设2.9低于门槛3.0",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设加证据推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_006",
+    "unit_id": "s008",
+    "unit_text": "因此，仅从GPA这一项来看，该学生不满足学校推荐推免办法中关于GPA的最低要求。",
+    "claim": "该学生仅就GPA不达标",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设加证据推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_007",
+    "unit_id": "s010",
+    "unit_text": "该学生在GPA方面未达标。",
+    "claim": "GPA未达标",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "结论复述仍计事实",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_008",
+    "unit_id": "s012",
+    "unit_text": "- 规则来源：云南大学2027年推荐推免工作实施办法（第6页）[1]。",
+    "claim": "规则来自2027年办法第6页",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s001",
+      "b1_s006"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s001",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "文档：云南大学2027年推荐推免工作实施办法",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s006",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "定位：原文件第6页",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "标题和定位支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_009",
+    "unit_id": "s013",
+    "unit_text": "- 规则内容：前三学年平均学习绩点（GPA）不低于3.0。",
+    "claim": "前三学年GPA不低于3.0",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s021",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s021",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "前三学年（5 年制专业为前四学年）",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_010",
+    "unit_id": "s015",
+    "unit_text": "- 比较结果：2.9 < 3.0，不满足最低要求。",
+    "claim": "2.9小于3.0所以不满足要求",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设加证据推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q011",
+    "level": "L3",
+    "id": "q011_review_011",
+    "unit_id": "s016",
+    "unit_text": "故该学生在GPA方面不满足推荐条件。",
+    "claim": "在GPA这一项不符合推荐条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "承接限定，非其他项目审核",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q012",
+    "level": "L3",
+    "id": "q012_review_001",
+    "unit_id": "s001",
+    "unit_text": "不满足文件中的专业必修课条件。",
+    "claim": "该学生不满足专业必修课条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s010",
+        "chunk_id": "ynu018_p007_00139",
+        "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设曾补考与禁止规则推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q012",
+    "level": "L3",
+    "id": "q012_review_002",
+    "unit_id": "s002",
+    "unit_text": "理由如下：根据《云南大学2027年推荐推免工作实施办法》第（四）条明确规定：“学生修读的专业人才培养方案中的通识教育必修课、大类（学科）基础课、专业必修课必须全部合格，且通识教育必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+    "claim": "2027年办法该课程规则是第（四）条",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b4_s026",
+      "b4_s027",
+      "b2_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s026",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（六）学生修读的专业人才培养方案中的通识教育必修课、",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s027",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "大类（学科）基础课、专业必修课必须全部合格，且通识教育",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b2_s010",
+        "chunk_id": "ynu018_p007_00139",
+        "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "实际为第（六）条；（四）来自2026旧版",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q012",
+    "level": "L3",
+    "id": "q012_review_003",
+    "unit_id": "s002",
+    "unit_text": "理由如下：根据《云南大学2027年推荐推免工作实施办法》第（四）条明确规定：“学生修读的专业人才培养方案中的通识教育必修课、大类（学科）基础课、专业必修课必须全部合格，且通识教育必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+    "claim": "相关必修课必须合格且不得有补考重修",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s026",
+      "b4_s027",
+      "b2_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s026",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（六）学生修读的专业人才培养方案中的通识教育必修课、",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s027",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "大类（学科）基础课、专业必修课必须全部合格，且通识教育",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b2_s010",
+        "chunk_id": "ynu018_p007_00139",
+        "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "连续2027年片段支持规则内容",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q012",
+    "level": "L3",
+    "id": "q012_review_004",
+    "unit_id": "s004",
+    "unit_text": "该学生“一门专业必修课曾补考后通过”，属于“专业必修课有补考”情形，违反了“不得有补考、重修情况”的硬性要求，因此不符合文件中关于专业必修课的条件，即使其GPA为3.2、四级成绩为430分、其他课程均符合要求，也依然不满足推荐资格。",
+    "claim": "补考后通过仍属于曾补考，不满足该项条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s010",
+        "chunk_id": "ynu018_p007_00139",
+        "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设加原规则的完整推理",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q012",
+    "level": "L3",
+    "id": "q012_review_005",
+    "unit_id": "s004",
+    "unit_text": "该学生“一门专业必修课曾补考后通过”，属于“专业必修课有补考”情形，违反了“不得有补考、重修情况”的硬性要求，因此不符合文件中关于专业必修课的条件，即使其GPA为3.2、四级成绩为430分、其他课程均符合要求，也依然不满足推荐资格。",
+    "claim": "其他条件达标不能抵消专业必修课限制",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s010",
+        "chunk_id": "ynu018_p007_00139",
+        "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "必要条件逻辑",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_001",
+    "unit_id": "s003",
+    "unit_text": "> 文科类学生前一学期平均学分绩点达到3.0及以上；",
+    "claim": "文科前一学期GPA门槛3.0",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s012",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（二）文科类学生前一学期平均学分绩点达到3.0及以上；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_002",
+    "unit_id": "s004",
+    "unit_text": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+    "claim": "理工科前一学期GPA门槛2.8",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_003",
+    "unit_id": "s005",
+    "unit_text": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+    "claim": "当学期转专业按前一学期专业匹配限制",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_004",
+    "unit_id": "s006",
+    "unit_text": "该学生前一学期属于理工科专业，因此应按理工科类学生的绩点标准进行审核，即要求前一学期平均学分绩点达到2.8及以上。",
+    "claim": "题设应按原理工科门槛2.8审核",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_005",
+    "unit_id": "s007",
+    "unit_text": "该学生前一学期GPA为2.9，高于2.8，满足理工科类学生的绩点要求。",
+    "claim": "2.9高于2.8故达到GPA条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "题设算术",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_006",
+    "unit_id": "s008",
+    "unit_text": "因此，该学生在绩点方面满足辅修资格的条件。",
+    "claim": "满足该绩点条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "有据推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_007",
+    "unit_id": "s009",
+    "unit_text": "但需注意：该学生在辅修申请学期“有过转专业记录”，根据通知规定，“按前一学期所在专业匹配限制条件”，即仍以前一学期专业类别为准，而非当前专业类别。",
+    "claim": "仍按前一学期类别而非当前类别匹配",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_008",
+    "unit_id": "s010",
+    "unit_text": "因此，其绩点标准仍应按其前一学期所在专业（理工科）的2.8标准执行。",
+    "claim": "按理工科2.8执行",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "有据推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_009",
+    "unit_id": "s011",
+    "unit_text": "综上，该学生满足绩点审核要求，**能保证在绩点方面通过资格审核**，但是否最终被选中，还需结合辅修学院的择优选拔、名额限制及公示程序等环节，仅凭绩点无法保证最终被录取。",
+    "claim": "题设就GPA达到审核标准",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "只评题内假设，无真实性保证",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_010",
+    "unit_id": "s011",
+    "unit_text": "综上，该学生满足绩点审核要求，**能保证在绩点方面通过资格审核**，但是否最终被选中，还需结合辅修学院的择优选拔、名额限制及公示程序等环节，仅凭绩点无法保证最终被录取。",
+    "claim": "仅凭GPA不保证最终被选中，还看择优及公示",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s009",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "辅修学院于6月5日前对报名学生进行资格审核、择优选拔，将同意辅修的学生名单在学院网站及线下进行不少于三日的公示，并在系统中对报名学生进行审批操作，完成后提交本科生院审核。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文支持还有选拔程序",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q013",
+    "level": "L3",
+    "id": "q013_review_011",
+    "unit_id": "s013",
+    "unit_text": "该学生应按理工科类学生前一学期平均学分绩点2.8及以上标准审核，其GPA为2.9，满足该标准，能保证在绩点方面通过审核，但是否最终被选中还需看学院择优选拔结果[1]。",
+    "claim": "总结按2.8审核且2.9达标，最终仍看择优结果",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014",
+      "b4_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s009",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "辅修学院于6月5日前对报名学生进行资格审核、择优选拔，将同意辅修的学生名单在学院网站及线下进行不少于三日的公示，并在系统中对报名学生进行审批操作，完成后提交本科生院审核。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "限定在题设内的推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q014",
+    "level": "L3",
+    "id": "q014_review_001",
+    "unit_id": "s001",
+    "unit_text": "根据参考资料[1]和[4]，新开设的微专业若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+    "claim": "新微专业选拔不足15人当学期不开课",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（六）新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q014",
+    "level": "L3",
+    "id": "q014_review_002",
+    "unit_id": "s001",
+    "unit_text": "根据参考资料[1]和[4]，新开设的微专业若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+    "claim": "本次选拔无效",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（六）新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q014",
+    "level": "L3",
+    "id": "q014_review_003",
+    "unit_id": "s001",
+    "unit_text": "根据参考资料[1]和[4]，新开设的微专业若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+    "claim": "学生下学期重新申请",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（六）新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q014",
+    "level": "L3",
+    "id": "q014_review_004",
+    "unit_id": "s003",
+    "unit_text": "- 该微专业当学期不能开课；",
+    "claim": "题设14人当学期不开课",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（六）新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "14小于15",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q014",
+    "level": "L3",
+    "id": "q014_review_005",
+    "unit_id": "s004",
+    "unit_text": "- 本次选拔结果无效；",
+    "claim": "题设本次选拔结果无效",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（六）新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "条件推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q014",
+    "level": "L3",
+    "id": "q014_review_006",
+    "unit_id": "s005",
+    "unit_text": "- 学生需在下学期重新申请该微专业。",
+    "claim": "题设学生须下学期重新申请",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s009",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（六）新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "条件推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_001",
+    "unit_id": "s001",
+    "unit_text": "不能原样全部认定。",
+    "claim": "14总学分中含6专业教育不能原样全部认定",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "专业教育6大于5",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_002",
+    "unit_id": "s002",
+    "unit_text": "根据《本科学生课程学分认定管理规定（试行）》（云大教〔2026〕7号）第八条规定，学生辅修专业或微专业获得的课程学分，可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分[5]。",
+    "claim": "第八条该类累计上限15专业教育上限5",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s003",
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s003",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "版本与范围：云大教〔2026〕7号；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "文号规则均支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_003",
+    "unit_id": "s004",
+    "unit_text": "- 总学分上限为15学分；",
+    "claim": "该类总量上限15",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_004",
+    "unit_id": "s005",
+    "unit_text": "- 专业教育部分上限为5学分。",
+    "claim": "其中专业教育上限5",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_005",
+    "unit_id": "s006",
+    "unit_text": "问题中提出申请认定14学分，其中6学分拟认定到专业教育，超出专业教育认定上限（5学分）[5]。",
+    "claim": "题设6专业教育超上限5",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "正确比较",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_006",
+    "unit_id": "s007",
+    "unit_text": "因此，该申请中关于专业教育部分的认定**不符合规定**，无法原样全部认定。",
+    "claim": "不能原样全部认定",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "必要条件推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q015",
+    "level": "L3",
+    "id": "q015_review_007",
+    "unit_id": "s008",
+    "unit_text": "综上，该学生申请认定的14学分中，专业教育部分的6学分**不能全部认定**，最多只能认定5学分，其余1学分需调整或放弃。",
+    "claim": "专业教育部分数额上最多5，另1需调整或放弃",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s012",
+        "chunk_id": "ynu010_p000_00112",
+        "quote": "第八条 学生辅修专业或学位、修读微专业，获得的课程学分可认定为主修专业的选修课程学分（含专业教育、通识教育、拓展教育中的选修课程学分），但累计认定不超过15学分，其中专业教育认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "只论数额，不保证具体等效审核",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_001",
+    "unit_id": "s004",
+    "unit_text": "1. 微专业不授予学位，符合“不追求第二学位”的目标[4]。",
+    "claim": "微专业不授予学位",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s019",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "修读微专业不授予学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_002",
+    "unit_id": "s005",
+    "unit_text": "根据《本科学生学籍管理规定（2026）》第三十四条，修读微专业不授予学位，仅可申请获得微专业修读证书，与辅修学士学位有本质区别[4]。",
+    "claim": "第三十四条规定可申请微专业证书且不授学位",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s018",
+      "b4_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s018",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "第三十四条 在校期间修读微专业的学生，在修读年限内修满微专业规定学分，可向微专业牵头学院申请微专业修读证书。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s019",
+        "chunk_id": "ynu009_p000_00108",
+        "quote": "修读微专业不授予学位。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_003",
+    "unit_id": "s006",
+    "unit_text": "2. 微专业课程设置更聚焦于跨学科能力与创新思维，有助于在不增加学位压力的前提下拓展知识面[1]。",
+    "claim": "微专业旨在提升跨学科知识与创新思维",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s008"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s008",
+        "chunk_id": "ynu030_p000_00193",
+        "quote": "根据《云南省教育厅关于发布“双千”计划急需紧缺“微专业”建设方向有关事项的通知》要求，结合我校优势，聚焦学术前沿与产业需求，立项建设微专业项目，围绕特定领域建设模块化课程群，提升学生跨学科知识、复合型技能和创新思维能力，满足学生个性化发展需求。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "引言支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_004",
+    "unit_id": "s007",
+    "unit_text": "例如“教师教育”“全球治理与国际胜任力”“智能传播”等微专业，均围绕特定领域建设模块化课程群，契合学生个性化发展需求[1]。",
+    "claim": "教师教育等属于模块化微专业建设",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s008",
+      "b1_s026",
+      "b1_s039",
+      "b1_s052"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s008",
+        "chunk_id": "ynu030_p000_00193",
+        "quote": "根据《云南省教育厅关于发布“双千”计划急需紧缺“微专业”建设方向有关事项的通知》要求，结合我校优势，聚焦学术前沿与产业需求，立项建设微专业项目，围绕特定领域建设模块化课程群，提升学生跨学科知识、复合型技能和创新思维能力，满足学生个性化发展需求。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s026",
+        "chunk_id": "ynu030_p000_00193",
+        "quote": "教师教育",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s039",
+        "chunk_id": "ynu030_p000_00193",
+        "quote": "全球治理与国际胜任力",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s052",
+        "chunk_id": "ynu030_p000_00193",
+        "quote": "智能传播",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文示例",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_005",
+    "unit_id": "s008",
+    "unit_text": "3. 微专业修读学分可认定为主修专业选修课程学分（最多不超过15学分，其中专业教育不超过5学分），有效缓解学业负担[3]。",
+    "claim": "2024级该类认定最多15学分，专业教育最多5",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_006",
+    "unit_id": "s009",
+    "unit_text": "这意味着学生无需额外承担主修专业外的课程压力，所修微专业课程可计入主修专业学分，实现“知识拓展+学分互认”的双赢。",
+    "claim": "认定规则意味着无需额外承担主修之外课程压力",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b3_s012",
+      "b3_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s014",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（三）参加微专业修读的学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "认定不等于零额外负担，课程总量上限不能证明该保证",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_007",
+    "unit_id": "s010",
+    "unit_text": "4. 微专业采取单独开班形式上课，避免与主修课程时间冲突，便于时间管理[3]。",
+    "claim": "微专业单独开班上课",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s016",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（四）微专业学生采取单独开班的形式上课。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_008",
+    "unit_id": "s010",
+    "unit_text": "4. 微专业采取单独开班形式上课，避免与主修课程时间冲突，便于时间管理[3]。",
+    "claim": "单独开班可以避免与主修时间冲突",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b3_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s017",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（五）若微专业课程与主修专业课程的上课时间或考核时间发生冲突，可申请免听或缓考，相关要求及办理流程参照《云南大学本科学生成绩与考务管理规定》（云大教[2020]34号）文件中关于辅修免听及缓考的规定执行。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文明确仍可能时间冲突",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_009",
+    "unit_id": "s011",
+    "unit_text": "学生可申请免听或缓考，若课程时间冲突，可参照《成绩与考务管理规定》办理，保障学业平衡[3]。",
+    "claim": "冲突时可申请免听或缓考并按相关规定办理",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s017",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（五）若微专业课程与主修专业课程的上课时间或考核时间发生冲突，可申请免听或缓考，相关要求及办理流程参照《云南大学本科学生成绩与考务管理规定》（云大教[2020]34号）文件中关于辅修免听及缓考的规定执行。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_010",
+    "unit_id": "s012",
+    "unit_text": "相比之下，辅修虽可获得辅修专业证书，但需满足绩点要求（文科3.0、理工科2.8）、每学期仅能辅修一个专业，且辅修学分需在毕业或结业后3年内补修，存在时间与学业压力[2]。",
+    "claim": "辅修文科门槛3.0理工2.8且同时只能一个",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s012",
+      "b2_s013",
+      "b2_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s012",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（二）文科类学生前一学期平均学分绩点达到3.0及以上；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b2_s013",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "理工科类学生前一学期平均学分绩点达到2.8及以上。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b2_s015",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（三）每名学生同时只能辅修一个专业。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "每学期仅一个是同时仅一个的弱表述",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_011",
+    "unit_id": "s012",
+    "unit_text": "相比之下，辅修虽可获得辅修专业证书，但需满足绩点要求（文科3.0、理工科2.8）、每学期仅能辅修一个专业，且辅修学分需在毕业或结业后3年内补修，存在时间与学业压力[2]。",
+    "claim": "辅修未完学分补修时限毕业或结业后三学年",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s013",
+        "chunk_id": "ynu009_p000_00109",
+        "quote": "（二）学生补修辅修学分的时限为毕业或结业后3学年以内，结业生的补修时限从结业时间起算；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文支持，注意这不是统一完成期限",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_012",
+    "unit_id": "s013",
+    "unit_text": "此外，辅修属于“第二专业”范畴，与“不追求第二学位”目标存在潜在冲突。",
+    "claim": "辅修第二专业与不追求第二学位的目标存在冲突",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b2_s009"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s009",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "一、辅修的定义及分类辅修是指学生在修读主修专业的同时，申请修读与主修专业归属不同本科专业类的其他专业，分为辅修专业和辅修学士学位两类。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "辅修还分非学位的辅修专业，不能以第二专业推出目标冲突",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_013",
+    "unit_id": "s020",
+    "unit_text": "- 2026年5月17日前，各学院完成辅修/微专业方案设置并公布[2]；",
+    "claim": "微专业与辅修均在5月17日前公布方案",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b2_s018",
+      "b3_s001"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s018",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（一）各学院于5月17日前在教务管理系统（以下简称“系统”）中完成辅修招收方案设置，经本科生院审核通过后在系统中公布。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s001",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "文档：2026年秋季学期微专业申请通知",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "5月17日仅属于辅修，当前微专业片段不支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_014",
+    "unit_id": "s021",
+    "unit_text": "- 2026年5月21日至26日，登录“云南大学网上办事服务大厅”提交微专业申请[2]；",
+    "claim": "微专业申请可在5月21至26日提交",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b2_s020",
+      "b3_s001"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s020",
+        "chunk_id": "ynu029_p000_00190",
+        "quote": "（二）申请辅修的学生于5月21日至26日期间登陆“云南大学网上办事服务大厅”（http://ehall.ynu.edu.cn/）“方案中心”模块，选择“辅修办理”，提交辅修申请。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s001",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "文档：2026年秋季学期微专业申请通知",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "把辅修时间套给微专业",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_015",
+    "unit_id": "s022",
+    "unit_text": "- 6月25日前，学院公示名单并报教务处备案，6月29日前完成审核[3]；",
+    "claim": "微专业6月25日前备案6月29日前审核",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s007"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s007",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（四）6月25日前，各微专业牵头学院将公示无异议的修读学生名单报教务处（本科生院）备案，6月29日前，教务处（本科生院）完成微专业修读学生审核。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_016",
+    "unit_id": "s023",
+    "unit_text": "- 审核通过后，在选课系统中完成下学期微专业课程选课[3]。",
+    "claim": "审核通过后指导学生选课",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s008"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s008",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（五）审核通过的学生，在各微专业牵头学院指导下，在选课系统中完成下学期微专业课程选课。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_017",
+    "unit_id": "s025",
+    "unit_text": "- 每学期修读课程最多不超过34.25学分（含主修课程），若微专业课程与主修课程冲突，可申请免听或缓考[3]；",
+    "claim": "每学期原则最多34.25学分含主修",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s014",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（三）参加微专业修读的学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_018",
+    "unit_id": "s025",
+    "unit_text": "- 每学期修读课程最多不超过34.25学分（含主修课程），若微专业课程与主修课程冲突，可申请免听或缓考[3]；",
+    "claim": "时间冲突可以申请免听或缓考",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s017"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s017",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（五）若微专业课程与主修专业课程的上课时间或考核时间发生冲突，可申请免听或缓考，相关要求及办理流程参照《云南大学本科学生成绩与考务管理规定》（云大教[2020]34号）文件中关于辅修免听及缓考的规定执行。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q016",
+    "level": "L4",
+    "id": "q016_review_019",
+    "unit_id": "s026",
+    "unit_text": "- 微专业课程学分可计入主修专业选修课程，最多不超过15学分，其中专业",
+    "claim": "微专业可计入主修选修，最多15学分",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "只计算截断前完整成立的子句，尾部其中专业不补全",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_001",
+    "unit_id": "s003",
+    "unit_text": "“智慧医疗”微专业由软件学院设立，明确聚焦“新工科”与“新医科”交叉融合，强调“利用现代AI技术赋能医疗临床与心理服务场景”，并要求学生掌握“前沿的AI底层算法与数据处理技术”，深入理解“医疗辅助诊断、健康大数据管理及心理危机的智能预警”等健康服务相关领域[1]。",
+    "claim": "智慧医疗由软件学院牵头并融合新工科新医科",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s044",
+      "b1_s048"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s044",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "软件学院",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s048",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "本专业紧扣国家战略，打造“新工科”与“新医科”、“新文科”深度交叉融合的创新型专业。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_002",
+    "unit_id": "s003",
+    "unit_text": "“智慧医疗”微专业由软件学院设立，明确聚焦“新工科”与“新医科”交叉融合，强调“利用现代AI技术赋能医疗临床与心理服务场景”，并要求学生掌握“前沿的AI底层算法与数据处理技术”，深入理解“医疗辅助诊断、健康大数据管理及心理危机的智能预警”等健康服务相关领域[1]。",
+    "claim": "智慧医疗用现代AI赋能医疗临床心理服务",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s049"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s049",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "利用现代AI技术赋能医疗临床与心理服务场景。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_003",
+    "unit_id": "s003",
+    "unit_text": "“智慧医疗”微专业由软件学院设立，明确聚焦“新工科”与“新医科”交叉融合，强调“利用现代AI技术赋能医疗临床与心理服务场景”，并要求学生掌握“前沿的AI底层算法与数据处理技术”，深入理解“医疗辅助诊断、健康大数据管理及心理危机的智能预警”等健康服务相关领域[1]。",
+    "claim": "强调AI算法数据处理及医疗辅助健康管理预警",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s050"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s050",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "促进学生掌握前沿的AI底层算法与数据处理技术，并深刻理解医疗辅助诊断、健康大数据管理及心理危机的智能预警，打通科技与健康的桥梁，培养适应医疗行业数字化转型需求、具备核心技术转化能力的复合型拔尖人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_004",
+    "unit_id": "s004",
+    "unit_text": "该专业直接对接医疗行业数字化转型需求，具备核心技术转化能力的培养目标，与“AI用于健康服务”的应用方向高度契合。",
+    "claim": "该方向契合AI健康服务的诉求",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s050"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s050",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "促进学生掌握前沿的AI底层算法与数据处理技术，并深刻理解医疗辅助诊断、健康大数据管理及心理危机的智能预警，打通科技与健康的桥梁，培养适应医疗行业数字化转型需求、具备核心技术转化能力的复合型拔尖人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "介绍加题设合理推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_005",
+    "unit_id": "s005",
+    "unit_text": "相比之下，“智能传播”微专业虽涉及AI创作与流量运营，但其核心是“技术赋能传播”和“内容影响力”，聚焦于新闻传播领域，课程内容以AI在媒体中的应用为主，如AI创作、流量运营等，与健康服务场景无直接关联[4]。",
+    "claim": "智能传播聚焦AI新闻传播，教授创作和运营",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s018",
+      "b4_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s018",
+        "chunk_id": "ynu030_p000_00194",
+        "quote": "本专业以“技术赋能传播，实践创造影响力”为核心，聚焦AI与新闻传播交叉融合，培养“π型人才”。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s019",
+        "chunk_id": "ynu030_p000_00194",
+        "quote": "以跨学科教学、全流程实战为亮点，教授AI创作、流量运营技能，提升学生AI运用能力，助力学生成为“会用AI做传播、能让作品有影响”的复合型人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_006",
+    "unit_id": "s005",
+    "unit_text": "相比之下，“智能传播”微专业虽涉及AI创作与流量运营，但其核心是“技术赋能传播”和“内容影响力”，聚焦于新闻传播领域，课程内容以AI在媒体中的应用为主，如AI创作、流量运营等，与健康服务场景无直接关联[4]。",
+    "claim": "智能传播与健康服务无直接关联",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b4_s018",
+      "b4_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s018",
+        "chunk_id": "ynu030_p000_00194",
+        "quote": "本专业以“技术赋能传播，实践创造影响力”为核心，聚焦AI与新闻传播交叉融合，培养“π型人才”。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s019",
+        "chunk_id": "ynu030_p000_00194",
+        "quote": "以跨学科教学、全流程实战为亮点，教授AI创作、流量运营技能，提升学生AI运用能力，助力学生成为“会用AI做传播、能让作品有影响”的复合型人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "介绍侧重不同不能证明不存在关联",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_007",
+    "unit_id": "s006",
+    "unit_text": "因此，该专业更偏向内容生产与传播，而非健康服务中的数据处理与临床辅助。",
+    "claim": "依介绍更偏媒体内容而非临床辅助方向",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b4_s018",
+      "b4_s019",
+      "b1_s050"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b4_s018",
+        "chunk_id": "ynu030_p000_00194",
+        "quote": "本专业以“技术赋能传播，实践创造影响力”为核心，聚焦AI与新闻传播交叉融合，培养“π型人才”。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b4_s019",
+        "chunk_id": "ynu030_p000_00194",
+        "quote": "以跨学科教学、全流程实战为亮点，教授AI创作、流量运营技能，提升学生AI运用能力，助力学生成为“会用AI做传播、能让作品有影响”的复合型人才。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s050",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "促进学生掌握前沿的AI底层算法与数据处理技术，并深刻理解医疗辅助诊断、健康大数据管理及心理危机的智能预警，打通科技与健康的桥梁，培养适应医疗行业数字化转型需求、具备核心技术转化能力的复合型拔尖人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "限定介绍侧重的比较，非排除一切健康应用",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_008",
+    "unit_id": "s008",
+    "unit_text": "1. 确认“智慧医疗”微专业是否在2026年秋季学期正式开课（依据参考资料[1]，该专业为“新开设”，且明确在2026年秋季学期微专业申请通知中列出，符合当前学期范围）；",
+    "claim": "智慧医疗列入2026秋通知并标为新开设",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s041",
+      "b1_s042",
+      "b1_s003"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s041",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "智慧医疗",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s042",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "（新开设）",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s003",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "版本与范围：仅适用于2026年秋季学期微专业申请",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "核实建议之外的事实性括号",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_009",
+    "unit_id": "s009",
+    "unit_text": "2. 核查“智慧医疗”微专业是否面向软件工程专业学生开放选修（参考资料未明确说明专业限制，需进一步确认是否对软件工程专业开放）；",
+    "claim": "当前介绍未明确软件工程学生选修限制",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s041",
+      "b1_s049",
+      "b1_s050"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s041",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "智慧医疗",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s049",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "利用现代AI技术赋能医疗临床与心理服务场景。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s050",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "促进学生掌握前沿的AI底层算法与数据处理技术，并深刻理解医疗辅助诊断、健康大数据管理及心理危机的智能预警，打通科技与健康的桥梁，培养适应医疗行业数字化转型需求、具备核心技术转化能力的复合型拔尖人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "对实际五个片段逐段检查后的缺失结论",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q017",
+    "level": "L4",
+    "id": "q017_review_010",
+    "unit_id": "s010",
+    "unit_text": "3. 了解“智慧医疗”微专业是否包含AI算法、数据处理、医疗信息系统设计等核心课程，以验证其与健康服务方向的匹配度（参考资料[1]提及“掌握前沿AI底层算法与数据处理技术”，支持该方向匹配）；",
+    "claim": "资料提及掌握前沿AI算法与数据处理",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s050"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s050",
+        "chunk_id": "ynu030_p000_00195",
+        "quote": "促进学生掌握前沿的AI底层算法与数据处理技术，并深刻理解医疗辅助诊断、健康大数据管理及心理危机的智能预警，打通科技与健康的桥梁，培养适应医疗行业数字化转型需求、具备核心技术转化能力的复合型拔尖人才。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "这是引文；是否包含具体课程仍为待核实建议",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_001",
+    "unit_id": "s007",
+    "unit_text": "- **前置知识要求**：课程明确指出“本课程要求的先修课为数据结构”[1]。",
+    "claim": "数据库概论先修为数据结构",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "本课程要求的先修课为数据结构，主要讲授内容是：数据库基本原理与主流数据库产品的实用技术。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_002",
+    "unit_id": "s008",
+    "unit_text": "→ 因此，您已具备“数据结构”基础，满足课程入门条件。",
+    "claim": "题设已学数据结构故满足所述先修要求",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "本课程要求的先修课为数据结构，主要讲授内容是：数据库基本原理与主流数据库产品的实用技术。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "只论该项先修，不保证项目能力",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_003",
+    "unit_id": "s010",
+    "unit_text": "- 数据库基本原理与主流数据库产品技术",
+    "claim": "课程包括基本原理和主流产品技术",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "本课程要求的先修课为数据结构，主要讲授内容是：数据库基本原理与主流数据库产品的实用技术。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_004",
+    "unit_id": "s011",
+    "unit_text": "- 关系模型、关系数据库基本理论",
+    "claim": "课程包括关系模型和关系数据库理论",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "课程内容涵盖关系模型、关系数据库基本理论、SQL语言、数据库完整性、安全性、视图、索引、事务管理、查询处理、数据库的维护与管理、数据库技术新进展简介等各个方面。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_005",
+    "unit_id": "s012",
+    "unit_text": "- SQL语言（含DDL、DML、复杂查询）",
+    "claim": "SQL包括DDL DML及复杂查询",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s026",
+      "b1_s028",
+      "b1_s029",
+      "b1_s030"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s026",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "第三章 结构化查询语言SQL",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s028",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.2 数据定义DDL",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s029",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.3 SQL数据更新DML",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s030",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.4 复杂SQL查询操作1",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_006",
+    "unit_id": "s013",
+    "unit_text": "- 数据库完整性、安全性、视图、索引",
+    "claim": "课程涵盖完整性安全视图索引",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "课程内容涵盖关系模型、关系数据库基本理论、SQL语言、数据库完整性、安全性、视图、索引、事务管理、查询处理、数据库的维护与管理、数据库技术新进展简介等各个方面。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_007",
+    "unit_id": "s014",
+    "unit_text": "- 事务管理、查询处理、数据库维护与管理",
+    "claim": "课程涵盖事务查询处理维护管理",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "课程内容涵盖关系模型、关系数据库基本理论、SQL语言、数据库完整性、安全性、视图、索引、事务管理、查询处理、数据库的维护与管理、数据库技术新进展简介等各个方面。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_008",
+    "unit_id": "s015",
+    "unit_text": "- 规范化理论（函数依赖、Armstrong公理、范式举例）[1]",
+    "claim": "规范化含函数依赖Armstrong公理范式",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s040",
+      "b1_s041",
+      "b1_s042",
+      "b1_s044"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s040",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "5.2 B+树索引第六章 规范化理论",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s041",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "6.1 函数依赖",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s042",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "6.2 Armstrong公理",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s044",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "6.4 范式举例",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_009",
+    "unit_id": "s017",
+    "unit_text": "✅ **大纲事实**：课程明确以“数据结构”为先修课，内容涵盖关系数据库核心理论与SQL技术。",
+    "claim": "数据结构先修且涵盖核心理论SQL",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019",
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "本课程要求的先修课为数据结构，主要讲授内容是：数据库基本原理与主流数据库产品的实用技术。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "课程内容涵盖关系模型、关系数据库基本理论、SQL语言、数据库完整性、安全性、视图、索引、事务管理、查询处理、数据库的维护与管理、数据库技术新进展简介等各个方面。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "总结复述",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_010",
+    "unit_id": "s022",
+    "unit_text": "| 1 | 学习“数据库基础”与“关系模型” | 课程大纲第一章 | 理解数据库的基本概念、数据模型、关系模型结构 |",
+    "claim": "数据库基础和关系模型都归课程第一章",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s021",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s021",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "课程大纲查看更多导论数据库概述第一章 数据库基础",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "1.1 数据库基础第二章 关系运算",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "第一章只有数据库基础，关系模型概念有但章节未明",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_011",
+    "unit_id": "s023",
+    "unit_text": "| 2 | 掌握SQL语言基础（DDL、DML） | 课程大纲第三章 | 能使用SQL创建表、插入数据、执行简单查询 |",
+    "claim": "SQL基础DDL DML在第三章",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s026",
+      "b1_s028",
+      "b1_s029"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s026",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "第三章 结构化查询语言SQL",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s028",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.2 数据定义DDL",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s029",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.3 SQL数据更新DML",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "章节映射正确",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_012",
+    "unit_id": "s024",
+    "unit_text": "| 3 | 学习“复杂SQL查询操作”（如连接、子查询） | 课程大纲3.4、3.5 | 实现多表查询，模拟真实业务场景 |",
+    "claim": "复杂查询在3.4与3.5",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s030",
+      "b1_s031"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s030",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.4 复杂SQL查询操作1",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s031",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "3.5 复杂SQL查询操作2",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "章节映射正确；连接子查询作为学习建议不计大纲逐字内容",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_013",
+    "unit_id": "s025",
+    "unit_text": "| 4 | 学习“数据库完整性”与“外键约束” | 课程大纲第四章 | 设计具有约束条件的表结构，提升数据一致性 |",
+    "claim": "完整性和外键约束在第四章",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s032",
+      "b1_s035"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s032",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "第四章 数据库完整性、视图与安全性",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s035",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "4.3 外键约束",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "章节映射正确",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_014",
+    "unit_id": "s026",
+    "unit_text": "| 5 | 学习“索引”与“事务管理” | 课程大纲第五章、第六章 | 为关键字段建立索引，理解事务的ACID特性 |",
+    "claim": "索引与事务管理分别归第五第六章",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s038",
+      "b1_s039",
+      "b1_s040"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s038",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "4.6 安全性第五章 索引",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s039",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "5.1 索引",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s040",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "5.2 B+树索引第六章 规范化理论",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "第六章实际是规范化理论",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q018",
+    "level": "L4",
+    "id": "q018_review_015",
+    "unit_id": "s027",
+    "unit_text": "| 6 | 学习“规范化理论”（函数依赖、范式） | 课程大纲第六章 | 通过范式分析，优化数据库表结构，避免冗余 |",
+    "claim": "规范化理论含函数依赖范式在第六章",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s040",
+      "b1_s041",
+      "b1_s044"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s040",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "5.2 B+树索引第六章 规范化理论",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s041",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "6.1 函数依赖",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s044",
+        "chunk_id": "ynu006_p000_00088",
+        "quote": "6.4 范式举例",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "章节映射正确",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_001",
+    "unit_id": "s001",
+    "unit_text": "作为2025级转专业学生，同时考虑辅修以补充主修选修学分，需依据《云南大学本科学生课程学分认定管理规定（试行）》（云大教〔2026〕7号）及相关文件，结合转专业与辅修的特殊性，制定避免重复修课和超额认定的规划方法。",
+    "claim": "学分认定规定文号是云大教〔2026〕7号",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s001",
+      "b1_s003"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s001",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "文档：本科学生课程学分认定管理规定_2026",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s003",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "版本与范围：云大教〔2026〕7号；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "只计文件声明，题设与规划建议不计",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_002",
+    "unit_id": "s005",
+    "unit_text": "根据《2026年秋季学期辅修申请通知》第（二）条：“应修课程与主修专业课程相同或相近的，不得重复选修，应由辅修专业所在学院指定其它课程代替。",
+    "claim": "辅修课程与主修相同相近不得重复选修须指定替代",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s014",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "（二）应修课程与主修专业课程相同或相近的，不得重复选修，应由辅修专业所在学院指定其它课程代替。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_003",
+    "unit_id": "s007",
+    "unit_text": "该规定明确指出，若辅修课程与主修专业课程存在相同或相近内容，则不得重复选修，必须由辅修学院指定替代课程。",
+    "claim": "相同相近课程应由辅修学院指定其他课程替代",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b5_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s014",
+        "chunk_id": "ynu029_p000_00191",
+        "quote": "（二）应修课程与主修专业课程相同或相近的，不得重复选修，应由辅修专业所在学院指定其它课程代替。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "复述有据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_004",
+    "unit_id": "s010",
+    "unit_text": "根据《本科学生课程学分认定管理规定_2026》第四条，转专业学生原专业修读的课程可认定为现专业课程，但需满足“核心知识体系、能力培养目标实质匹配”及“学时、内容、难度基本一致”等条件。",
+    "claim": "认定应实质匹配，学时内容难度基本一致",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s013",
+      "b1_s014"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "（二）实质等效：申请认定课程的核心知识体系、能力培养目标与对应课程（或培养方案要求）实质匹配；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "申请认定的课程应与被认定课程的学时、内容、难度基本一致，或与被认定到的课程模块的培养要求一致；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "第三条有据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_005",
+    "unit_id": "s010",
+    "unit_text": "根据《本科学生课程学分认定管理规定_2026》第四条，转专业学生原专业修读的课程可认定为现专业课程，但需满足“核心知识体系、能力培养目标实质匹配”及“学时、内容、难度基本一致”等条件。",
+    "claim": "第四条允许原必修课程认定到相同相近必修课程",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s016",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "第二章 学分认定规则第四条 学生主修专业发生变化时，原专业修读的必修课程学分可认定为现专业相同或相近的必修课程学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句；原回答概括课程范围不能读成无条件全认",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_006",
+    "unit_id": "s010",
+    "unit_text": "根据《本科学生课程学分认定管理规定_2026》第四条，转专业学生原专业修读的课程可认定为现专业课程，但需满足“核心知识体系、能力培养目标实质匹配”及“学时、内容、难度基本一致”等条件。",
+    "claim": "实质匹配和学时内容难度条件均引自第四条",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s011",
+      "b1_s013",
+      "b1_s014",
+      "b1_s016"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s011",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "第三条 学分认定须符合以下基本原则：",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s013",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "（二）实质等效：申请认定课程的核心知识体系、能力培养目标与对应课程（或培养方案要求）实质匹配；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s014",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "申请认定的课程应与被认定课程的学时、内容、难度基本一致，或与被认定到的课程模块的培养要求一致；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s016",
+        "chunk_id": "ynu010_p000_00111",
+        "quote": "第二章 学分认定规则第四条 学生主修专业发生变化时，原专业修读的必修课程学分可认定为现专业相同或相近的必修课程学分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "实际属第三条，引用条号归属错误",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_007",
+    "unit_id": "s014",
+    "unit_text": "根据《2026年秋季学期微专业申请通知》第（二）条：“2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分，但最多不超过15学分，其中专业教育不超过5学分。",
+    "claim": "2024级微专业最多15专业教育不超5",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原引文在2024级范围内正确，未证明适用于题设2025级",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_008",
+    "unit_id": "s016",
+    "unit_text": "该条款明确指出，微专业课程学分可认定为主修选修课程，但有上限（15学分），且专业教育部分不超过5学分。",
+    "claim": "不区分年级概括微专业上限15专业教育5",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b3_s012",
+      "b3_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s013",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "2025级学生按《云南大学本科学生课程学分认定管理规定（试行）》相关条款执行。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "2025级须转引另规定，实际Context缺第八条",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_009",
+    "unit_id": "s017",
+    "unit_text": "因此，若学生选择微专业，其课程学分可作为主修选修课程学分认定，但需严格控制在15学分以内，且不得用于替代主修专业课程，避免与辅修课程形成重复。",
+    "claim": "题设2025级可按当前2024级通知认定至15",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b3_s012",
+      "b3_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s013",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "2025级学生按《云南大学本科学生课程学分认定管理规定（试行）》相关条款执行。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "可能最终数额相同，但当前证据不足以跨级推断",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_010",
+    "unit_id": "s017",
+    "unit_text": "因此，若学生选择微专业，其课程学分可作为主修选修课程学分认定，但需严格控制在15学分以内，且不得用于替代主修专业课程，避免与辅修课程形成重复。",
+    "claim": "微专业课程不得替代主修专业课程",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b3_s012"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原文允许认定为主修选修，原句该禁止表述过宽",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_011",
+    "unit_id": "s020",
+    "unit_text": "根据《本科学生课程学分认定管理规定_2026》第十一条：“认定为选修课程的学分（含专业教育、通识教育、拓展教育中的选修课程学分）原则上总计不得超过20学分，其中专业教育总计认定不超过5学分。",
+    "claim": "各类选修认定原则总计20专业教育5",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s015",
+        "chunk_id": "ynu010_p000_00115",
+        "quote": "第三章 附则第十一条 上述各类情况认定为选修课程的学分（含专业教育、通识教育、拓展教育中的选修课程学分）原则上总计不得超过20学分，其中专业教育总计认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句带原则上限定",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_012",
+    "unit_id": "s022",
+    "unit_text": "该规定适用于所有学分认定情形，包括转专业、休学、保留学籍、辅修、微专业等。",
+    "claim": "该总上限适用于上述各类选修认定",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b2_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s015",
+        "chunk_id": "ynu010_p000_00115",
+        "quote": "第三章 附则第十一条 上述各类情况认定为选修课程的学分（含专业教育、通识教育、拓展教育中的选修课程学分）原则上总计不得超过20学分，其中专业教育总计认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "承接原文范围",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_013",
+    "unit_id": "s023",
+    "unit_text": "因此，无论通过何种方式（如转专业认定、微专业认定、科研成果认定等）获得选修课程学分，其累计总量不得超过20学分，且专业教育类学分不超过5学分。",
+    "claim": "无论何种方式获得选修学分均绝对不超20专业教育5",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b2_s015"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b2_s015",
+        "chunk_id": "ynu010_p000_00115",
+        "quote": "第三章 附则第十一条 上述各类情况认定为选修课程的学分（含专业教育、通识教育、拓展教育中的选修课程学分）原则上总计不得超过20学分，其中专业教育总计认定不超过5学分。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "把上述认定范围及原则上扩为所有来源绝对规则",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q019",
+    "level": "L4",
+    "id": "q019_review_014",
+    "unit_id": "s025",
+    "unit_text": "- 微专业课程学分可认定为主修选修课程，但最多15学分（含专业教育不超过5学分）[3]。",
+    "claim": "题设学生微专业认定最多15其中专业教育5",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b3_s012",
+      "b3_s013"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s012",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "（二）2024级学生获得的微专业课程学分可同时认定为主修专业的选修课程学分（含专业教育、通识教育和拓展教育中的选修课程学分），但最多不超过15学分，其中专业教育不超过5学分。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s013",
+        "chunk_id": "ynu030_p000_00197",
+        "quote": "2025级学生按《云南大学本科学生课程学分认定管理规定（试行）》相关条款执行。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "再次跨年级引用；新规相关条未进Context",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_001",
+    "unit_id": "s001",
+    "unit_text": "该学生为普通软件工程专业本科生，计划以2027年云南大学推荐推免工作实施办法为参考，GPA刚达到基本门槛（即前三年平均GPA不低于3.0），并考虑减少课程投入、集中进行竞赛与科研活动。",
+    "claim": "2027年GPA基本门槛不低于3.0",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s021",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s021",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "前三学年（5 年制专业为前四学年）",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "不重复计题设个人信息",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_002",
+    "unit_id": "s005",
+    "unit_text": "1. **GPA门槛虽达标，但综合测评成绩仍可能不满足要求**",
+    "claim": "仅GPA达标未必满足综合测评条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "两项门槛独立推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_003",
+    "unit_id": "s006",
+    "unit_text": "2027年学校推免办法第（五）条规定：“学生前三学年（5年制专业为前四学年）综合测评成绩平均分不低于80分”[1]。",
+    "claim": "前三学年（五年制前四）综合测评平均分不低于80",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_004",
+    "unit_id": "s007",
+    "unit_text": "该条明确将“综合测评成绩”与“GPA”并列作为推荐条件，且“综合测评成绩”是独立于GPA的指标。",
+    "claim": "综合测评与GPA是并列条件",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_005",
+    "unit_id": "s008",
+    "unit_text": "虽然GPA达到3.0（对应约80分）是基本门槛，但综合测评成绩（通常由课程成绩、课堂表现、科研活动、社会实践等构成）是另一维度的评分体系，其权重和构成未在资料中明确。",
+    "claim": "GPA3.0对应约80分",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s020",
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "Context没有绩点成绩换算规则",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_006",
+    "unit_id": "s008",
+    "unit_text": "虽然GPA达到3.0（对应约80分）是基本门槛，但综合测评成绩（通常由课程成绩、课堂表现、科研活动、社会实践等构成）是另一维度的评分体系，其权重和构成未在资料中明确。",
+    "claim": "综合测评通常包括课程课堂表现科研社会实践",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "当前材料未说明这些构成，不引入常识冒充证据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_007",
+    "unit_id": "s008",
+    "unit_text": "虽然GPA达到3.0（对应约80分）是基本门槛，但综合测评成绩（通常由课程成绩、课堂表现、科研活动、社会实践等构成）是另一维度的评分体系，其权重和构成未在资料中明确。",
+    "claim": "当前材料未完整给出综合测评具体权重构成",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s020",
+      "b1_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "实际Context检查",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_008",
+    "unit_id": "s009",
+    "unit_text": "若学生仅通过减少课程投入来提升科研，而忽视课堂参与、作业完成、课堂表现等综合测评要素，则综合测评成绩可能无法达到80分，从而**直接导致失去推荐资格**。",
+    "claim": "忽视课堂参与作业等综合测评要素可能失去资格",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "80门槛支持，指定这些要素没有依据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_009",
+    "unit_id": "s011",
+    "unit_text": "2. **竞赛与科研成果虽被纳入综合测评，但未明确其权重与认定标准**",
+    "claim": "科研竞赛纳入综合测评",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_010",
+    "unit_id": "s011",
+    "unit_text": "2. **竞赛与科研成果虽被纳入综合测评，但未明确其权重与认定标准**",
+    "claim": "当前片段未给科研竞赛详细权重认定标准",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "实际Context检查",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_011",
+    "unit_id": "s012",
+    "unit_text": "虽然教育部文件规定“科研成果、竞赛获奖等情况纳入综合测评体系”[1]，但具体如何计入、如何量化、是否可替代课程成绩，**现有资料未提供明确细则**。",
+    "claim": "教育部相关规定将科研竞赛纳入综合测评",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "转述有据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_012",
+    "unit_id": "s012",
+    "unit_text": "虽然教育部文件规定“科研成果、竞赛获奖等情况纳入综合测评体系”[1]，但具体如何计入、如何量化、是否可替代课程成绩，**现有资料未提供明确细则**。",
+    "claim": "当前资料未明确如何量化及能否替代课程",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "实际Context检查",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_013",
+    "unit_id": "s013",
+    "unit_text": "学生若仅依赖竞赛或科研“加分”来弥补综合测评短板，存在“成果未被认可”或“加分不足”的风险。",
+    "claim": "仅依赖科研竞赛加分无法保证跨过综合测评门槛",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s010",
+      "b1_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b1_s020",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（五）学生前三学年（5 年制专业为前四学年）综合测评成绩平均分不低于80 分；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "不估概率的条件性风险推导",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_014",
+    "unit_id": "s014",
+    "unit_text": "例如，若竞赛奖项未被纳入学校或学院的官方认定目录，或未在推免材料中体现，可能无法被计入综合测评成绩。",
+    "claim": "竞赛奖须纳入官方目录或材料体现才可能计分",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s010"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s010",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "育部相关文件规定，学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "合理假设但Context未给目录制或提交材料条件",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_015",
+    "unit_id": "s015",
+    "unit_text": "此外，资料中未说明竞赛或科研成果是否可作为“替代性”条件，因此**无法保证其对GPA不足的补救作用**。",
+    "claim": "科研不能保证补救GPA不足",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s022"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s022",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "平均学习绩点（GPA）不低于3.0；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "GPA是不低于3.0的独立必要条件",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_016",
+    "unit_id": "s018",
+    "unit_text": "推免办法要求学生“具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质”[1]，但未提供具体评估方式或案例。",
+    "claim": "办法要求科研实践能力基础及创新意识潜质",
+    "score": 5,
+    "effective_score": 5,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "原句",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_017",
+    "unit_id": "s018",
+    "unit_text": "推免办法要求学生“具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质”[1]，但未提供具体评估方式或案例。",
+    "claim": "当前片段未给具体能力评估方式案例",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "实际Context检查",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_018",
+    "unit_id": "s019",
+    "unit_text": "若学生仅“集中做科研”但未形成可展示的成果（如论文、专利、项目报告等），则其“创新潜质”难以被评审委员会认可，**存在被判定为“缺乏科研能力”的风险**。",
+    "claim": "没论文专利项目报告可能被委员会判缺乏科研能力",
+    "score": 2,
+    "effective_score": 2,
+    "verdict": "unsupported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "能力要求有据，评审主体与具体成果判定推断无依据",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_019",
+    "unit_id": "s020",
+    "unit_text": "同时，资料中未说明科研成果是否需发表于期刊或会议，或是否需有指导教师推荐，因此**无法保证科研投入能转化为有效推荐依据**。",
+    "claim": "现有片段未规定论文发表或导师推荐细节，不能保证投入变推荐",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b1_s019"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s019",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "限定现有Context的缺失与不保证",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_020",
+    "unit_id": "s021",
+    "unit_text": "4. **学院可自行提高标准，存在“额外要求”风险**",
+    "claim": "2027年学院可自行提高标准",
+    "score": 3,
+    "effective_score": 3,
+    "verdict": "partially_supported",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b5_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b5_s020",
+        "chunk_id": "ynu019_p006_00149",
+        "quote": "（六）学院可结合自身情况在上述条件基础上提高标准或增加其他要求。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "明确原句只在2026版实际Context出现，不足以证明2027",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_021",
+    "unit_id": "s022",
+    "unit_text": "2027年推免办法第（六）条规定：“学院可结合自身情况在上述条件基础上提高标准或增加其他要求”[1]。",
+    "claim": "2027年第（六）条允许学院提高标准",
+    "score": 1,
+    "effective_score": 1,
+    "verdict": "contradicted",
+    "supported": false,
+    "evidence_sentence_ids": [
+      "b1_s026",
+      "b5_s020"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b1_s026",
+        "chunk_id": "ynu018_p006_00138",
+        "quote": "（六）学生修读的专业人才培养方案中的通识教育必修课、",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b5_s020",
+        "chunk_id": "ynu019_p006_00149",
+        "quote": "（六）学院可结合自身情况在上述条件基础上提高标准或增加其他要求。",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "2027第六是课程合格条件，把2026条款移植到2027",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  },
+  {
+    "question_id": "q020",
+    "level": "L4",
+    "id": "q020_review_022",
+    "unit_id": "s023",
+    "unit_text": "软件学院虽在2025年细则中明确列出推荐条件，但该细则为2025届，**不能直接用于推断2027年软件学院的政策变化**。",
+    "claim": "2025软件学院细则不能直接用于推断2027变化",
+    "score": 4,
+    "effective_score": 4,
+    "verdict": "supported",
+    "supported": true,
+    "evidence_sentence_ids": [
+      "b3_s001",
+      "b3_s003"
+    ],
+    "evidence": [
+      {
+        "sentence_id": "b3_s001",
+        "chunk_id": "ynu021_p004_00157",
+        "quote": "文档：软件学院2025年推荐推免实施细则",
+        "quote_verified": true
+      },
+      {
+        "sentence_id": "b3_s003",
+        "chunk_id": "ynu021_p004_00157",
+        "quote": "版本与范围：2025届；",
+        "quote_verified": true
+      }
+    ],
+    "review_reason": "元数据和版本限定支持",
+    "assessment_source": "assistant_source_review_not_independent_human",
+    "verification_flags": []
+  }
+]

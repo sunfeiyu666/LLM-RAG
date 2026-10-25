@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：结合2026年秋季辅修和微专业通知，辅修学士学位与微专业修读证书能否视为同一种学位成果？说明两者的差别。"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"2026年秋季辅修和微专业通知中，辅修学士学位与微专业修读证书是否被视作同一种学位成果？\",\n    \"根据2026年秋季发布的辅修和微专业政策，辅修学士学位与微专业修读证书在学位认定上的差异是什么？\",\n    \"在2026年秋季辅修与微专业实施通知中，辅修学士学位与微专业修读证书的学术地位和成果性质有何区别？\"\n  ],\n  \"rewrite\": \"结合2026年秋季辅修和微专业通知，辅修学士学位与微专业修读证书是否被视为同一种学位成果？两者在学术认定上的差别是什么？\",\n  \"sub_queries\": [\n    \"2026年秋季辅修和微专业通知中，辅修学士学位与微专业修读证书是否被定义为同一种学位成果？\",\n    \"2026年秋季辅修和微专业政策中，辅修学士学位与微专业修读证书在学术资格认定上的具体差异是什么？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "de104e09314c281f2b10243b72dc68be162beeec9e88313b9aeb13f6b0b39fe8",
+    "cache_hit": false,
+    "elapsed_seconds": 4.0022,
+    "prompt_tokens": 288,
+    "output_tokens": 260,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

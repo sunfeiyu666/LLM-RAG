@@ -1,0 +1,8 @@
+CHALLENGE c01
+CHALLENGE_DONE c01 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}
+CHALLENGE c02
+CHALLENGE_DONE c02 {'baseline': {'recall_at_5': 0, 'gold_coverage_at_5': 0.0, 'reciprocal_rank_at_5': 0}, 'rewrite': {'recall_at_5': 0, 'gold_coverage_at_5': 0.0, 'reciprocal_rank_at_5': 0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 0.3333333333333333, 'reciprocal_rank_at_5': 0.2}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 0.3333333333333333, 'reciprocal_rank_at_5': 0.2}}
+CHALLENGE c03
+CHALLENGE_DONE c03 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 0.5, 'reciprocal_rank_at_5': 0.2}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.5}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}
+CHALLENGE c04
+CHALLENGE_DONE c04 {'baseline': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 0.25}, 'rewrite': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'multi': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}, 'decompose': {'recall_at_5': 1, 'gold_coverage_at_5': 1.0, 'reciprocal_rank_at_5': 1.0}}

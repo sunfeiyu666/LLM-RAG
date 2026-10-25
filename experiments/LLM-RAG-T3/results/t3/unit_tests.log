@@ -1,0 +1,17 @@
+test_documents_are_distinct_and_match_archived_hash (test_kb.CorpusTests.test_documents_are_distinct_and_match_archived_hash) ... ok
+test_pending_attachment_is_not_indexed (test_kb.CorpusTests.test_pending_attachment_is_not_indexed) ... ok
+test_lcel_passes_retrieved_text_to_prompt_and_streams_answer (test_langchain.LangChainPipelineTests.test_lcel_passes_retrieved_text_to_prompt_and_streams_answer) ... ok
+test_load_and_split_keep_original_document_identity_and_pdf_page (test_langchain.LangChainPipelineTests.test_load_and_split_keep_original_document_identity_and_pdf_page) ... ok
+test_real_faiss_reload_and_embedding_contract (test_langchain.LangChainPipelineTests.test_real_faiss_reload_and_embedding_contract) ... ok
+test_baseline_forwards_tokens_before_completion_and_keeps_source (test_streaming.StreamingTests.test_baseline_forwards_tokens_before_completion_and_keeps_source) ... ok
+test_partial_stream_failure_is_propagated (test_streaming.StreamingTests.test_partial_stream_failure_is_propagated) ... ok
+test_bm25_preserves_years_and_identifier (test_t3.T3Tests.test_bm25_preserves_years_and_identifier) ... ok
+test_course_recall_and_gold_coverage_are_distinct (test_t3.T3Tests.test_course_recall_and_gold_coverage_are_distinct) ... ok
+test_identical_answers_receive_one_shared_blinded_score (test_t3.T3Tests.test_identical_answers_receive_one_shared_blinded_score) ... ok
+test_raw_score_fusion_normalizes_different_scales (test_t3.T3Tests.test_raw_score_fusion_normalizes_different_scales) ... ok
+test_weighted_rrf_endpoints_and_no_zero_weight_leakage (test_t3.T3Tests.test_weighted_rrf_endpoints_and_no_zero_weight_leakage) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.231s
+
+OK

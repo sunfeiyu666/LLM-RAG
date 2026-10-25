@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。sub_queries：复合问题拆成2到4个可独立查找证据的子问题，保留每个子问题的主体、年份和条件；单一事实问题只保留1个，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：按软件工程2022版（2023年修订）培养方案，国内学生第一课堂需要修满多少学分？"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"multi_queries\": [\n    \"根据《软件工程2022版（2023年修订）》培养方案，国内本科生第一课堂的学分总要求是多少？\",\n    \"在《软件工程2022版（2023年修订）》培养方案框架下，国内学生第一课堂需完成的学分总数为多少？\",\n    \"依据2022年版（2023年修订）《软件工程》培养方案，国内学生在第一课堂中必须修满多少学分？\"\n  ],\n  \"rewrite\": \"根据《软件工程2022版（2023年修订）》培养方案，国内学生第一课堂需要修满多少学分？\",\n  \"sub_queries\": [\n    \"《软件工程2022版（2023年修订）》培养方案中，第一课堂的学分要求是什么？\",\n    \"国内学生在《软件工程2022版（2023年修订）》培养方案下，第一课堂的学分总数量是多少？\",\n    \"2022版（2023年修订）《软件工程》培养方案中，第一课堂的学分修读标准为多少？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "db061c7ee78d53b3c8a0f17ec504c37789ea636a263991487467db2fc092af44",
+    "cache_hit": false,
+    "elapsed_seconds": 21.4327,
+    "prompt_tokens": 199,
+    "output_tokens": 272,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

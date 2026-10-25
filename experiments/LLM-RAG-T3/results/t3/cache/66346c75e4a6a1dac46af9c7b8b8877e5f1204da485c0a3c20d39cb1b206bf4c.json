@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：假设我是2025级转专业学生，同时考虑辅修来补充主修选修学分。请依据2026年学分认定规定，提出避免重复修课和超额认定的规划方法；尚无具体课程清单时，哪些结论不能直接下？"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"基于2026年学分认定规定，为2025级转专业学生设计避免重复修课和超额认定的课程规划方法，同时纳入辅修以补充主修选修学分的可行性分析\",\n    \"在未获得具体课程清单的前提下，依据2026年学分认定规则，哪些结论无法直接得出，需依赖课程明细支持\",\n    \"针对2025级转专业学生，结合辅修设置，如何通过2026年学分认定政策实现课程不重复、不超额的系统性规划，其关键前提条件是什么\"\n  ],\n  \"rewrite\": \"为2025级转专业学生，在2026年学分认定规定下，设计避免重复修课和超额认定的课程规划方法，并考虑辅修以补充主修选修学分；在缺乏具体课程清单的情况下，哪些结论无法直接得出？\",\n  \"sub_queries\": [\n    \"基于2026年学分认定规定，2025级转专业学生如何避免重复修课和超额认定？\",\n    \"辅修课程在补充主修选修学分方面，在2026年学分认定政策下是否可行？\",\n    \"在未获得具体课程清单的情况下，依据2026年学分认定规则，哪些结论无法直接得出？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "66346c75e4a6a1dac46af9c7b8b8877e5f1204da485c0a3c20d39cb1b206bf4c",
+    "cache_hit": false,
+    "elapsed_seconds": 4.6822,
+    "prompt_tokens": 312,
+    "output_tokens": 311,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}

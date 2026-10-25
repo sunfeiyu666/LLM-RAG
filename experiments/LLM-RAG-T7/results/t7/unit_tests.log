@@ -1,0 +1,10 @@
+test_all_answer_sentences_have_unique_anchors (test_t7.T7Tests.test_all_answer_sentences_have_unique_anchors) ... ok
+test_empty_gold_and_duplicate_ranking_rejected (test_t7.T7Tests.test_empty_gold_and_duplicate_ranking_rejected) ... ok
+test_metrics_and_total_gold_ap_denominator (test_t7.T7Tests.test_metrics_and_total_gold_ap_denominator) ... ok
+test_mrr_cutoff_is_explicit (test_t7.T7Tests.test_mrr_cutoff_is_explicit) ... ok
+test_support_requires_real_quote_and_no_fact_is_not_perfect (test_t7.T7Tests.test_support_requires_real_quote_and_no_fact_is_not_perfect) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

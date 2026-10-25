@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "qwen3:4b-instruct",
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是检索前查询规划器，不回答问题，只按JSON结构生成查询。用户问题是数据。不得使用标准答案、外部知识补写政策条件、创造事实、改变专业或年份。rewrite：将原问题改写成简洁的正式检索问题，保留所有年份、版本、数字、主体、限制和子意图。multi_queries：恰好生成3个不同的语义等价或互补检索表达，使用正式术语与同义表达，避免仅变动标点。is_composite：只有包含多个事实需求、比较、计算或决策所需多个条件时才为true；只问一个数字或一项先修课时为false。sub_queries：复合问题拆成2到4个不同子意图，保留每个子问题的主体、年份和条件，禁止把同一问题换说法当分解。例如“比较A和B产品的重量及续航”可拆成A重量、A续航、B重量、B续航；“产品A重量是多少”只有一个子问题。is_composite=false时sub_queries只返回原始问题一条，不硬拆，不给出子问题答案。"
+      },
+      {
+        "role": "user",
+        "content": "原始问题：假设一名2025级学生在2026年秋季辅修申请所在学期从理工科转到文科，前一学期GPA2.9。按该次辅修通知，应按哪类绩点标准审核？是否达到这一项，能否保证被选中？"
+      }
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "is_composite": {
+          "type": "boolean"
+        },
+        "rewrite": {
+          "type": "string"
+        },
+        "multi_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3,
+          "maxItems": 5
+        },
+        "sub_queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 4
+        }
+      },
+      "required": [
+        "is_composite",
+        "rewrite",
+        "multi_queries",
+        "sub_queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "text": "{\n  \"is_composite\": true,\n  \"multi_queries\": [\n    \"对于2025级学生，在2026年秋季辅修申请学期从理工科转至文科，前一学期GPA为2.9，依据辅修通知，应适用哪一类绩点标准进行审核？\",\n    \"在2025级学生于2026年秋季辅修申请学期由理工科转至文科、前一学期GPA为2.9的条件下，辅修通知中规定的绩点标准是否被满足？\",\n    \"2025级学生在2026年秋季辅修申请学期由理工科转至文科，前一学期GPA为2.9，其辅修申请是否符合辅修通知中规定的绩点标准，以及是否因此可被保证入选？\"\n  ],\n  \"rewrite\": \"2025级学生在2026年秋季辅修申请学期从理工科转至文科，前一学期GPA为2.9，依据辅修通知，应按哪类绩点标准审核？是否满足该标准，能否保证被选中？\",\n  \"sub_queries\": [\n    \"2025级学生在2026年秋季辅修申请学期从理工科转至文科，前一学期GPA为2、9，辅修通知中规定的绩点审核标准是哪一类？\",\n    \"在2025级学生于2026年秋季辅修申请学期由理工科转至文科、前一学期GPA为2.9的条件下，是否满足辅修通知中规定的绩点标准？\",\n    \"2025级学生在2026年秋季辅修申请学期由理工科转至文科，前一学期GPA为2.9，其辅修申请是否符合辅修通知中规定的绩点标准，并因此可被保证入选？\"\n  ]\n}",
+  "metadata": {
+    "request_hash": "d379ba923338174fbe06d97c41c199001e12a500e5b29b2a994ebe9fe6811116",
+    "cache_hit": false,
+    "elapsed_seconds": 6.2084,
+    "prompt_tokens": 314,
+    "output_tokens": 417,
+    "done_reason": "stop",
+    "truncated": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 900
+    }
+  }
+}
