@@ -62,7 +62,7 @@ RAG项目_Conda复现版/
 ├── 文档目录.md
 ├── data/corpus/                 23篇实际读取的Markdown
 ├── data/originals/              可用原始HTML、PDF、OCR文字
-├── data/eval/README.md           正式评测集目录说明
+├── data/eval/                    D3评测集、证据及校验脚本
 ├── metadata/                    来源、语料校验值和打包说明
 ├── src/
 │   ├── index.py                 索引构建入口
@@ -80,3 +80,23 @@ RAG项目_Conda复现版/
 ├── docs/资料与实现说明.md
 └── results/README.md
 ```
+
+
+## D3 评测集
+
+20条问答对，L1—L4各5条，文件为 [data/eval/qa_set.jsonl](data/eval/qa_set.jsonl)。逐题证据、评分与复核边界见 [评测集说明](data/eval/README.md)。当前代码中的旧开发定位检查不等于本评测集的完整评估。
+
+```cmd
+python data\eval\verify_eval_set.py
+```
+
+
+## T1 基础RAG与无检索对照
+
+已对D3全部20题真实运行两组实验。结果与说明见 [results/README.md](results/README.md)。日常问答仍仅保留基础版。
+
+```cmd
+python src\run_t1_experiment.py --output-dir results\t1_rerun
+```
+
+两组原始答案、实际检索片段和助手评分分别保存，未改变知识库、向量化器或生成模型。
