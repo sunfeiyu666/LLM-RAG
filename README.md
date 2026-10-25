@@ -52,7 +52,7 @@ RAG项目_Conda复现版/
 ├── 文档目录.md
 ├── data/corpus/                 23篇实际读取的Markdown
 ├── data/originals/              可用原始HTML、PDF、OCR文字
-├── data/eval/README.md           正式评测集目录说明
+├── data/eval/                    D3评测集、证据及校验脚本
 ├── metadata/                    来源、语料校验值和打包说明
 ├── src/
 │   ├── index.py                 索引构建入口
@@ -69,4 +69,13 @@ RAG项目_Conda复现版/
 ├── tools/verify_environment.py   只读环境检查
 ├── docs/资料与实现说明.md
 └── results/README.md
+```
+
+
+## D3 评测集
+
+20条问答对，L1—L4各5条，文件为 [data/eval/qa_set.jsonl](data/eval/qa_set.jsonl)。逐题证据、评分与复核边界见 [评测集说明](data/eval/README.md)。当前代码中的旧开发定位检查不等于本评测集的完整评估。
+
+```cmd
+python data\eval\verify_eval_set.py
 ```
