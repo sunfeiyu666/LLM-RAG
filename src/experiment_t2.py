@@ -237,6 +237,21 @@ def normalize_question(row: dict, index: int) -> dict:
 def load_questions(path: Path | None) -> tuple[list[dict], str]:
     if path and path.exists():
         rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        evidence_path = path.with_name("qa_evidence.jsonl")
+        if evidence_path.exists():
+            evidence_rows = [
+                json.loads(line)
+                for line in evidence_path.read_text(encoding="utf-8").splitlines()
+                if line.strip()
+            ]
+            evidence_by_id = {row["id"]: row for row in evidence_rows}
+            for row in rows:
+                annotation = evidence_by_id.get(row.get("id"), {})
+                evidence = annotation.get("evidence", [])
+                row["gold_evidence"] = [item["quote"] for item in evidence if item.get("quote")]
+                row["gold_doc_ids"] = sorted(
+                    {item["doc_id"] for item in evidence if item.get("doc_id")}
+                )
         return [normalize_question(row, i) for i, row in enumerate(rows, 1)], "formal_qa_set"
 
     from check_retrieval import CASES
@@ -282,7 +297,12 @@ def context_content(document: Document) -> str:
 def retrieval_hit(question: dict, documents: list[Document]) -> tuple[bool, str]:
     contexts = [context_content(document) for document in documents]
     if question["gold_evidence"]:
-        return any(evidence in context for evidence in question["gold_evidence"] for context in contexts), "evidence_text"
+        compact_contexts = [re.sub(r"\s+", "", context) for context in contexts]
+        return any(
+            re.sub(r"\s+", "", evidence) in context
+            for evidence in question["gold_evidence"]
+            for context in compact_contexts
+        ), "evidence_text"
 
     retrieved_ids = {document.metadata["chunk_id"] for document in documents}
     if question["gold_chunk_ids"] and retrieved_ids.intersection(question["gold_chunk_ids"]):

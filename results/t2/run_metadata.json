@@ -1,5 +1,5 @@
 {
-  "dataset": "development_smoke_set",
+  "dataset": "formal_qa_set",
   "eval_file": "C:\\Users\\15795\\Documents\\Codex\\2026-10-23\\bang\\LLM-RAG\\data\\eval\\qa_set.jsonl",
   "top_k": 5,
   "generated_answers": false,
