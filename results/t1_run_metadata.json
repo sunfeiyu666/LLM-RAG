@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-10-25T06:19:20.054845+00:00",
+  "binding": {
+    "qa_sha256": "11344429826a139188add651539acb93750dc94231452c5c9ce4affbf2790240",
+    "index_info_sha256": "bba75ffb28be12224b53e0cb6d5e1519842236cb67a72c2170b68b00d9fff372",
+    "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+    "model_parameters": {
+      "model": "qwen3:4b-instruct",
+      "base_url": "http://localhost:11434",
+      "temperature": 0.2,
+      "seed": 42,
+      "num_ctx": 16384,
+      "num_predict": 2048
+    },
+    "top_k": 5,
+    "rag_chain_sha256": "939580769c6282c9d194a48237bcfb04396a02831375e89d8419de3c9f8f1aa0",
+    "runner_sha256": "da5494b1d6c1b76ff3c7313983e5b34843b2a0b6ed335c172b705e5241fd0170"
+  },
+  "question_count": 20,
+  "ollama": {
+    "version": "0.40.6"
+  },
+  "model_info": {
+    "name": "qwen3:4b-instruct",
+    "model": "qwen3:4b-instruct",
+    "modified_at": "2026-10-18T18:04:46.1672061+08:00",
+    "size": 2497293803,
+    "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "4.0B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 262144,
+      "embedding_length": 2560,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "tools",
+      "thinking",
+      "completion"
+    ]
+  },
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "langchain-core": "1.7.0",
+    "langchain-ollama": "1.1.0",
+    "faiss-cpu": "1.15.1",
+    "scikit-learn": "1.9.1"
+  },
+  "bare_system_prompt": "你是云南大学软件学院相关问题的中文问答助手。请直接根据自身已有知识回答用户问题。严格核对专业、方案版本、入学年级、毕业届别和选课学期。区分推荐推免资格和接收推免生。不能用旧年政策推断新年政策。问题缺少年级且存在版本差异时请用户补充。不确定的事实请明确说明不知道或无法确认，不要编造。本次没有接入知识库、检索工具或外部资料，不要声称检索了资料，不要伪造来源编号。直接输出中文正文，不要输出JSON。",
+  "control": "Same questions/model/digest/temperature/seed/context limit/output limit, independent chats, no tools. RAG uses original build_rag_chain prompt; bare prompt removes evidence-only and citation demands. Thus prompt adaptation is a disclosed confound.",
+  "order": "Question order fixed; odd IDs RAG then bare, even IDs bare then RAG; one call at a time; cold-start cost retained.",
+  "scoring": "Gold not supplied to either model; responses scored later against frozen D3 evidence; no model judge used.",
+  "limits": "Single run per question/condition; 2048 generated tokens may truncate long answers; seed does not guarantee cross-platform bitwise reproducibility."
+}
