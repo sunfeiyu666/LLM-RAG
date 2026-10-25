@@ -1,0 +1,99 @@
+{
+  "questions": 20,
+  "levels": {
+    "L1": 5,
+    "L2": 5,
+    "L3": 5,
+    "L4": 5
+  },
+  "grading": "Assistant qualitative review, not independent human assessment. L1-L3 0/1/2; L4 five 0/1 points; aggregate means use normalized per-question score. Not EM accuracy, not LLM judge scores.",
+  "conditions": {
+    "rag": {
+      "completed": 20,
+      "errors": 0,
+      "truncated": 0,
+      "normalized_mean_score": 0.73,
+      "full_score_count": 11,
+      "mean_seconds": 60.657415,
+      "median_seconds": 37.57535,
+      "p95_seconds": 187.9224,
+      "total_seconds": 1213.1483,
+      "by_level": {
+        "L1": {
+          "n": 5,
+          "normalized_mean_score": 0.6,
+          "full_score_count": 3
+        },
+        "L2": {
+          "n": 5,
+          "normalized_mean_score": 0.9,
+          "full_score_count": 4
+        },
+        "L3": {
+          "n": 5,
+          "normalized_mean_score": 0.9,
+          "full_score_count": 4
+        },
+        "L4": {
+          "n": 5,
+          "normalized_mean_score": 0.52,
+          "full_score_count": 0
+        }
+      },
+      "hit_recall_at_5": 0.9,
+      "mean_gold_coverage_at_5": 0.8041666666666667,
+      "all_gold_retrieved_count": 13,
+      "mrr_at_5": 0.685,
+      "invalid_citation_id_answers": 1
+    },
+    "bare": {
+      "completed": 20,
+      "errors": 0,
+      "truncated": 0,
+      "normalized_mean_score": 0.255,
+      "full_score_count": 1,
+      "mean_seconds": 30.07102,
+      "median_seconds": 15.47945,
+      "p95_seconds": 106.4437,
+      "total_seconds": 601.4204,
+      "by_level": {
+        "L1": {
+          "n": 5,
+          "normalized_mean_score": 0.2,
+          "full_score_count": 1
+        },
+        "L2": {
+          "n": 5,
+          "normalized_mean_score": 0.2,
+          "full_score_count": 0
+        },
+        "L3": {
+          "n": 5,
+          "normalized_mean_score": 0.1,
+          "full_score_count": 0
+        },
+        "L4": {
+          "n": 5,
+          "normalized_mean_score": 0.52,
+          "full_score_count": 0
+        }
+      }
+    }
+  },
+  "paired_comparison": {
+    "rag_better": 14,
+    "equal": 3,
+    "rag_worse": 3
+  },
+  "failure_stages": {
+    "retrieval_missing": 2,
+    "none": 11,
+    "generation_unsupported": 1,
+    "generation_citation_error": 1,
+    "generation_unsupported_and_omission": 1,
+    "generation_table_association": 1,
+    "retrieval_incomplete_and_generation": 1,
+    "generation_omission_and_invalid_citation": 1,
+    "retrieval_incomplete_and_version_confusion": 1
+  }
+}

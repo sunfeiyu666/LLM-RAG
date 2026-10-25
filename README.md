@@ -79,3 +79,14 @@ RAG项目_Conda复现版/
 ```cmd
 python data\eval\verify_eval_set.py
 ```
+
+
+## T1 基础RAG与无检索对照
+
+已对D3全部20题真实运行两组实验。结果与说明见 [results/README.md](results/README.md)。日常问答仍仅保留基础版。
+
+```cmd
+python src\run_t1_experiment.py --output-dir results\t1_rerun
+```
+
+两组原始答案、实际检索片段和助手评分分别保存，未改变知识库、向量化器或生成模型。
