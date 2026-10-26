@@ -4,6 +4,8 @@ from collections import Counter
 import hashlib
 import json
 
+from kb import INDEX
+
 ROOT = Path(__file__).resolve().parents[1]
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 read = lambda p: [json.loads(s) for s in p.read_text(encoding="utf-8").splitlines() if s.strip()]
@@ -15,7 +17,7 @@ def main():
     assert sha(ROOT / "data/eval/qa_set.jsonl") == metadata["binding"]["qa_sha256"]
     assert sha(ROOT / "src/rag_chain.py") == metadata["binding"]["rag_chain_sha256"]
     assert sha(ROOT / "src/run_t1_experiment.py") == metadata["binding"]["runner_sha256"]
-    assert sha(ROOT / "index_langchain/index_info.json") == metadata["binding"]["index_info_sha256"]
+    assert sha(INDEX / "index_info.json") == metadata["binding"]["index_info_sha256"]
     for relative, digest in manifest["bound_file_sha256"].items():
         assert sha(ROOT / relative) == digest, relative
     for name in ["qa_set.jsonl", "qa_evidence.jsonl"]:

@@ -1,7 +1,0 @@
-﻿strategy,compressed,questions,mean_accuracy_0_2,full_accuracy_count,mean_citation_support_0_2,full_support_count
-direct,False,20,1.55,12,1.6,12
-direct,True,20,1.35,10,1.35,9
-rule,False,20,1.4,13,1.5,12
-rule,True,20,1.35,11,1.35,10
-model,False,20,1.35,10,1.45,10
-model,True,20,1.2,8,1.25,8

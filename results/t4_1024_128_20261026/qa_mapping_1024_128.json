@@ -1,0 +1,661 @@
+{
+  "index": "D:\\LLM-RAG\\index_1024_128_langchain",
+  "questions": 20,
+  "mapping_rule": "同doc_id与page内精确匹配规范化证据；重叠时选择证据离块边界更远者",
+  "rows": [
+    {
+      "id": "q001",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu001_p008_00013",
+          "selected_chunk_id": "ynu001_p008_00008",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu001_p008_00008"
+          ],
+          "doc_id": "ynu001",
+          "page": 8,
+          "quote": "国内学生：在学校规定的学习年限内，按教学计划要求修满第一课程161.5 学分。"
+        },
+        {
+          "old_chunk_id": "ynu001_p008_00013",
+          "selected_chunk_id": "ynu001_p008_00008",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu001_p008_00008"
+          ],
+          "doc_id": "ynu001",
+          "page": 8,
+          "quote": "此外，学生还需要修满第二课堂6 学分"
+        }
+      ]
+    },
+    {
+      "id": "q002",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu006_p000_00088",
+          "selected_chunk_id": "ynu006_p000_00060",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu006_p000_00060"
+          ],
+          "doc_id": "ynu006",
+          "page": null,
+          "quote": "本课程要求的先修课为数据结构"
+        }
+      ]
+    },
+    {
+      "id": "q003",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu012_p003_00125",
+          "selected_chunk_id": "ynu012_p003_00085",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu012_p003_00085"
+          ],
+          "doc_id": "ynu012",
+          "page": 3,
+          "quote": "学生每学期申请缓考的课程，一般不得超过两门。"
+        }
+      ]
+    },
+    {
+      "id": "q004",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "平均学习绩点（GPA）不低于3.0"
+        }
+      ]
+    },
+    {
+      "id": "q005",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu030_p000_00198",
+          "selected_chunk_id": "ynu030_p000_00144",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00144"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "微专业不授予学位，学生修完后可以获得修读证书。学生按对应微专业人才培养方案要求修满规定学分，由学生主动向微专业牵头学院申请修读证书。经审核同意后，报教务处（本科生院）审批，通过后为学生颁发微专业修读证书。"
+        }
+      ]
+    },
+    {
+      "id": "q006",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu010_p000_00111",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "但累计认定不超过10学分，其中专业教育认定不超过5学分；原专业修读的通识教育选修课程直接认定。"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00112",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "但累计认定不超过15学分，其中专业教育认定不超过5学分。"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00116",
+          "selected_chunk_id": "ynu010_p000_00076",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00076"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "本规定自2025级学生开始执行"
+        }
+      ]
+    },
+    {
+      "id": "q007",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu029_p000_00190",
+          "selected_chunk_id": "ynu029_p000_00139",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00139"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "申请辅修的学生于5月21日至26日期间"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00196",
+          "selected_chunk_id": "ynu030_p000_00143",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00143"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "申请修读微专业的学生于6月11日至15日期间"
+        }
+      ]
+    },
+    {
+      "id": "q008",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu029_p000_00191",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140",
+            "ynu029_p000_00139"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "参加辅修的学生每学期修读课程最多不得超过34学分（含主修课程）。"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00197",
+          "selected_chunk_id": "ynu030_p000_00143",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00143",
+            "ynu030_p000_00144"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "参加微专业修读的学生原则上每学期修读课程最多不得超过34.25学分（含主修课程）。若学生有特殊情况确需突破学分上限，由学生书面向其所在学院申请，学院审核通过后由开课学院为学生加课。"
+        }
+      ]
+    },
+    {
+      "id": "q009",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu029_p000_00192",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "按辅修专业人才培养方案要求修满55学分以上，符合辅修专业学位授予条件，在获得主修专业学士学位的前提下"
+        },
+        {
+          "old_chunk_id": "ynu029_p000_00192",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "辅修专业、辅修学士学位需修读的课程和最低学分要求，按各专业的辅修人才培养方案规定执行。"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00198",
+          "selected_chunk_id": "ynu030_p000_00144",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00144"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "微专业不授予学位，学生修完后可以获得修读证书。"
+        }
+      ]
+    },
+    {
+      "id": "q010",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu001_p008_00013",
+          "selected_chunk_id": "ynu001_p008_00008",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu001_p008_00008"
+          ],
+          "doc_id": "ynu001",
+          "page": 8,
+          "quote": "按教学计划要求修满第一课程161.5 学分。"
+        },
+        {
+          "old_chunk_id": "ynu001_p008_00013",
+          "selected_chunk_id": "ynu001_p008_00008",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu001_p008_00008"
+          ],
+          "doc_id": "ynu001",
+          "page": 8,
+          "quote": "此外，学生还需要修满第二课堂6 学分，并达到《国家学生体质健康标准》和《工程教育专业认证毕业要求》，予以毕业，授予工学学士学位。"
+        }
+      ]
+    },
+    {
+      "id": "q011",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "平均学习绩点（GPA）不低于3.0"
+        }
+      ]
+    },
+    {
+      "id": "q012",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "学生修读的专业人才培养方案中的通识教育必修课、\n大类（学科）基础课、专业必修课必须全部合格"
+        },
+        {
+          "old_chunk_id": "ynu018_p007_00139",
+          "selected_chunk_id": "ynu018_p007_00099",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p007_00099"
+          ],
+          "doc_id": "ynu018",
+          "page": 7,
+          "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。"
+        }
+      ]
+    },
+    {
+      "id": "q013",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu029_p000_00190",
+          "selected_chunk_id": "ynu029_p000_00139",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00139"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "文科类学生前一学期平均学分绩点达到3.0及以上；理工科类学生前一学期平均学分绩点达到2.8及以上。本学期有过转专业记录的学生，按前一学期所在专业匹配限制条件。"
+        },
+        {
+          "old_chunk_id": "ynu029_p000_00191",
+          "selected_chunk_id": "ynu029_p000_00139",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00139"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "辅修学院于6月5日前对报名学生进行资格审核、择优选拔"
+        }
+      ]
+    },
+    {
+      "id": "q014",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu030_p000_00197",
+          "selected_chunk_id": "ynu030_p000_00143",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00143"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "新开设的微专业，若最终选拔人数不足15人，则2026年秋季学期不开课，该微专业本次选拔结果无效，学生下学期重新申请。"
+        }
+      ]
+    },
+    {
+      "id": "q015",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu010_p000_00112",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "但累计认定不超过15学分，其中专业教育认定不超过5学分。"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00111",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "申请认定课程的核心知识体系、能力培养目标与对应课程（或培养方案要求）实质匹配"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00116",
+          "selected_chunk_id": "ynu010_p000_00076",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00076"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "本规定自2025级学生开始执行"
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu029_p000_00191",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140",
+            "ynu029_p000_00139"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "参加辅修的学生每学期修读课程最多不得超过34学分（含主修课程）。"
+        },
+        {
+          "old_chunk_id": "ynu029_p000_00192",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "学生的辅修课程须另外缴纳学费"
+        },
+        {
+          "old_chunk_id": "ynu029_p000_00192",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "在获得主修专业毕业证书的前提下"
+        },
+        {
+          "old_chunk_id": "ynu029_p000_00192",
+          "selected_chunk_id": "ynu029_p000_00140",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu029_p000_00140"
+          ],
+          "doc_id": "ynu029",
+          "page": null,
+          "quote": "在获得主修专业学士学位的前提下"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00197",
+          "selected_chunk_id": "ynu030_p000_00143",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00143",
+            "ynu030_p000_00144"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "原则上每学期修读课程最多不得超过34.25学分（含主修课程）"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00198",
+          "selected_chunk_id": "ynu030_p000_00144",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00144"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "相关微专业课程须另外缴纳学费"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00198",
+          "selected_chunk_id": "ynu030_p000_00144",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00144"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "微专业不授予学位，学生修完后可以获得修读证书。"
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu030_p000_00194",
+          "selected_chunk_id": "ynu030_p000_00141",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00141"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "聚焦AI与新闻传播交叉融合"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00194",
+          "selected_chunk_id": "ynu030_p000_00141",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00141"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "教授AI创作、流量运营技能"
+        },
+        {
+          "old_chunk_id": "ynu030_p000_00195",
+          "selected_chunk_id": "ynu030_p000_00142",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu030_p000_00142"
+          ],
+          "doc_id": "ynu030",
+          "page": null,
+          "quote": "利用现代AI技术赋能医疗临床与心理服务场景。促进学生掌握前沿的AI底层算法与数据处理技术，并深刻理解医疗辅助诊断、健康大数据管理及心理危机的智能预警"
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu006_p000_00088",
+          "selected_chunk_id": "ynu006_p000_00060",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu006_p000_00060"
+          ],
+          "doc_id": "ynu006",
+          "page": null,
+          "quote": "本课程要求的先修课为数据结构"
+        },
+        {
+          "old_chunk_id": "ynu006_p000_00088",
+          "selected_chunk_id": "ynu006_p000_00060",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu006_p000_00060"
+          ],
+          "doc_id": "ynu006",
+          "page": null,
+          "quote": "课程内容涵盖关系模型、关系数据库基本理论、SQL语言、数据库完整性、安全性、视图、索引、事务管理、查询处理、数据库的维护与管理、数据库技术新进展简介等各个方面。"
+        },
+        {
+          "old_chunk_id": "ynu006_p000_00089",
+          "selected_chunk_id": "ynu006_p000_00060",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu006_p000_00060"
+          ],
+          "doc_id": "ynu006",
+          "page": null,
+          "quote": "8.1 事务的ACID性质介绍"
+        },
+        {
+          "old_chunk_id": "ynu006_p000_00089",
+          "selected_chunk_id": "ynu006_p000_00060",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu006_p000_00060"
+          ],
+          "doc_id": "ynu006",
+          "page": null,
+          "quote": "9.2 Java访问数据库"
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu010_p000_00111",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "申请认定课程的核心知识体系、能力培养目标与对应课程（或培养方案要求）实质匹配"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00111",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "但累计认定不超过10学分，其中专业教育认定不超过5学分；原专业修读的通识教育选修课程直接认定。"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00112",
+          "selected_chunk_id": "ynu010_p000_00074",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00074"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "但累计认定不超过15学分，其中专业教育认定不超过5学分。"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00115",
+          "selected_chunk_id": "ynu010_p000_00076",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00076"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "上述各类情况认定为选修课程的学分（含专业教育、通识教育、拓展教育中的选修课程学分）原则上总计不得超过20学分，其中专业教育总计认定不超过5学分。"
+        },
+        {
+          "old_chunk_id": "ynu010_p000_00116",
+          "selected_chunk_id": "ynu010_p000_00076",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu010_p000_00076"
+          ],
+          "doc_id": "ynu010",
+          "page": null,
+          "quote": "本规定自2025级学生开始执行"
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "mappings": [
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "学生科研成果、竞赛获奖等情况纳入综合测评体系，不得单列名额进行选拔。"
+        },
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "综合测评成绩平均分不低于80 分"
+        },
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "平均学习绩点（GPA）不低于3.0"
+        },
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "全国大学英语四级考试成绩须达到425 分及以上"
+        },
+        {
+          "old_chunk_id": "ynu018_p006_00138",
+          "selected_chunk_id": "ynu018_p006_00098",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p006_00098"
+          ],
+          "doc_id": "ynu018",
+          "page": 6,
+          "quote": "无任何考试作弊和学术不端行为的记录"
+        },
+        {
+          "old_chunk_id": "ynu018_p007_00139",
+          "selected_chunk_id": "ynu018_p007_00099",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p007_00099"
+          ],
+          "doc_id": "ynu018",
+          "page": 7,
+          "quote": "必修课中的思政类课程、大类（学科）基础课、专业必修课不得有补考、重修情况。"
+        },
+        {
+          "old_chunk_id": "ynu018_p007_00139",
+          "selected_chunk_id": "ynu018_p007_00099",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p007_00099"
+          ],
+          "doc_id": "ynu018",
+          "page": 7,
+          "quote": "综合测评成绩平均分排名，从高到低依次推荐。"
+        },
+        {
+          "old_chunk_id": "ynu018_p007_00139",
+          "selected_chunk_id": "ynu018_p007_00099",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p007_00099"
+          ],
+          "doc_id": "ynu018",
+          "page": 7,
+          "quote": "学院可结合自身情况在上述条件基础上提高标准或增加其他要求。"
+        },
+        {
+          "old_chunk_id": "ynu018_p007_00139",
+          "selected_chunk_id": "ynu018_p007_00099",
+          "acceptable_exact_match_chunk_ids": [
+            "ynu018_p007_00099"
+          ],
+          "doc_id": "ynu018",
+          "page": 7,
+          "quote": "同时下达各学院推免名额。"
+        }
+      ]
+    }
+  ]
+}

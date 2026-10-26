@@ -14,7 +14,7 @@ from time import perf_counter
 from langchain_core.documents import Document
 
 from retrieval_compare import tokenize
-from kb import ROOT
+from kb import INDEX
 
 
 def rule_rerank(question, documents, k=3):
@@ -62,7 +62,7 @@ def model_rerank(question, documents, k=3, judge=ollama_judge):
 @lru_cache(maxsize=1)
 def information_weights():
     """估计随机知识库文本块出现词项的概率，并计算 -log(p)。"""
-    records = json.loads((ROOT / "index_langchain/documents.json").read_text(encoding="utf-8"))
+    records = json.loads((INDEX / "documents.json").read_text(encoding="utf-8"))
     if not records:
         raise ValueError("知识库索引为空，无法估计词项自信息量")
     frequencies = Counter(

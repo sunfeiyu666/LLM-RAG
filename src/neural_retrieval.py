@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import os
 from functools import lru_cache
 from pathlib import Path
 
@@ -14,7 +15,9 @@ from kb import ROOT, corpus_fingerprint, load_index
 
 MODEL_ID = "BAAI/bge-small-zh-v1.5"
 MODEL_DIR = ROOT / "models/bge-small-zh-v1.5"
-INDEX_DIR = ROOT / "index_bge"
+_index_value = os.environ.get("RAG_BGE_INDEX_DIR")
+INDEX_DIR = (Path(_index_value) if _index_value and Path(_index_value).is_absolute()
+             else ROOT / (_index_value or "index_1024_128_bge"))
 QUERY_PREFIX = "为这个句子生成表示以用于检索相关文章："
 
 

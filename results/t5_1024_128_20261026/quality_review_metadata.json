@@ -1,0 +1,8 @@
+{
+  "raw_rows_sha256": "2988753d845dca629e14cd48b929e142ba0fe8eea2e9099e0a652cec3373442f",
+  "hash_normalization": "CRLF_to_LF",
+  "questions": 20,
+  "rows": 120,
+  "rubric": "准确性/引文支撑度各0-2；2=关键结论正确完整或引用直接支持；1=部分正确或部分支持；0=主结论错误或无有效支持",
+  "review_note": "逐题对照标准答案、实际回答与所选文本块核对。"
+}

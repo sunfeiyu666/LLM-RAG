@@ -15,7 +15,7 @@ from langchain_core.callbacks import BaseCallbackHandler
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_ollama import ChatOllama
 
-from kb import load_index
+from kb import INDEX, load_index
 from rag_chain import MODEL, BASE_URL, build_rag_chain
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,7 +68,7 @@ def main():
     with urlopen(BASE_URL + "/api/version", timeout=10) as response:
         server = json.load(response)
     kb = load_index()
-    run_binding = {"qa_sha256": sha(dataset), "index_info_sha256": sha(ROOT / "index_langchain/index_info.json"),
+    run_binding = {"qa_sha256": sha(dataset), "index_info_sha256": sha(INDEX / "index_info.json"),
                    "model_digest": model_info["digest"], "model_parameters": params, "top_k": args.top_k,
                    "rag_chain_sha256": sha(ROOT / "src/rag_chain.py"), "runner_sha256": sha(Path(__file__))}
     if meta_path.exists():

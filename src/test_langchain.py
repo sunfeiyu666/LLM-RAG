@@ -5,7 +5,7 @@ from langchain_core.documents import Document
 from langchain_core.language_models.fake import FakeStreamingListLLM
 from langchain_core.runnables import RunnableLambda
 
-from kb import load_index, load_pages, split_documents
+from kb import CHUNK_SIZE, load_index, load_pages, split_documents
 from rag_chain import build_rag_chain
 
 
@@ -15,7 +15,7 @@ class LangChainPipelineTests(unittest.TestCase):
         chunks = split_documents(pages)
         self.assertEqual(len({p.metadata["doc_id"] for p in pages}), 23)
         self.assertTrue(all(isinstance(c, Document) for c in chunks))
-        self.assertTrue(all(len(c.page_content) <= 650 for c in chunks))
+        self.assertTrue(all(len(c.page_content) <= CHUNK_SIZE for c in chunks))
         self.assertTrue(all("page" in c.metadata and "content_url" in c.metadata for c in chunks))
         self.assertFalse(any(c.metadata["doc_id"] in {"ynu013", "ynu023"} for c in chunks))
 

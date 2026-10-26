@@ -8,9 +8,9 @@ import statistics
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-T4 = ROOT / "results/t4_bge_20261025"
-T5 = ROOT / "results/t5_final_20261026"
-QA = ROOT / "data/eval/qa_set.jsonl"
+T4 = ROOT / "results/t4_1024_128_20261026"
+T5 = ROOT / "results/t5_1024_128_20261026"
+QA = T4 / "qa_set_1024_128.jsonl"
 
 
 def csv_rows(path):
@@ -54,16 +54,16 @@ def main():
             assert abs(measured - float(metric[f"recall@{k}"])) < 1e-9
         measured_mrr = statistics.mean(1 / rank if rank else 0 for rank in ranks)
         assert abs(measured_mrr - float(metric["mrr@10"])) < 1e-9
-    png(T4 / "t4_bge_metrics.png")
+    png(T4 / "t4_metrics_1024_128.png")
     probes = json.loads((T4 / "t4_bge_candidate_probe.json").read_text(encoding="utf-8"))
     assert len(probes) == 45
-    chosen = {"p008", "p016", "p019", "p038", "p044"}
+    chosen = {"p019", "p032", "p034", "p038", "p039"}
     for row in probes:
         if row["id"] in chosen:
             assert row["bge_rank"] <= 3 and (row["bm25_rank"] or 11) > 3
     text = (T4 / "t4_bge_cases.md").read_text(encoding="utf-8")
-    assert len(re.findall(r"^## \d+\. .*BGE 占优", text, re.M)) == 6
-    assert len(re.findall(r"^## \d+\. .*BM25 占优", text, re.M)) == 5
+    assert len(re.findall(r"^## \d+\. .*BGE占优", text, re.M)) == 5
+    assert len(re.findall(r"^## \d+\. .*BM25占优", text, re.M)) == 5
 
     rows = jsonl(T5 / "t5_full_rows.jsonl")
     assert len(rows) == 120 and {row["retrieval"] for row in rows} == {"bm25"}
@@ -116,6 +116,7 @@ def main():
     assert t5meta["qa_sha256"] == qa_hash and t5meta["retrieval"] == "bm25"
     assert t5meta["model_reranker"] == "cross_encoder" and t5meta["compression"] == "both"
     assert t5meta["compression_method"] == "question_term_self_information_sentence_selection"
+    assert t5meta["compression_information_index"] == "index_1024_128_langchain/documents.json"
     print("T4/T5 交付文件、20题×6组、指标、评分、Context token、延迟和PNG图均已核对。")
 
 

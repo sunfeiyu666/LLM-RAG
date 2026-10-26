@@ -6,6 +6,7 @@ Embeddings interface. It is deliberately not called a neural embedding model.
 import hashlib
 import importlib.metadata
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -26,9 +27,21 @@ from sklearn.preprocessing import normalize
 from rag_core import Chunk, dense_prepare
 
 ROOT = Path(__file__).resolve().parents[1]
-INDEX = ROOT / "index_langchain"
-CHUNK_SIZE = 650
-CHUNK_OVERLAP = 120
+
+
+def _configured_path(variable, default):
+    value = os.environ.get(variable)
+    if not value:
+        return ROOT / default
+    path = Path(value)
+    return path if path.is_absolute() else ROOT / path
+
+
+INDEX = _configured_path("RAG_INDEX_DIR", "index_1024_128_langchain")
+CHUNK_SIZE = int(os.environ.get("RAG_CHUNK_SIZE", "1024"))
+CHUNK_OVERLAP = int(os.environ.get("RAG_CHUNK_OVERLAP", "128"))
+if CHUNK_SIZE < 1 or CHUNK_OVERLAP < 0 or CHUNK_OVERLAP >= CHUNK_SIZE:
+    raise ValueError("分块参数必须满足 chunk_size > chunk_overlap >= 0")
 EMBEDDING_NAME = "existing-character-TFIDF-LSA-64"
 
 
