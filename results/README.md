@@ -13,3 +13,11 @@
 
 本次评分不是EM或自动准确率，也没有把未回答一概当作幻觉。没有对答案做人工润色后冒充模型输出。原始输出保留；T1只涉及基础版与同模型的无检索对照，不含增强版或T2—T5实验。
 
+## T4 检索策略对比（朱相多）
+
+BM25、BGE + FAISS 与 RRF 混合检索的指标、图、逐题排序和十条查询分析见 [T4 结果](t4_bge_20261025/README.md)。对应代码为 `src/retrieval_compare.py`、`src/neural_retrieval.py` 和 `src/t4_evaluate.py`。
+
+## T5 重排与压缩（朱相多）
+
+基于 T4 最优的 BM25 top-5，对比直接截取、规则重排、Cross-Encoder 重排和压缩前后结果，见 [T5 结果](t5_final_20261026/README.md)。对应代码为 `src/rerank.py` 和 `src/t5_evaluate.py`。两项实验可用 `python results/verify_t4_t5.py` 核对。
+

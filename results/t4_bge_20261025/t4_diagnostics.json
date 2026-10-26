@@ -1,0 +1,45 @@
+{
+  "questions": 20,
+  "methods": {
+    "bm25": {
+      "all_gold_at_5": 0.6,
+      "all_gold_count": 12
+    },
+    "dense": {
+      "all_gold_at_5": 0.5,
+      "all_gold_count": 10
+    },
+    "hybrid": {
+      "all_gold_at_5": 0.65,
+      "all_gold_count": 13
+    }
+  },
+  "first_gold_rank_comparison": {
+    "dense_better": [
+      "q016"
+    ],
+    "bm25_better": [
+      "q001",
+      "q003",
+      "q005",
+      "q006",
+      "q009",
+      "q010",
+      "q011",
+      "q020"
+    ],
+    "tie": [
+      "q002",
+      "q004",
+      "q007",
+      "q008",
+      "q012",
+      "q013",
+      "q014",
+      "q015",
+      "q017",
+      "q018",
+      "q019"
+    ]
+  }
+}
