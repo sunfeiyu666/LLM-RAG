@@ -1,0 +1,7 @@
+{
+  "raw_rows_sha256": "e50b69e7dfe4bfe962cbd33ed08bfb2a6ed48b8a1e400d8788c07b414a346dcf",
+  "questions": 20,
+  "rows": 120,
+  "rubric": "准确性/引文支撑度各0-2；2=关键结论完整或引用直接支持；1=部分正确或部分支持；0=主结论错误或无有效支持",
+  "hash_normalization": "CRLF_to_LF"
+}

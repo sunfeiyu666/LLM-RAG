@@ -1,0 +1,33 @@
+{
+  "qa_sha256": "85d85050fd887da084c88094c4efcd799cffcc1819412fbea1df6490dc00178b",
+  "model": "qwen3:4b-instruct",
+  "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+  "generation_parameters": {
+    "model": "qwen3:4b-instruct",
+    "temperature": 0.2,
+    "seed": 42,
+    "num_ctx": 16384,
+    "num_predict": 2048
+  },
+  "judge_parameters": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 16384,
+    "num_predict": 16
+  },
+  "retrieval": "bm25",
+  "dense_backend": "lsa",
+  "model_reranker": "cross_encoder",
+  "strategies": [
+    "direct",
+    "rule",
+    "model"
+  ],
+  "compression": "both",
+  "questions": 20,
+  "compression_method": "question_term_self_information_sentence_selection",
+  "context_tokenizer": "qwen3-4b-instruct-2507-tokenizer",
+  "offset": 0,
+  "warmup_seconds": 48.861667999997735,
+  "note": "生成参数与T1保持一致，但本实验直接top-3/重排top-3不同于T1稠密top-5。"
+}

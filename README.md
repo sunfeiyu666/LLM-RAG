@@ -7,7 +7,6 @@
 Windows安装Anaconda
 
 ```cmd
-cd /d D:\Desktop\学习资料\LLM-RAG
 conda deactivate
 conda env create -f environment.yml
 conda activate rag-langchain
@@ -51,7 +50,7 @@ python src\experiment_t2.py
 ## 4 目录与实现
 
 ```text
-RAG项目_Conda复现版/
+LLM-RAG/
 ├── README.md
 ├── Conda复现说明.md
 ├── environment.yml
@@ -90,6 +89,8 @@ RAG项目_Conda复现版/
 python data\eval\verify_eval_set.py
 ```
 
+T4/T5 使用同一份 20 题评测内容，复核脚本会统一不同平台的文本换行符。评测集与清单仍由团队原目录维护。
+
 
 ## T1 基础RAG与无检索对照
 
@@ -100,3 +101,13 @@ python src\run_t1_experiment.py --output-dir results\t1_rerun
 ```
 
 两组原始答案、实际检索片段和助手评分分别保存，未改变知识库、向量化器或生成模型。
+
+## T4 检索策略对比（朱相多）
+
+运行 T4/T5 前，除基础 `requirements.txt` 外，还需安装 [`requirements-t4-t5.txt`](requirements-t4-t5.txt)。大型模型权重、向量索引与虚拟环境不纳入 Git。
+
+正式 20 题使用同一批 202 个知识库文本块，对比 BM25、BGE 中文 Embedding + FAISS，以及两路 RRF。Recall@1/3/5/10、MRR@10、PNG 图和 5+5 条真实排序案例均保存在 [T4 结果](results/t4_bge_20261025/README.md)。按正式检索指标，BM25 是本次最优方法。
+
+## T5 重排与压缩（朱相多）
+
+T5 结果保存在独立的 [`results/t5_final_20261026/`](results/t5_final_20261026/README.md)，以 T4 最优的 BM25 top-5 为共同候选池，比较直接 top-3、规则重排 top-3、本地 BGE Cross-Encoder 模型重排 top-3，以及按词项自信息量选句的压缩。20 题×6 组的原始答案、Context token、延迟、逐题质量评分和权衡图已核对。T4 与 T5 的代码分别在 `src/retrieval_compare.py`、`src/t4_evaluate.py` 和 `src/rerank.py`、`src/t5_evaluate.py`。

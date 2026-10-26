@@ -4,5 +4,9 @@ __pycache__/
 venv/
 env/
 index_langchain/
+index_bge/
+models/
+.pip-cache/
+.tmp/
 backups/
 *.log
