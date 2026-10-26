@@ -1,0 +1,103 @@
+{
+  "checked_at": "2026-10-26T14:52:55.167417+00:00",
+  "passed": true,
+  "checks_passed": 9,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "版本与88份源文件完整性",
+      "passed": true,
+      "detail": {
+        "snapshot_files": 88,
+        "qa_sha256": "85d85050fd887da084c88094c4efcd799cffcc1819412fbea1df6490dc00178b",
+        "answers_sha256": "33b470750909d827302edb0ad8f3a24994017fdb9ebe640296ec23c15b36d156"
+      }
+    },
+    {
+      "check": "20题、等级、原始回答及评分对应",
+      "passed": true,
+      "detail": {
+        "questions": 20,
+        "source_rows": 120,
+        "selected_configuration": "direct / compressed=False"
+      }
+    },
+    {
+      "check": "重新分块、BM25排名及实际Context",
+      "passed": true,
+      "detail": {
+        "reconstructed_chunks": 202,
+        "BM25_full_rankings": 20,
+        "Context_checks": 20,
+        "T4_saved_rankings_checked": 60
+      }
+    },
+    {
+      "check": "独立复算检索指标、ROUGE-L和EM",
+      "passed": true,
+      "detail": {
+        "questions": 20,
+        "independent_checks": "Cumulative ranking metrics, bitset LCS ROUGE-L, normalized EM; timing/token values only checked against source"
+      }
+    },
+    {
+      "check": "逐事实评分、引文与实际前三片段边界",
+      "passed": true,
+      "detail": {
+        "reviews": 20,
+        "facts": 213,
+        "unsupported": 50,
+        "boundary": "Literal evidence/structure verified; semantic scores remain assistant judgments"
+      }
+    },
+    {
+      "check": "完整评估表、总体与L1–L4汇总",
+      "passed": true,
+      "detail": {
+        "levels": 4,
+        "CSV_rows": 20,
+        "all_summary_metrics": "match per-question source and independent averages"
+      }
+    },
+    {
+      "check": "最差五题选择及案例证据",
+      "passed": true,
+      "detail": {
+        "worst_ids": [
+          "q016",
+          "q018",
+          "q020",
+          "q006",
+          "q019"
+        ],
+        "case_evidence": "literal excerpts, ranks, candidate/Context boundaries verified"
+      }
+    },
+    {
+      "check": "现有报告与Markdown表的数字和版本一致性",
+      "passed": true,
+      "detail": {
+        "existing_draft_tables": "20 question rows, four levels, headline metrics, versions and five case answers match",
+        "charts": "not audited; unchanged"
+      }
+    },
+    {
+      "check": "校验程序拦错与指标边界测试",
+      "passed": true,
+      "detail": {
+        "tests_run": 10,
+        "errors": 0,
+        "failures": 0,
+        "log": "test_cannot_use_outside_context_document (test_t7_validation.EvidenceCorruptionChecks.test_cannot_use_outside_context_document) ... ok\ntest_changed_packet_and_omitted_unit_rejected (test_t7_validation.EvidenceCorruptionChecks.test_changed_packet_and_omitted_unit_rejected) ... ok\ntest_no_fact_answer_is_not_given_full_score (test_t7_validation.EvidenceCorruptionChecks.test_no_fact_answer_is_not_given_full_score) ... ok\ntest_original_review_passes (test_t7_validation.EvidenceCorruptionChecks.test_original_review_passes) ... ok\ntest_quote_must_be_literal (test_t7_validation.EvidenceCorruptionChecks.test_quote_must_be_literal) ... ok\ntest_supported_partial_and_wrong_block_rejected (test_t7_validation.EvidenceCorruptionChecks.test_supported_partial_and_wrong_block_rejected) ... ok\ntest_invalid_gold_and_duplicate_ranking (test_t7_validation.MetricBoundaries.test_invalid_gold_and_duplicate_ranking) ... ok\ntest_lcs_reference_handles_repetition_and_empty (test_t7_validation.MetricBoundaries.test_lcs_reference_handles_repetition_and_empty) ... ok\ntest_missed_gold_stays_in_ap_denominator (test_t7_validation.MetricBoundaries.test_missed_gold_stays_in_ap_denominator) ... ok\ntest_mrr_cutoff_excludes_rank_11 (test_t7_validation.MetricBoundaries.test_mrr_cutoff_excludes_rank_11) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.018s\n\nOK\n",
+        "checks": "Reject changed packets, outside-Context evidence, fabricated quotes, wrong block numbers, score/flag mismatches and omitted units; verify metric boundaries and no-fact N/A."
+      }
+    }
+  ],
+  "scope": "Data/version, retrieval/context reconstruction, metric calculations, claim evidence boundaries and existing report consistency. No new inference or scoring.",
+  "not_validated": [
+    "Semantic correctness/completeness of assistant claim judgments and gold annotations",
+    "Original full Context string/finish_reason not saved upstream",
+    "Tokenization or runtime speed measured independently",
+    "Chart visual layout, one-click reproduction, packaging or GitHub upload"
+  ]
+}

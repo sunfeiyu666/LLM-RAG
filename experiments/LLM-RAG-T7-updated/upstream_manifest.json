@@ -1,0 +1,530 @@
+[
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/README.md",
+    "sha256": "9c8c3e48da09ce54c549ed8106cda5a510658a3aba076ad15c4f8e6f27f1037c"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu001.md",
+    "sha256": "39f604db6a828f4bcd7c6313644c67a34a1f5abf5612e84c4201d09f53eae87c"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu003.md",
+    "sha256": "ae8ad1e611d71d0abf10ef7b3d1d39778f84c868bfa4ab6687019d610d7ef83c"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu004.md",
+    "sha256": "c5cf6c50464389e7dcc8cf1a572d1eb8c2c77d0b30d9a736cbc87d5577deb27e"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu005.md",
+    "sha256": "edcf565d7df4569c4d7e516bc57174b5d5053fe38f5dca19231efc6d27e51c41"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu006.md",
+    "sha256": "6012e53a4baed1db38a5866b33111667965cca1b2eafe482c945cc839e0c5245"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu007.md",
+    "sha256": "a804213df6bfe0f27a125cb86839c26fcc01181ed7231d9ed373810788e213da"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu008.md",
+    "sha256": "509bdc8df1a5f302cebe74741f5b429753b93fc87552a9e58f0ccc4e92e639bc"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu009.md",
+    "sha256": "b29463cd98c2860a66ae0b22266143a10522490f18e9158e6033aed5685cde63"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu010.md",
+    "sha256": "eb097fb5f7ac85a305873a5dfd211a88f6ca38a7c444f1cabeb51f7f8bbf8df3"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu011.md",
+    "sha256": "e2b73ec4cfdab32681e0d5dd5e6199bffdcf33685f4964db7c088d9f86c04193"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu012.md",
+    "sha256": "ccfc84118fdb1e20cf82010815004be8a414da69d7f5341221688f39a1394b88"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu018.md",
+    "sha256": "03aa52c1be33830dc091b1a7c6a178a17b02e54af94637dd5a218532587863b3"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu019.md",
+    "sha256": "d57284bc864955ff22412cca3b80769ce39b707be0e5b5275ff7525137d02954"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu021.md",
+    "sha256": "cc125de60a8805c3ea927fe89e239b4d20741fcc0dd1a11556d5af2b872c1b24"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu022.md",
+    "sha256": "83ea6c5b6fae4c34a05bce0093e120f49ebd4622cd0123c8e1b4dfc6558d1be9"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu024.md",
+    "sha256": "a015d5ce825e407d11f874d153db33c4288893cddac22608c8ebe9ba9a2f3b74"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu025.md",
+    "sha256": "13f806c058f57234b7b9a71a51af48d3de2467493dabb846aa9e3317fe167b76"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu026.md",
+    "sha256": "797e7b271338db5de74042208528724f3260b0181ce45c0b54a994326a90aefd"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu027.md",
+    "sha256": "a5ecd86232d42c67f7dda43e0b202db2683fe9f9889232182271f9f6cac6b4d1"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu028.md",
+    "sha256": "95c4099ec23959f4af03ca57953a0bd2afd9b48761face6ddaf9cd832e075aeb"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu029.md",
+    "sha256": "9608eb4637ec25d39e2745b61069ee989ce1c09ec89959e10558a70162eb900e"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu030.md",
+    "sha256": "0aa75d90e2ca2e977dc7d72a669595e2daf8b1e5b26c72848d273d2a4e7d0134"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/corpus/ynu031.md",
+    "sha256": "871a534e59aad3e4aff98d29e1daf3e9ee7b61e60c50cd02f194876e9c489e6d"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/eval/README.md",
+    "sha256": "43503f53d6af976383e342bcba2f038c6c0deeda2611407f07497943f97bd0c2"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/eval/qa_evidence.jsonl",
+    "sha256": "5e70c50d01abf582f4332c6e18403a21b0ed7c8e1291185b34dee710f57f91fd"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/eval/qa_manifest.json",
+    "sha256": "7f20f4fcf5892476febb79196235c9112b10ca945e4dde31cef92d5d3e77f910"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/eval/qa_set.jsonl",
+    "sha256": "85d85050fd887da084c88094c4efcd799cffcc1819412fbea1df6490dc00178b"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/data/eval/verify_eval_set.py",
+    "sha256": "7c71c1f754698cd543aa9845e3e8278bb5718a8240590ea9c289a88d895152c9"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/metadata/corpus_sha256.json",
+    "sha256": "d2769902d3cec982096858245f314e3b2ad333437b4189ce3c485714aedc80cc"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/metadata/package_sources.json",
+    "sha256": "1fbd626b9243e022dac0c8464c906f33b924062c92c986190e283c9984a25369"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/metadata/package_validation.json",
+    "sha256": "4ab94c6199c7a59bf8fb41684402002ea63402d9c8a72d74440ebabd55a285d0"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/metadata/sources.json",
+    "sha256": "3e20d21700b6dcb0793413f4aa93c3d5b509b9c8b3232660e704a1b988cab015"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/requirements-t4-t5.txt",
+    "sha256": "fa8213a1c7fbd0f5dcc1e873b6e5dbc539b02104ba0aa8e8fa85477e921578d2"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/requirements.txt",
+    "sha256": "f7bcad4f2f9d0dc8b1a6f20588cec6188a8213892a8d22a88b83488cfe5c42b9"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/README.md",
+    "sha256": "41f3bdae6a38478253ede542673b09509a8104a5e5eb991eca7b3329337e486c"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/analyze_t4.py",
+    "sha256": "d566169004949340eb83b8912a803c23ba2be01c38080030f0157f8076723c38"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/make_bge_cases.py",
+    "sha256": "de90464c11210ac13f02b820da3ed6dd1be8b56ee792895009d909317c55b386"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/make_t4_bge_png.py",
+    "sha256": "5f1735431ca0fc46c3ce260c179c70ce15cff74bdb0e32e63cf8b0175101da75"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/probe_bge_cases.py",
+    "sha256": "1213235468f1fe599b88149a4c998a7dad30beb8228f9f9d8aa7b4563dc6dba3"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/run_metadata.json",
+    "sha256": "b83e757ab627d363a27059d7f13f247703421c0354dd173ad59618b84fe8af40"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/t4_bge_candidate_probe.json",
+    "sha256": "5e13ed131fb80f3ad7f82603011b7c49809a1e5b297f6cebc05d116f64992d38"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/t4_bge_cases.md",
+    "sha256": "c2931cc732abaa778eb3b5fe27239dd78bffe6b2cff8e0285be314f4eff175ce"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/t4_bge_metrics.png",
+    "sha256": "a43cf308886e0840a3fda747d7ce5a48ef12b3e9d7a3642f3d66f0373c8d8156"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/t4_diagnostics.json",
+    "sha256": "887053c5e741556fd0dc3f354a9e375e56360eaf4571fb79135d1f9c0de29bf3"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/t4_metrics.csv",
+    "sha256": "81fc8273342bd1ffd54ed28d219a5a1ebaee7dc33e62c2531773d23dad7d82df"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t4_bge_20261025/t4_rankings.jsonl",
+    "sha256": "8d37d71301051e246116f64e79fe6960b58603768dc969dee4539fbe242838ba"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/README.md",
+    "sha256": "5b01e0e136d62ed2dea45c29228eabdadaf3ac7dd2aac1596a2b3fb909fb8009"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/make_latency_quality_chart.py",
+    "sha256": "da4f7cf72a4539f8d263c5067c4830d88d7d74a168e66725d8f501d64422cc86"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/quality_review_metadata.json",
+    "sha256": "e2c69c2391487636fe1a5712d1b4206a21a672a57386fad212d26e890e7476d4"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/refresh_t5_summary.py",
+    "sha256": "d5a68c1c7a97b27deb18ebb82c1724ac37abe24f79ab9463a492ed6c38ff34f9"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/run_metadata.json",
+    "sha256": "9e1c961eff690293f7c950550f9d9ea4491047569a18803af601ed6327c571e7"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/score_t5_final.py",
+    "sha256": "5a1c2d309b989fc1816d79d2a93a71ab9164090af2171922bf4f8271f9fffa1c"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/t5_answer_review.csv",
+    "sha256": "06aed084b296dacdacc5a9014add6788286ce3b383cb0e9b2ba26a15733a0c2d"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/t5_full_rows.jsonl",
+    "sha256": "e50b69e7dfe4bfe962cbd33ed08bfb2a6ed48b8a1e400d8788c07b414a346dcf"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/t5_full_summary.csv",
+    "sha256": "3ca4df6e9c2c32fb4dd727978fe4b6185f3f7ad980534b400189e65ce21a27ff"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/t5_latency_quality.png",
+    "sha256": "2ce69b442ee64c8239dbfd06e3eb293e2054b2af96540dfba78498e6954f248c"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/t5_final_20261026/t5_quality_summary.csv",
+    "sha256": "f0da5d7cef93c475d5babab1449bc63e331efaa624fa2d577da7a2985f231119"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/results/verify_t4_t5.py",
+    "sha256": "bcd8fdd78da387b35e7d7f3f525db9527e48fe76946f9b2c8eae754bba7535a6"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/chat_ollama.py",
+    "sha256": "f90ff8649686e6eb31c3bbd4332c30aec551c0972cc8f56cf56b7e4342202a64"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/check_retrieval.py",
+    "sha256": "361e85a08ec8abdbd1a71975b741745b656eda4e963f450999bc22a91d2cd126"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/evaluate.py",
+    "sha256": "3c4b2e682afb7cae3d611b14a631c8c438de20ef1ecba8af542d3b4bc5271803"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/generate.py",
+    "sha256": "b42c103972535e81158bb63de527bda157692fc855e77518d42d3b8be5e250e9"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/index.py",
+    "sha256": "c26171f8479561b510758eea878ab823579156b6dfa9d3a0de8f5e85a7f8c054"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/kb.py",
+    "sha256": "eafee66be2fc49c9ebd2c5c697efe05c412b14ee282e403c870f85755c9e8a77"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/neural_retrieval.py",
+    "sha256": "7ae1478bb834de9c78d9c5838d2434cc1be237d8886ff6ec419b9685b6badcdc"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/rag_chain.py",
+    "sha256": "1941852621d81736b684b6e7916aee615f02d77821a3c964638be1b4434d9cc7"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/rag_core.py",
+    "sha256": "e9b91b53056565c703ba8ed4737ba35339189414075043f7dc2470f685a78794"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/report_t1.py",
+    "sha256": "a2a6454597a6c67ea30f534045521dcb5bc35edb5e780095ba2a05aa6aac1ef8"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/rerank.py",
+    "sha256": "e356a371f573f8bdd5125530d93673cba5c9327b65525c0579274d01de8096d1"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/retrieval_compare.py",
+    "sha256": "e9d679d8cdd30221f6a83fb7d819522cde8a5a77976858368c2b13a3be6dcb1e"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/retrieve.py",
+    "sha256": "b8cbab34ff3d2fdbbc8bbc66e6c1e38230bee6ed74d3b189ae2020063559855a"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/run_t1_experiment.py",
+    "sha256": "da5494b1d6c1b76ff3c7313983e5b34843b2a0b6ed335c172b705e5241fd0170"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/search.py",
+    "sha256": "f8ecf116b9cda459edd5ad0c5849e3858095cc72a2f34be39fb56a82608f49f0"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/summarize_t1.py",
+    "sha256": "fd261886fa576353e38f6f8fa246d00699a25d93a527f2eca1c76c960798de55"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/t4_evaluate.py",
+    "sha256": "db4a83d514e24b3a67763839e490fb399b4136b89ea1583e0bea2a7aecf68b00"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/t5_evaluate.py",
+    "sha256": "63a08b8371f6b8e3cd1b1b9266681f109169d573cbcde4b0497b563bf10a82e7"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/test_kb.py",
+    "sha256": "e0a9cf41988103d2c9cd20f1a9ed808c3815d4b3f500a41debe5167f61c1ac33"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/test_langchain.py",
+    "sha256": "9c4297f82a5635ef0abdf3697684acaf05894a43a2aef6bcc7a1a7acc7550faf"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/test_streaming.py",
+    "sha256": "b5cb9a8e2d9934f4f8eb2d828978db4cb3fc6548dd2319f168196bbe25939567"
+  },
+  {
+    "ref": "origin/t4-t5-zhuxiangduo",
+    "commit": "18bb20be331e99fae83e009b638565d50056b705",
+    "path": "upstream/t4_t5/src/verify_t1_results.py",
+    "sha256": "cf295a8e9981e3e96d55f506b8c845e3f770eed8172a0ae642b97b4eef50d1fb"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/README.md",
+    "sha256": "b6b2e2da1da3306410fe35ce6769368f29f1b6fb82d2b14ed0be7a819e9a6ac2"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/docs/T2分块策略实验说明.md",
+    "sha256": "4f178a2ad71fb8f0c2c5b9bd7df0b472f08724b7d4b932a7c2ee5348452cd8c3"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/results/t2/run_metadata.json",
+    "sha256": "d5ccd80f107fd2afe4fcc470616d8c0e05b1d83cfa9c7c3471309b7edaffc71e"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/results/t2/t2_summary.csv",
+    "sha256": "b20e97e0cc9bbc320358269a390e9f445af7d618ed0c8baeeceaef6d2a60e48b"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/results/t2/T2实验报告草稿.md",
+    "sha256": "0ba6845397ad9530c71f1c3c32b5a203fd0c684fc311afa4ed78846bc6f94b56"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/src/experiment_t2.py",
+    "sha256": "9ce1f738e1f2d7c027b47686e5e39fa561a81d718a0cb051dd6c95187de33965"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "a3633858be398423ba731f35ff94ca939fd4955a",
+    "path": "upstream/main_t2/requirements.txt",
+    "sha256": "a82e36f72c12ad18c4c9f24fa4af93c29682c1daa4e217da23b4656728156573"
+  }
+]
