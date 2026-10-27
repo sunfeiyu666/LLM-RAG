@@ -1,0 +1,18 @@
+{
+  "before": {
+    "created_at": "2026-10-26T22:18:56.77445+08:00",
+    "documents": 23,
+    "chunks": 202,
+    "dimension": 64,
+    "fingerprint": "79479de3a7b6eaf83f208ff466a65008ecc49e7a7353f0a45e996908573b37c7"
+  },
+  "after": {
+    "created_at": "2026-10-26T22:18:56.77445+08:00",
+    "documents": 23,
+    "chunks": 202,
+    "dimension": 64,
+    "fingerprint": "79479de3a7b6eaf83f208ff466a65008ecc49e7a7353f0a45e996908573b37c7"
+  },
+  "index_reused": true,
+  "health": "ok"
+}

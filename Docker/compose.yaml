@@ -1,0 +1,25 @@
+name: ynu-rag-t8
+services:
+  rag-web:
+    image: ynu-rag-t8:local
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile
+      args:
+        PYPI_INDEX_URL: ${PYPI_INDEX_URL:-https://pypi.tuna.tsinghua.edu.cn/simple}
+    init: true
+    ports:
+      - "127.0.0.1:${WEB_PORT:-8501}:8501"
+    environment:
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:4b-instruct}
+      RAG_INDEX_DIR: /app/index_langchain
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - rag-index:/app/index_langchain
+    restart: "no"
+volumes:
+  rag-index:

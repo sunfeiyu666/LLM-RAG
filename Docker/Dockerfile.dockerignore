@@ -1,0 +1,17 @@
+# Allow only runtime code, fixed corpus and deployment files into the context.
+**
+!requirements.txt
+!src/
+!src/*.py
+!metadata/
+!metadata/sources.json
+!data/
+!data/corpus/
+!data/corpus/*.md
+!Docker/
+!Docker/**
+Docker/.env
+Docker/.index/
+Docker/__pycache__/
+Docker/validation*
+Docker/*.log
